@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "useCases": "Cas d'usage",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Une technologie d'écoute collective au service du dialogue social et de la qualité de vie au travail",
+    "subtitle": "Transformez les témoignages de votre organisation en intelligence collective grâce à l'IA",
+    "cta": "Réserver une démo",
+    "ctaSecondary": "En savoir plus"
+  },
+  "problem": {
+    "title": "Du contrôle imposé à l'écoute partagée",
+    "oldWay": {
+      "title": "Les KPI classiques",
+      "description": "Des indicateurs définis par le management, imposés de haut en bas, focalisés sur la performance."
+    },
+    "newWay": {
+      "title": "L'écoute collective",
+      "description": "Des questions émergentes du terrain, révélant ce qui compte vraiment pour les membres de l'organisation."
+    }
+  },
+  "modules": {
+    "title": "Trois espaces pour donner du sens collectif",
+    "subtitle": "Une démarche simple en trois étapes",
+    "witness": {
+      "title": "Témoigner",
+      "description": "Un espace pour partager librement son vécu, à l'écrit ou à l'oral. Chaque témoignage enrichit la mémoire collective."
+    },
+    "question": {
+      "title": "Questionner",
+      "description": "Formulez les questions collectives qui comptent vraiment. Elles deviennent des repères partagés, non des objectifs imposés."
+    },
+    "analyze": {
+      "title": "Analyser",
+      "description": "L'IA synthétise les témoignages, détecte les thèmes émergents et les signaux faibles pour éclairer le dialogue."
+    }
+  },
+  "memory": {
+    "title": "Une mémoire organisationnelle vivante",
+    "description": "Au-delà de l'analyse immédiate, Cohortes constitue une mémoire collective précieuse",
+    "benefits": {
+      "evolution": "Comment l'organisation a évolué dans le temps",
+      "feelings": "Comment les membres ont ressenti les changements",
+      "signals": "Quels signaux faibles sont apparus avant les transformations"
+    }
+  },
+  "useCases": {
+    "title": "Au service de multiples acteurs",
+    "subtitle": "À l'intersection de la civic tech et de la QVCT",
+    "social": {
+      "title": "Dialogue social",
+      "description": "Psychologues du travail, CSE, syndicats : des outils d'écoute collective pour le dialogue social."
+    },
+    "civic": {
+      "title": "Civic Tech",
+      "description": "Collectifs citoyens, budgets participatifs, consultations publiques, gouvernance partagée."
+    },
+    "public": {
+      "title": "Secteur public",
+      "description": "Collectivités territoriales, organismes d'État : démocratie locale et participation citoyenne."
+    },
+    "association": {
+      "title": "Associations",
+      "description": "Organisations qui cherchent à mieux se connaître et à construire leur mémoire collective."
+    }
+  },
+  "social": {
+    "title": "Ils nous font confiance",
+    "subtitle": "Des organisations engagées dans l'écoute collective"
+  },
+  "cta": {
+    "title": "Prêt à transformer l'écoute dans votre organisation ?",
+    "subtitle": "Échangeons sur vos besoins",
+    "button": "Réserver une démo"
+  },
+  "footer": {
+    "tagline": "Intelligence collective et dialogue social",
+    "rights": "Tous droits réservés"
+  }
+}

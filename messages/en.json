@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "useCases": "Use Cases",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "A collective listening technology for social dialogue and quality of work life",
+    "subtitle": "Transform your organization's testimonies into collective intelligence through AI",
+    "cta": "Book a demo",
+    "ctaSecondary": "Learn more"
+  },
+  "problem": {
+    "title": "From imposed control to shared listening",
+    "oldWay": {
+      "title": "Classic KPIs",
+      "description": "Indicators defined by management, imposed top-down, focused on performance."
+    },
+    "newWay": {
+      "title": "Collective listening",
+      "description": "Questions emerging from the ground, revealing what truly matters to organization members."
+    }
+  },
+  "modules": {
+    "title": "Three spaces to create collective meaning",
+    "subtitle": "A simple three-step approach",
+    "witness": {
+      "title": "Witness",
+      "description": "A space to freely share your experience, in writing or voice. Each testimony enriches collective memory."
+    },
+    "question": {
+      "title": "Question",
+      "description": "Formulate collective questions that truly matter. They become shared landmarks, not imposed objectives."
+    },
+    "analyze": {
+      "title": "Analyze",
+      "description": "AI synthesizes testimonies, detects emerging themes and weak signals to inform dialogue."
+    }
+  },
+  "memory": {
+    "title": "A living organizational memory",
+    "description": "Beyond immediate analysis, Cohortes builds valuable collective memory",
+    "benefits": {
+      "evolution": "How the organization evolved over time",
+      "feelings": "How members experienced changes",
+      "signals": "What weak signals appeared before major transformations"
+    }
+  },
+  "useCases": {
+    "title": "Serving multiple actors",
+    "subtitle": "At the intersection of civic tech and quality of work life",
+    "social": {
+      "title": "Social Dialogue",
+      "description": "Work psychologists, unions: collective listening tools for social dialogue."
+    },
+    "civic": {
+      "title": "Civic Tech",
+      "description": "Citizen collectives, participatory budgets, public consultations, shared governance."
+    },
+    "public": {
+      "title": "Public Sector",
+      "description": "Local authorities, state organizations: local democracy and citizen participation."
+    },
+    "association": {
+      "title": "Associations",
+      "description": "Organizations seeking better self-knowledge and building collective memory."
+    }
+  },
+  "social": {
+    "title": "They trust us",
+    "subtitle": "Organizations committed to collective listening"
+  },
+  "cta": {
+    "title": "Ready to transform listening in your organization?",
+    "subtitle": "Let's discuss your needs",
+    "button": "Book a demo"
+  },
+  "footer": {
+    "tagline": "Collective intelligence and social dialogue",
+    "rights": "All rights reserved"
+  }
+}
