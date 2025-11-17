@@ -51,6 +51,12 @@ export default function Navigation() {
             >
               {t('blog')}
             </Link>
+            <Link
+              href="/about"
+              className="text-gray-700 hover:text-cohortes-orange transition-colors"
+            >
+              {t('about')}
+            </Link>
             {/* Language switcher */}
             <Link
               href={pathname}
@@ -119,6 +125,13 @@ export default function Navigation() {
                 className="text-gray-700 hover:text-cohortes-orange transition-colors py-2"
               >
                 {t('blog')}
+              </Link>
+              <Link
+                href="/about"
+                onClick={closeMobileMenu}
+                className="text-gray-700 hover:text-cohortes-orange transition-colors py-2"
+              >
+                {t('about')}
               </Link>
               <a
                 href="#contact"

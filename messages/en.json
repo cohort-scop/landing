@@ -3,6 +3,7 @@
     "home": "Home",
     "features": "Home",
     "blog": "Blog",
+    "about": "About Us",
     "contact": "Contact"
   },
   "hero": {
@@ -113,5 +114,22 @@
   "footer": {
     "tagline": "Collective intelligence and empowerment",
     "rights": "All rights reserved"
+  },
+  "about": {
+    "meta": {
+      "title": "About Us | Cohortes",
+      "description": "Meet the founding team of Cohortes, Louise Naudin and Roberto Barros De Sousa"
+    },
+    "title": "About Us",
+    "subtitle": "The team building Cohortes to strengthen collective intelligence",
+    "team": {
+      "title": "Our Team",
+      "louise": {
+        "role": "Founder and CEO"
+      },
+      "roberto": {
+        "role": "Founder and CTO"
+      }
+    }
   }
 }
