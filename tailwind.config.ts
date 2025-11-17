@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         cohortes: {
           dark: '#2C2C34',
-          orange: '#BC3908',
+          orange: '#f25434',
         },
       },
     },

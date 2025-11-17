@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply overflow-x-hidden;
+    max-width: 100vw;
+  }
+
   body {
-    @apply bg-white text-cohortes-dark;
+    @apply bg-white text-cohortes-dark overflow-x-hidden;
+    max-width: 100vw;
+    position: relative;
+  }
+
+  section {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }

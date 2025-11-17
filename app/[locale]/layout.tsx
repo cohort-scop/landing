@@ -29,11 +29,11 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
+    <html lang={locale} className="overflow-x-hidden">
+      <body className={`${inter.className} overflow-x-hidden w-full`}>
         <NextIntlClientProvider messages={messages}>
           <Navigation />
-          <main>{children}</main>
+          <main className="overflow-x-hidden w-full">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

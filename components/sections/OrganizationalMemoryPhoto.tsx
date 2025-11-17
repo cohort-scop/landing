@@ -11,7 +11,7 @@ export default function OrganizationalMemory() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-cohortes-orange/10">
       <div className="container mx-auto max-w-6xl">
-        <div className="items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -43,6 +43,20 @@ export default function OrganizationalMemory() {
                 </motion.li>
               ))}
             </ul>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="relative w-full"
+          >
+            <div className="aspect-square rounded-2xl bg-gradient-to-br from-cohortes-dark to-gray-700 overflow-hidden shadow-2xl w-full">
+              <div className="absolute inset-0 bg-gradient-to-tr from-cohortes-orange/30 to-transparent"></div>
+              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+                <div className="text-white/10 text-6xl md:text-8xl font-bold">📚</div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

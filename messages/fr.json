@@ -1,83 +1,119 @@
 {
   "nav": {
     "home": "Accueil",
-    "features": "Fonctionnalités",
-    "useCases": "Cas d'usage",
+    "features": "Accueil",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Une technologie d'écoute collective au service du dialogue social et de la qualité de vie au travail",
-    "subtitle": "Transformez les témoignages de votre organisation en intelligence collective grâce à l'IA",
+    "badge": "Intelligence collective et pouvoir d'agir",
+    "title": {
+      "part1": "De l'expérience collective aux",
+      "part2": "décisions"
+    },
+    "description": "Cohortes, c’est un espace de témoignage, de questionnement et d’analyse collectif utilisant l’IA pour apprendre à décider ensemble.",
     "cta": "Réserver une démo",
-    "ctaSecondary": "En savoir plus"
+    "plus": "En savoir plus"
   },
   "problem": {
-    "title": "Du contrôle imposé à l'écoute partagée",
-    "oldWay": {
-      "title": "Les KPI classiques",
-      "description": "Des indicateurs définis par le management, imposés de haut en bas, focalisés sur la performance."
-    },
-    "newWay": {
-      "title": "L'écoute collective",
-      "description": "Des questions émergentes du terrain, révélant ce qui compte vraiment pour les membres de l'organisation."
+    "title": "Et si on ouvrait les organisations",
+    "subtitle": "aux enjeux de co-construction ?",
+    "painPoints": {
+      "first": "Une expertise terrain exprimée et entendue",
+      "second": "Des outils adaptés aux enjeux stratégigiques",
+      "third": "Un droit à la décision reconnu"
     }
   },
   "modules": {
-    "title": "Trois espaces pour donner du sens collectif",
-    "subtitle": "Une démarche simple en trois étapes",
+    "title": "Un processus en 5 étapes",
+    "subtitle": "Transformer l’écoute collective en décisions partagées",
+"group": {
+      "title": "Faire collectif",
+      "description": "Les acteurs de l’organisation se regroupent en petits collectifs définis par un type de métier, un palier d’ancienneté, un genre ou un niveau hiérarchique. Ces espaces forment alors des endroits de réflexion partagée."
+    },
+
     "witness": {
       "title": "Témoigner",
-      "description": "Un espace pour partager librement son vécu, à l'écrit ou à l'oral. Chaque témoignage enrichit la mémoire collective."
+      "description": "Les membres partagent leur témoignage au sein de chaque groupe. Anonymisés, ces témoignages peuvent ensuite être lus et discutés avec les autres membres. Ainsi se crée une dynamique d’expression collective qui légitime les expériences des acteurs de l’organisation et leur redonne du pouvoir d’agir."
     },
     "question": {
       "title": "Questionner",
-      "description": "Formulez les questions collectives qui comptent vraiment. Elles deviennent des repères partagés, non des objectifs imposés."
+      "description": "Au sein de chaque groupe, les membres peuvent poser des questions pour interagir avec le contenu des témoignages. Ces questions constituent autant d’indicateurs (de performance ou d’apport social, sur le modèle des KPI et des KSI) qui soulignent ce qui compte pour l’organisation. Une manière de décider ce qui mérite l’attention."
     },
     "analyze": {
-      "title": "Analyser",
-      "description": "L'IA synthétise les témoignages, détecte les thèmes émergents et les signaux faibles pour éclairer le dialogue."
+      "title": "Comprendre",
+      "description": "Les témoignages, analysés avec une IA, fournissent des réponses aux questions posées par les membres. L’IA révèle les thèmes récurrents et explicite leur évolution dans le temps."
+    },
+    "memory": {
+      "title": "Décider",
+      "description": "Outillés par leurs témoignages, les questions définies ensemble et l’analyse que l’IA en a faites, les acteurs de l’organisation peuvent prendre des décisions de manière éclairée. Au fil du temps se constitue une mémoire collective."
     }
   },
   "memory": {
     "title": "Une mémoire organisationnelle vivante",
-    "description": "Au-delà de l'analyse immédiate, Cohortes constitue une mémoire collective précieuse",
+    "description": "Cohortes accompagne au présent l’expérience des acteurs d’une organisation. Mais c’est aussi un outil précieux pour constituer et faire vivre une mémoire collective. Rassembler des témoignages et les interroger ensemble, c’est concourir à la construction de représentations sociales partagées. Cohortes archive et redonne du mouvement à la culture collective de votre organisation.",
     "benefits": {
-      "evolution": "Comment l'organisation a évolué dans le temps",
-      "feelings": "Comment les membres ont ressenti les changements",
-      "signals": "Quels signaux faibles sont apparus avant les transformations"
+
+      "evolution": "Comment la vision de l’organisation se (re)définit dans le temps",
+      "feelings": "Quelles questions et quelles réponses construisent ses acteurs",
+      "signals": "Par quelles transformations elle se restructure"
     }
   },
   "useCases": {
-    "title": "Au service de multiples acteurs",
-    "subtitle": "À l'intersection de la civic tech et de la QVCT",
-    "social": {
-      "title": "Dialogue social",
-      "description": "Psychologues du travail, CSE, syndicats : des outils d'écoute collective pour le dialogue social."
-    },
-    "civic": {
-      "title": "Civic Tech",
-      "description": "Collectifs citoyens, budgets participatifs, consultations publiques, gouvernance partagée."
-    },
-    "public": {
-      "title": "Secteur public",
-      "description": "Collectivités territoriales, organismes d'État : démocratie locale et participation citoyenne."
+    "title": "Répondre à deux grands enjeux",
+    "subtitle": "Et si on rapprochait la",
+    "qvct": "QVCT",
+    "qvct_full": "(Qualité de Vie et des Conditions de Travail)",
+    "civic": "civic tech",
+    "and": "et la",
+    "who": "Pour qui ?",
+        "social": {
+      "title": "Améliorer le travail et accompagner ses transformations ensemble",
+      "description": "Pour qui ? Psychologues du travail, CSE, syndicats",
+      "actors": [
+        "Psychologues du travail",
+        "CSE",
+        "Syndicats",
+        "Manager"
+      ]
     },
     "association": {
-      "title": "Associations",
-      "description": "Organisations qui cherchent à mieux se connaître et à construire leur mémoire collective."
+      "title": "Renforcer la participation des acteurs et leur pouvoir d'agir",
+      "description": "Pour qui ? Acteurs de la civic tech (à trouver)",
+      "actors": [
+        "Collectifs citoyens",
+        "Acteurs de la démocratie",
+        "Acteurs de la coopération et de la participation"
+      ]
     }
   },
   "social": {
-    "title": "Ils nous font confiance",
+    "title": "Elles nous font confiance",
     "subtitle": "Des organisations engagées dans l'écoute collective"
   },
   "cta": {
-    "title": "Prêt à transformer l'écoute dans votre organisation ?",
+    "title": "Rendons nos organisations plus participatives pour des prises de décision collectives, fondées sur l’écoute et le dialogue.",
     "subtitle": "Échangeons sur vos besoins",
-    "button": "Réserver une démo"
+    "button": "Réserver une démo",
+    "contact": "ou écrivez-nous : "
   },
   "footer": {
-    "tagline": "Intelligence collective et dialogue social",
+    "tagline": "Intelligence collective et pouvoir d'agir",
     "rights": "Tous droits réservés"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Réflexions sur l'intelligence collective, le dialogue social et la participation citoyenne",
+    "readMore": "Lire la suite",
+    "posts": {
+      "pourquoi-ne-pas-poser-de-questions": {
+        "title": "Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses",
+        "excerpt": "La question peut paraître étrange, mais laissez-vous surprendre, un petit instant, par la fréquence d'une démarche qui est aujourd'hui entrée dans les mœurs."
+      },
+      "subordination-performance-outils-travail": {
+        "title": "Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance\u00A0?",
+        "excerpt": "L’entreprise se dote d’outils d’organisation pour mener à bien la performance. C’est l’un des discours utilisé pour justifier la présence des outils d’organisation du travail en entreprise. Sans eux, l’organisation serait chaotique,"
+      }
+    }
   }
 }

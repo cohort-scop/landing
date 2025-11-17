@@ -15,20 +15,19 @@ export default function Hero() {
   };
 
   return (
-    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+    <section className="pt-36 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+      <div className="container mx-auto max-w-7xl text-center">
+        <div className="items-center">
           {/* Left column - Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="space-y-8"
           >
             {/* Badge */}
-            <h1 className="inline-block mb-6">
-              <span className="px-4 py-2 bg-cohortes-dark text-white rounded-full text-sm font-semibold">
-                {t('badge')}
-              </span>
+            <h1 className="inline-flex items-center border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent px-4 py-2 text-sm font-medium rounded-full bg-cohortes-dark text-white">
+              {t('badge')}
             </h1>
 
             {/* Main title with orange word */}
@@ -38,18 +37,24 @@ export default function Hero() {
             </h2>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl">
+            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl mx-auto">
               {t('description')}
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={handleCTAClick}
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-cohortes-orange rounded-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl"
               >
                 {t('cta')}
               </button>
+              <a
+                href="#module"
+                className="cursor-pointer inline-flex items-center justify-center px-8 py-4 text-base text-cohortes-dark rounded-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl border"
+              >
+                {t('plus')}
+              </a>
             </div>
           </motion.div>
 
@@ -58,7 +63,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
+            className="relative hidden"
           >
             <div className="aspect-[4/3] bg-gradient-to-br from-cohortes-dark to-gray-700 rounded-2xl shadow-2xl overflow-hidden relative">
               {/* Placeholder image */}

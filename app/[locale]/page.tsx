@@ -1,4 +1,4 @@
-import Hero from '@/components/sections/Hero';
+import HeroSimple from '@/components/sections/HeroSimple';
 import ProblemSolution from '@/components/sections/ProblemSolution';
 import Modules from '@/components/sections/Modules';
 import OrganizationalMemory from '@/components/sections/OrganizationalMemory';
@@ -9,7 +9,7 @@ import CTASection from '@/components/sections/CTASection';
 export default function HomePage() {
   return (
     <>
-      <Hero />
+      <HeroSimple />
       <ProblemSolution />
       <Modules />
       <OrganizationalMemory />

@@ -6,18 +6,16 @@ import { motion } from 'framer-motion';
 export default function CTASection() {
   const t = useTranslations('cta');
 
-  // TODO: Replace with your actual Calendly link
-  const calendlyUrl = 'https://calendly.com/your-link-here';
+  const calendlyUrl = 'https://calendly.com/roberto-cohortes';
 
   const handleCTAClick = () => {
-    // Open Calendly in a popup or redirect
     if (typeof window !== 'undefined') {
       window.open(calendlyUrl, '_blank', 'width=800,height=800');
     }
   };
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cohortes-dark to-gray-800">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cohortes-dark to-cohortes-orange">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,8 +37,8 @@ export default function CTASection() {
             {t('button')}
           </button>
 
-          <p className="mt-6 text-sm text-gray-400">
-            ou contactez-nous : contact@cohortes.co
+          <p className="mt-6 text-sm text-white">
+            {t('contact')} contact@cohortes.co
           </p>
         </motion.div>
       </div>

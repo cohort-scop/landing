@@ -1,70 +1,88 @@
 {
   "nav": {
     "home": "Home",
-    "features": "Features",
-    "useCases": "Use Cases",
+    "features": "Home",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {
-    "title": "A collective listening technology for social dialogue and quality of work life",
-    "subtitle": "Transform your organization's testimonies into collective intelligence through AI",
+    "badge": "Collective intelligence and empowerment",
+    "title": {
+      "part1": "From collective experience to",
+      "part2": "decisions"
+    },
+    "description": "Cohortes is a space for testimony, questioning and collective analysis using AI to learn to decide together.",
     "cta": "Book a demo",
-    "ctaSecondary": "Learn more"
+    "plus": "See more"
   },
   "problem": {
-    "title": "From imposed control to shared listening",
-    "oldWay": {
-      "title": "Classic KPIs",
-      "description": "Indicators defined by management, imposed top-down, focused on performance."
-    },
-    "newWay": {
-      "title": "Collective listening",
-      "description": "Questions emerging from the ground, revealing what truly matters to organization members."
+    "title": "What if we opened organizations",
+    "subtitle": "to co-construction challenges?",
+    "painPoints": {
+      "first": "Ground expertise expressed and heard",
+      "second": "Tools adapted to strategic challenges",
+      "third": "A recognized right to decision"
     }
   },
   "modules": {
-    "title": "Three spaces to create collective meaning",
-    "subtitle": "A simple three-step approach",
+    "title": "A 5-step process",
+    "subtitle": "Transform collective listening into shared decisions",
+    "group": {
+      "title": "Build collectives",
+      "description": "Organization members gather in small groups defined by job type, seniority level, gender or hierarchical level. These spaces become places for shared reflection."
+    },
     "witness": {
       "title": "Witness",
-      "description": "A space to freely share your experience, in writing or voice. Each testimony enriches collective memory."
+      "description": "Members share their testimonies within each group. Anonymized, these testimonies can then be read and discussed with other members. This creates a dynamic of collective expression that legitimizes the experiences of organization members and gives them back their power to act."
     },
     "question": {
       "title": "Question",
-      "description": "Formulate collective questions that truly matter. They become shared landmarks, not imposed objectives."
+      "description": "Within each group, members can ask questions to interact with the content of testimonies. These questions constitute as many indicators (performance or social contribution, modeled on KPIs and KSIs) that highlight what matters for the organization. A way to decide what deserves attention."
     },
     "analyze": {
-      "title": "Analyze",
-      "description": "AI synthesizes testimonies, detects emerging themes and weak signals to inform dialogue."
+      "title": "Understand",
+      "description": "Testimonies, analyzed with AI, provide answers to questions posed by members. AI reveals recurring themes and explains their evolution over time."
+    },
+    "memory": {
+      "title": "Decide",
+      "description": "Equipped with their testimonies, collectively defined questions and AI analysis, organization members can make informed decisions. Over time, a collective memory is built."
     }
   },
   "memory": {
     "title": "A living organizational memory",
-    "description": "Beyond immediate analysis, Cohortes builds valuable collective memory",
+    "description": "Cohortes accompanies the present experience of organization members. But it's also a valuable tool to build and maintain a collective memory. Gathering testimonies and questioning them together contributes to building shared social representations. Cohortes archives and gives new momentum to your organization's collective culture.",
     "benefits": {
-      "evolution": "How the organization evolved over time",
-      "feelings": "How members experienced changes",
-      "signals": "What weak signals appeared before major transformations"
+      "evolution": "How the organization's vision (re)defines itself over time",
+      "feelings": "What questions and answers its members build",
+      "signals": "Through what transformations it restructures itself"
     }
   },
   "useCases": {
-    "title": "Serving multiple actors",
-    "subtitle": "At the intersection of civic tech and quality of work life",
+    "title": "Addressing two major challenges",
+    "subtitle": "What if we brought",
+    "qvct": "QWL",
+    "qvct_full": "(Quality of Work Life)",
+    "civic": "civic tech",
+    "and": "and",
+    "who": "For whom?",
     "social": {
-      "title": "Social Dialogue",
-      "description": "Work psychologists, unions: collective listening tools for social dialogue."
-    },
-    "civic": {
-      "title": "Civic Tech",
-      "description": "Citizen collectives, participatory budgets, public consultations, shared governance."
-    },
-    "public": {
-      "title": "Public Sector",
-      "description": "Local authorities, state organizations: local democracy and citizen participation."
+      "title": "Improve work and support its transformations together",
+      "description": "For whom? Work psychologists, CSE, unions",
+      "actors": [
+        "Work psychologists",
+        "CSE",
+        "Unions",
+        "Managers"
+      ]
     },
     "association": {
-      "title": "Associations",
-      "description": "Organizations seeking better self-knowledge and building collective memory."
+      "title": "Strengthen stakeholder participation and empowerment",
+      "description": "For whom? Civic tech actors (to be defined)",
+      "actors": [
+        "Citizen collectives",
+        "Democracy actors",
+        "Cooperation and participation actors"
+      ]
     }
   },
   "social": {
@@ -72,12 +90,28 @@
     "subtitle": "Organizations committed to collective listening"
   },
   "cta": {
-    "title": "Ready to transform listening in your organization?",
+    "title": "Let's make our organizations more participatory for collective decision-making, based on listening and dialogue.",
     "subtitle": "Let's discuss your needs",
-    "button": "Book a demo"
+    "button": "Book a demo",
+    "contact": "or write to us: "
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Reflections on collective intelligence, social dialogue and citizen participation",
+    "readMore": "Read more",
+    "posts": {
+      "pourquoi-ne-pas-poser-de-questions": {
+        "title": "Good reasons not to ask questions when you want to get real answers",
+        "excerpt": "The question may seem strange, but let yourself be surprised, for a moment, by the frequency of a practice that has now become commonplace."
+      },
+      "subordination-performance-outils-travail": {
+        "title": "How work organization tools embed the subordination of working conditions to performance?",
+        "excerpt": "Companies equip themselves with organizational tools to achieve performance. This is one of the discourses used to justify the presence of work organization tools in companies. Without them, the organization would be chaotic,"
+      }
+    }
   },
   "footer": {
-    "tagline": "Collective intelligence and social dialogue",
+    "tagline": "Collective intelligence and empowerment",
     "rights": "All rights reserved"
   }
 }
