@@ -4,9 +4,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.cohortes.co'
 
   return [
-    // Page principale (FR par défaut, pas de /fr)
+    // Pages principales
     {
-      url: baseUrl,
+      url: `${baseUrl}/fr`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
@@ -18,9 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
 
-    // Blog (FR sans préfixe)
+    // Blog
     {
-      url: `${baseUrl}/blog`,
+      url: `${baseUrl}/fr/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
@@ -32,9 +32,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-    // About (FR sans préfixe)
+    // About
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/fr/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -46,9 +46,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
 
-    // Articles de blog (FR sans préfixe)
+    // Articles de blog
     {
-      url: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
+      url: `${baseUrl}/fr/blog/pourquoi-ne-pas-poser-de-questions`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
       priority: 0.6,
@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/blog/subordination-performance-outils-travail`,
+      url: `${baseUrl}/fr/blog/subordination-performance-outils-travail`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
       priority: 0.6,
