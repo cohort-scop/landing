@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     // Pages principales
     {
-      url: `${baseUrl}/fr`,
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
@@ -15,12 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/en`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 1,
+      priority: 0.9,
     },
 
     // Blog
     {
-      url: `${baseUrl}/fr/blog`,
+      url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
@@ -29,12 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/en/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.8,
+      priority: 0.7,
     },
 
     // About
     {
-      url: `${baseUrl}/fr/about`,
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -43,12 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/en/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.6,
     },
 
     // Articles de blog
     {
-      url: `${baseUrl}/fr/blog/pourquoi-ne-pas-poser-de-questions`,
+      url: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
       priority: 0.6,
@@ -57,10 +57,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/en/blog/pourquoi-ne-pas-poser-de-questions`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
-      priority: 0.6,
+      priority: 0.5,
     },
     {
-      url: `${baseUrl}/fr/blog/subordination-performance-outils-travail`,
+      url: `${baseUrl}/blog/subordination-performance-outils-travail`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
       priority: 0.6,
@@ -69,7 +69,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/en/blog/subordination-performance-outils-travail`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',
-      priority: 0.6,
+      priority: 0.5,
     },
   ]
 }
