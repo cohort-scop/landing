@@ -112,13 +112,6 @@ export default function Navigation() {
               >
                 {t('features')}
               </a>
-              <a
-                href="#use-cases"
-                onClick={closeMobileMenu}
-                className="text-gray-700 hover:text-cohortes-orange transition-colors py-2"
-              >
-                {t('useCases')}
-              </a>
               <Link
                 href="/blog"
                 onClick={closeMobileMenu}
