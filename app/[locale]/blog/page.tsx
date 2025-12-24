@@ -7,19 +7,19 @@ import Link from 'next/link';
 const blogPosts = [
   {
     slug: 'methodologie-diagnostic-conditions-travail',
-    date: '2024-12-24',
+    date: '2025-12-24',
     readTime: '10 min',
     category: 'Méthodologie',
   },
   {
     slug: 'subordination-performance-outils-travail',
-    date: '2025-01-10',
+    date: '2024-06-20',
     readTime: '8 min',
     category: 'QVCT',
   },
   {
     slug: 'pourquoi-ne-pas-poser-de-questions',
-    date: '2024-09-23',
+    date: '2024-01-10',
     readTime: '5 min',
     category: 'Méthodologie',
   },

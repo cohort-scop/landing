@@ -28,7 +28,7 @@ export default function BlogPost() {
             <span className="px-3 py-1 bg-cohortes-orange/10 text-cohortes-orange rounded-full font-semibold">
               Méthodologie
             </span>
-            <time>23 septembre 2024</time>
+            <time>10 janvier 2024</time>
             <span>·</span>
             <span>5 min de lecture</span>
           </div>
