@@ -96,11 +96,35 @@
     "button": "Book a demo",
     "contact": "or write to us: "
   },
+  "methodology": {
+    "badge": "For professionals",
+    "title": "A proven methodological framework",
+    "subtitle": "Cohortes offers an approach that goes beyond the limitations of traditional questionnaires and individual interviews to create the conditions for living, structuring and collective testimony.",
+    "pillars": {
+      "async": {
+        "title": "Asynchronous testimony",
+        "description": "Everyone testifies when they want, when the experience is still fresh, without time constraints."
+      },
+      "collective": {
+        "title": "Collective intelligence",
+        "description": "Anonymized testimonies are shared to create recognition, mutual understanding and collective awareness."
+      },
+      "ai": {
+        "title": "AI-powered analysis",
+        "description": "AI identifies weak signals, groups similar situations and produces indicators without reducing the richness of testimonies."
+      }
+    },
+    "cta": "Discover our methodology"
+  },
   "blog": {
     "title": "Blog",
     "subtitle": "Reflections on collective intelligence, social dialogue and citizen participation",
     "readMore": "Read more",
     "posts": {
+      "methodologie-diagnostic-conditions-travail": {
+        "title": "A methodological framework for better working conditions diagnosis",
+        "excerpt": "This document presents the simple and operational methodological framework developed by Cohortes to improve the quality of working conditions diagnoses based on free written and oral testimonies."
+      },
       "pourquoi-ne-pas-poser-de-questions": {
         "title": "Good reasons not to ask questions when you want to get real answers",
         "excerpt": "The question may seem strange, but let yourself be surprised, for a moment, by the frequency of a practice that has now become commonplace."

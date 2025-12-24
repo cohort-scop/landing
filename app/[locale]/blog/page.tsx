@@ -6,6 +6,12 @@ import Link from 'next/link';
 
 const blogPosts = [
   {
+    slug: 'methodologie-diagnostic-conditions-travail',
+    date: '2024-12-24',
+    readTime: '10 min',
+    category: 'Méthodologie',
+  },
+  {
     slug: 'subordination-performance-outils-travail',
     date: '2025-01-10',
     readTime: '8 min',

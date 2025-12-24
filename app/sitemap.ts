@@ -48,6 +48,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Articles de blog
     {
+      url: `${baseUrl}/blog/methodologie-diagnostic-conditions-travail`,
+      lastModified: new Date('2024-12-24'),
+      changeFrequency: 'yearly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/en/blog/methodologie-diagnostic-conditions-travail`,
+      lastModified: new Date('2024-12-24'),
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+    {
       url: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
       lastModified: new Date('2024-10-25'),
       changeFrequency: 'yearly',

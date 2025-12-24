@@ -98,6 +98,26 @@
     "button": "Réserver une démo",
     "contact": "ou écrivez-nous : "
   },
+  "methodology": {
+    "badge": "Pour les professionnels",
+    "title": "Un cadre méthodologique éprouvé",
+    "subtitle": "Cohortes propose une approche qui dépasse les limites des questionnaires classiques et des entretiens individuels pour créer les conditions d'un témoignage vivant, structurant et collectif.",
+    "pillars": {
+      "async": {
+        "title": "Témoignage asynchrone",
+        "description": "Chacun témoigne quand il le souhaite, au moment où le vécu est encore présent, sans contrainte de durée."
+      },
+      "collective": {
+        "title": "Intelligence collective",
+        "description": "Les témoignages anonymisés sont partagés pour créer reconnaissance, compréhension mutuelle et conscience collective."
+      },
+      "ai": {
+        "title": "Analyse par l'IA",
+        "description": "L'IA identifie les signaux faibles, regroupe les situations similaires et produit des indicateurs sans réduire la richesse des témoignages."
+      }
+    },
+    "cta": "Découvrir notre méthodologie"
+  },
   "footer": {
     "tagline": "Intelligence collective et pouvoir d'agir",
     "rights": "Tous droits réservés"
@@ -107,13 +127,17 @@
     "subtitle": "Réflexions sur l'intelligence collective, le dialogue social et la participation citoyenne",
     "readMore": "Lire la suite",
     "posts": {
+      "methodologie-diagnostic-conditions-travail": {
+        "title": "Un cadre méthodologique pour un meilleur diagnostic des conditions de travail",
+        "excerpt": "Ce document expose le cadre méthodologique simple et opérationnel développé par Cohortes et visant à améliorer la qualité des diagnostics des conditions de travail à partir de témoignages libres écrits et oraux."
+      },
       "pourquoi-ne-pas-poser-de-questions": {
         "title": "Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses",
         "excerpt": "La question peut paraître étrange, mais laissez-vous surprendre, un petit instant, par la fréquence d'une démarche qui est aujourd'hui entrée dans les mœurs."
       },
       "subordination-performance-outils-travail": {
         "title": "Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance\u00A0?",
-        "excerpt": "L’entreprise se dote d’outils d’organisation pour mener à bien la performance. C’est l’un des discours utilisé pour justifier la présence des outils d’organisation du travail en entreprise. Sans eux, l’organisation serait chaotique,"
+        "excerpt": "L'entreprise se dote d'outils d'organisation pour mener à bien la performance. C'est l'un des discours utilisé pour justifier la présence des outils d'organisation du travail en entreprise. Sans eux, l'organisation serait chaotique,"
       }
     }
   },
