@@ -1,126 +1,522 @@
 {
   "nav": {
+    "ariaLabel": "Navigation principale",
     "home": "Accueil",
-    "features": "Accueil",
+    "products": "Produits",
     "blog": "Blog",
-    "about": "Qui sommes-nous",
-    "contact": "Contact"
+    "about": "À propos",
+    "demo": "Réserver une démo"
   },
-  "hero": {
-    "badge": "Intelligence collective et pouvoir d'agir",
-    "title": {
-      "part1": "De l'expérience collective aux",
-      "part2": "décisions"
+  "products": {
+    "enquete": {
+      "name": "Le logiciel d’enquête",
+      "short": "Enquête",
+      "desc": "Analyser les témoignages d’une enquête"
     },
-    "description": "Cohortes, c’est un espace de témoignage, de questionnement et d’analyse collectif utilisant l’IA pour apprendre à décider ensemble.",
-    "cta": "Réserver une démo",
-    "plus": "En savoir plus"
-  },
-  "problem": {
-    "title": "Et si on ouvrait les organisations",
-    "subtitle": "aux enjeux de co-construction ?",
-    "painPoints": {
-      "first": "Une expertise terrain exprimée et entendue",
-      "second": "Des outils adaptés aux enjeux stratégiques",
-      "third": "Un droit à la décision reconnu"
+    "plateforme": {
+      "name": "La plateforme de témoignage libre",
+      "short": "Plateforme de témoignage libre",
+      "desc": "Recueillir la parole d’un collectif en continu"
     }
-  },
-  "modules": {
-    "title": "Un processus en 5 étapes",
-    "subtitle": "Transformer l’écoute collective en décisions partagées",
-"group": {
-      "title": "Faire collectif",
-      "description": "Les acteurs de l’organisation se regroupent en petits collectifs définis par un type de métier, un palier d’ancienneté, un genre ou un niveau hiérarchique. Ces espaces forment alors des endroits de réflexion partagée."
-    },
-
-    "witness": {
-      "title": "Témoigner",
-      "description": "Les membres partagent leur témoignage au sein de chaque groupe. Anonymisés, ces témoignages peuvent ensuite être lus et discutés avec les autres membres. Ainsi se crée une dynamique d’expression collective qui légitime les expériences des acteurs de l’organisation et leur redonne du pouvoir d’agir."
-    },
-    "question": {
-      "title": "Questionner",
-      "description": "Au sein de chaque groupe, les membres peuvent poser des questions pour interagir avec le contenu des témoignages. Ces questions constituent autant d’indicateurs (de performance ou d’apport social, sur le modèle des KPI et des KSI) qui soulignent ce qui compte pour l’organisation. Une manière de décider ce qui mérite l’attention."
-    },
-    "analyze": {
-      "title": "Comprendre",
-      "description": "Les témoignages, analysés avec une IA, fournissent des réponses aux questions posées par les membres. L’IA révèle les thèmes récurrents et explicite leur évolution dans le temps."
-    },
-    "memory": {
-      "title": "Décider",
-      "description": "Outillés par leurs témoignages, les questions définies ensemble et l’analyse que l’IA en a faites, les acteurs de l’organisation peuvent prendre des décisions de manière éclairée. Au fil du temps se constitue une mémoire collective."
-    }
-  },
-  "memory": {
-    "title": "Une mémoire organisationnelle vivante",
-    "description": "Cohortes accompagne au présent l’expérience des acteurs d’une organisation. Mais c’est aussi un outil précieux pour constituer et faire vivre une mémoire collective. Rassembler des témoignages et les interroger ensemble, c’est concourir à la construction de représentations sociales partagées. Cohortes archive et redonne du mouvement à la culture collective de votre organisation.",
-    "benefits": {
-
-      "evolution": "Comment la vision de l’organisation se (re)définit dans le temps",
-      "feelings": "Quelles questions et quelles réponses construisent ses acteurs",
-      "signals": "Par quelles transformations elle se restructure"
-    }
-  },
-  "useCases": {
-    "title": "Répondre à deux grands enjeux",
-    "subtitle": "Et si on rapprochait la",
-    "qvct": "QVCT",
-    "qvct_full": "(Qualité de Vie et des Conditions de Travail)",
-    "civic": "civic tech",
-    "and": "et la",
-    "who": "Pour qui ?",
-        "social": {
-      "title": "Améliorer le travail et accompagner ses transformations ensemble",
-      "description": "Pour qui ? Psychologues du travail, CSE, syndicats",
-      "actors": [
-        "Psychologues du travail",
-        "CSE",
-        "Syndicats",
-        "Manager"
-      ]
-    },
-    "association": {
-      "title": "Renforcer la participation des acteurs et leur pouvoir d'agir",
-      "description": "Pour qui ? Acteurs de la civic tech (à trouver)",
-      "actors": [
-        "Collectifs citoyens",
-        "Acteurs de la démocratie",
-        "Acteurs de la coopération et de la participation"
-      ]
-    }
-  },
-  "social": {
-    "title": "Elles nous font confiance",
-    "subtitle": "Des organisations engagées dans l'écoute collective"
-  },
-  "cta": {
-    "title": "Rendons nos organisations plus participatives pour des prises de décision collectives, fondées sur l’écoute et le dialogue.",
-    "subtitle": "Échangeons sur vos besoins",
-    "button": "Réserver une démo",
-    "contact": "ou écrivez-nous : "
-  },
-  "methodology": {
-    "badge": "Pour les professionnels",
-    "title": "Un cadre méthodologique éprouvé",
-    "subtitle": "Cohortes propose une approche qui dépasse les limites des questionnaires classiques et des entretiens individuels pour créer les conditions d'un témoignage vivant, structurant et collectif.",
-    "pillars": {
-      "async": {
-        "title": "Témoignage asynchrone",
-        "description": "Chacun témoigne quand il le souhaite, au moment où le vécu est encore présent, sans contrainte de durée."
-      },
-      "collective": {
-        "title": "Intelligence collective",
-        "description": "Les témoignages anonymisés sont partagés pour créer reconnaissance, compréhension mutuelle et conscience collective."
-      },
-      "ai": {
-        "title": "Analyse par l'IA",
-        "description": "L'IA identifie les signaux faibles, regroupe les situations similaires et produit des indicateurs sans réduire la richesse des témoignages."
-      }
-    },
-    "cta": "Découvrir notre méthodologie"
   },
   "footer": {
-    "tagline": "Intelligence collective et pouvoir d'agir",
-    "rights": "Tous droits réservés"
+    "tagline": "Intelligence collective et pouvoir d’agir",
+    "follow": "Suivez-nous",
+    "demo": "Réserver une démo",
+    "rights": "Tous droits réservés",
+    "legalAriaLabel": "Liens légaux",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Gestion des cookies"
+  },
+  "walkthrough": {
+    "title": "Le déroulé d’une enquête",
+    "lede": "Vous avez fait une enquête quantitative ? Voilà ce qui se passe étape par étape.",
+    "lossLabel": "Ce que vous ne faites plus",
+    "step1": {
+      "num": "Étape 1 — L’import",
+      "title": "CSV, Google Forms, Typeform, Sphinx… vous déposez l’export",
+      "text": "Peu importe l’outil qui a servi à collecter : ils exportent tous un tableau.",
+      "loss": "Recopier les réponses une à une dans un document de travail.",
+      "screen": {
+        "path": "enquêtes / mairie · climat social 2026 / import",
+        "file": "climat-social-2026.csv",
+        "count": "· 312 témoignages",
+        "column": "Colonne retenue : « Qu’avez-vous à dire sur vos conditions de travail ? »",
+        "cta": "Lancer le traitement",
+        "ctaDone": "Traitement lancé"
+      }
+    },
+    "step2": {
+      "num": "Étape 2 — Le traitement",
+      "title": "Chaque témoignage passe par la même grille",
+      "loss": "Relire sans cesse les témoignages pour savoir lesquels méritent votre attention.",
+      "screen": {
+        "path": "traitement · 312 témoignages",
+        "anonymisation": {
+          "label": "Anonymisation",
+          "sub": "pseudonymes cohérents sur toute l’enquête"
+        },
+        "resume": {
+          "label": "Résumé",
+          "sub": "les points clés de chaque témoignage"
+        },
+        "categorisation": {
+          "label": "Catégorisation",
+          "sub": "référentiel harcèlement · 7 familles, 44 catégories"
+        },
+        "extraction": {
+          "label": "Extraction des faits",
+          "sub": "ce qui s’est passé, quand, et dans quel témoignage"
+        },
+        "done": "312 témoignages traités · 148 faits datés extraits · prêt à lire."
+      }
+    },
+    "step3": {
+      "num": "Étape 3 — La lecture",
+      "title": "Vous naviguez dans les témoignages par thème, par personne, par période, etc.",
+      "text": "Chaque témoignage porte ses étiquettes. Vous croisez ce que vous cherchez et vous tombez sur les témoignages concernés.",
+      "loss": "Chercher dans un tableur pour retrouver qui a parlé de quoi.",
+      "screen": {
+        "path": "témoignages · 312 · filtrés : 27",
+        "filterFamily": "Famille : conditions de travail",
+        "filterPeriod": "Période : mars — juin",
+        "filterCategory": "Catégorie",
+        "filterPerson": "Personne",
+        "filterDated": "Faits datés uniquement",
+        "a": {
+          "who": "Témoin 07",
+          "ref": "Témoignage 41",
+          "date": "14 mars",
+          "text": "Réunions du lundi tendues depuis un changement d’équipe ; consignes contradictoires.",
+          "tag1": "Organisation du travail",
+          "tag2": "Consignes",
+          "tag3": "Fait daté"
+        },
+        "b": {
+          "who": "Témoin 12",
+          "ref": "Témoignage 63",
+          "date": "21 mars",
+          "text": "Charge redistribuée sans annonce ; deux départs non remplacés dans le service.",
+          "tag1": "Charge de travail",
+          "tag2": "Effectifs"
+        },
+        "c": {
+          "who": "Témoin 07",
+          "ref": "Témoignage 118",
+          "date": "2 avril",
+          "text": "Remarque répétée en réunion devant l’équipe ; aucune réaction de la hiérarchie.",
+          "tag1": "Relations de travail",
+          "tag2": "Public",
+          "tag3": "Fait daté"
+        }
+      }
+    },
+    "step4": {
+      "num": "Étape 4 — La catégorisation",
+      "title": "Construire votre référentiel de catégorisation",
+      "inductive": "<b>Catégorisation inductive</b> : les thèmes remontent des témoignages, vous écartez, vous nommez, tout est recodé.",
+      "manual": "<b>À la main</b> : vous créez vos familles et vos catégories vous-même.",
+      "preset": "<b>Grille préétablie</b> : les référentiels livrés avec l’outil.",
+      "loss": "Catégoriser chaque témoignage à la main.",
+      "screen": {
+        "path": "témoignage 118 · catégories",
+        "source": "Témoin 07 · 2 avril",
+        "tag1": "Relations de travail",
+        "tag2": "Public",
+        "tag3": "Fait daté",
+        "add": "+ ajouter une catégorie",
+        "note": "Référentiel harcèlement · 7 familles, 44 catégories — modifiable.",
+        "inductiveTitle": "Analyse inductive · thèmes hors référentiel",
+        "a": {
+          "label": "Perte de sens des réorganisations",
+          "n": "34"
+        },
+        "b": {
+          "label": "Consignes qui changent d’un jour à l’autre",
+          "n": "21"
+        },
+        "c": {
+          "label": "Isolement des équipes du soir",
+          "n": "18"
+        }
+      }
+    },
+    "step5": {
+      "num": "Étape 5 — La chronologie",
+      "title": "Chaque fait daté, rattaché à son témoignage",
+      "text": "Les faits sont remis en ordre de manière automatique, et chacun garde le verbatim dont il est tiré. C’est ce qui rend la restitution opposable : rien n’est affirmé sans qu’on puisse remonter à la source.",
+      "loss": "Reconstituer la chronologie à la main, en recollant les dates une par une.",
+      "screen": {
+        "path": "personnes / personne 03 · chronologie",
+        "name": "Personne 03",
+        "meta": "9 faits · cités dans 6 témoignages · mars — juin",
+        "a": {
+          "date": "14 mars",
+          "what": "Consignes contradictoires données en réunion d’équipe.",
+          "quote": "« … les réunions du lundi se passent autrement. »",
+          "src": "Témoignage 41 · Témoin 07"
+        },
+        "b": {
+          "date": "2 avril",
+          "what": "Remarque répétée devant l’équipe, sans réaction de la hiérarchie.",
+          "quote": "« … devant tout le monde. Personne n’a réagi. »",
+          "src": "Témoignage 118 · Témoin 07"
+        },
+        "c": {
+          "date": "19 mai",
+          "what": "Retrait d’un dossier en cours, annoncé par message collectif.",
+          "quote": "« … je l’ai appris en même temps que les autres. »",
+          "src": "Témoignage 205 · Témoin 12"
+        }
+      }
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Cohortes — logiciel d’analyse de témoignages : enquêtes harcèlement au travail, diagnostics RPS, baromètres QVCT",
+      "description": "Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT : anonymisation des témoignages, catégorisation sur référentiel, chronologie des faits datés."
+    },
+    "hero": {
+      "kicker": "Cohortes · le témoignage au service du travail",
+      "statement": "Le travail se raconte. Encore faut-il pouvoir l’entendre.",
+      "h1": "Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT.",
+      "lede": "Nous accompagnons les intervenants en prévention des risques professionnels dans leurs pratiques, mais aussi toute organisation qui souhaite installer une plateforme de témoignage libre.",
+      "cta": "Voir le déroulé d’une enquête"
+    },
+    "card": {
+      "crumb1": "Enquêtes",
+      "crumb2": "Mairie · climat social",
+      "crumb3": "Personnes",
+      "name": "Michel B.",
+      "cluster": "Cluster",
+      "note": "Cette fiche réunit les agissements où cette personne est citée.",
+      "stat1": "<b>6</b> témoins la mettent en cause dans <b>34</b> agissements.",
+      "stat2": "<b>7</b> témoins la décrivent comme cible dans <b>18</b> agissements.",
+      "stat3": "<b>19</b> agissements la citent sans que son rôle soit établi.",
+      "pills": {
+        "all": "Tous · 78",
+        "accused": "Mise en cause · 34",
+        "target": "Cible · 18",
+        "witness": "Témoin présent · 9",
+        "unclear": "Rôle non établi · 19",
+        "observed": "Observé · 0",
+        "noVerbatim": "Sans verbatim · 2"
+      },
+      "sideKicker": "Contre qui",
+      "sideTitle": "Cibles des faits reprochés",
+      "targets": {
+        "a": {
+          "who": "Noé V.",
+          "n": "8 agissements"
+        },
+        "b": {
+          "who": "L’équipe du soir",
+          "n": "5 agissements"
+        },
+        "c": {
+          "who": "Inès C.",
+          "n": "4 agissements"
+        },
+        "d": {
+          "who": "Marc A.",
+          "n": "3 agissements"
+        },
+        "e": {
+          "who": "Sonia D.",
+          "n": "3 agissements"
+        },
+        "f": {
+          "who": "Yanis F.",
+          "n": "2 agissements"
+        },
+        "g": {
+          "who": "Hélène P.",
+          "n": "1 agissement"
+        }
+      },
+      "count": "78 agissements, du plus ancien au plus récent",
+      "badgeAccused": "Mise en cause",
+      "badgeUnclear": "Rôle non établi",
+      "item1": {
+        "head": "Michel B. hausse le ton lors des réunions d’équipe du lundi.",
+        "text": "De mars à juin, six témoins décrivent des réunions de service où le chef de service reprend les consignes de la semaine sur un ton sec, coupe la parole et met en cause publiquement le travail rendu. Deux d’entre eux disent avoir cessé d’y intervenir.",
+        "quote": "« Les réunions du lundi se passent autrement depuis son arrivée. On attend juste que ça se termine. »",
+        "src": "Témoignage 41 · Témoin 07 · 14 mars"
+      },
+      "item2": {
+        "head": "Michel B. reprend un collègue devant l’équipe entière.",
+        "text": "Le 2 avril, en réunion de service, un agent qui demandait un délai supplémentaire s’est vu répondre devant tous que son travail n’était pas au niveau attendu. Deux témoins rapportent la scène de la même façon ; aucun membre de la hiérarchie présente n’est intervenu.",
+        "quote": "« Il l’a dit devant tout le monde. Personne n’a réagi, et on est passés au point suivant. »",
+        "src": "Témoignage 118 · Témoin 07 · 2 avril"
+      }
+    },
+    "proof": {
+      "title": "Les organisations qui nous ont fait confiance"
+    },
+    "outro": {
+      "title": "Le tri est fait. L’enquête, c’est vous qui la menez.",
+      "text": "Le logiciel prépare le terrain : il masque, il range, il date, il source. L’interprétation, la restitution et la conclusion ne lui appartiennent pas.",
+      "cta": "Réserver une démo"
+    },
+    "ai": {
+      "title": "L’IA repère, date et étiquette. Elle ne conclut pas à votre place.",
+      "lede": "Générer du texte à votre place ne nous intéresse pas, et laisser un algorithme décider de la nature de vos conclusions encore moins. Nos outils servent à vous donner le maximum de prise sur vos témoignages : les anonymiser, les ranger, les dater, les sourcer. <strong>Ce qu’il faut en comprendre reste votre métier.</strong>",
+      "models": {
+        "title": "Des modèles ouverts, chez OVHcloud",
+        "text": "Les traitements tournent chez OVHcloud, fournisseur français, sur des modèles open source."
+      },
+      "retention": {
+        "title": "Rétention zéro",
+        "text": "OVHcloud ne regarde pas les contenus qui lui sont envoyés, ne les conserve pas et ne s’en sert pas pour entraîner ses modèles."
+      },
+      "anonymised": {
+        "title": "Anonymisé dès la première passe",
+        "text": "L’anonymisation est le premier traitement appliqué. Tout ce qui circule ensuite : résumés, catégories, etc. l’est sur du texte pseudonymisé."
+      }
+    },
+    "products": {
+      "title": "En savoir plus sur nos produits",
+      "lede": "Deux logiciels, deux moments : l’un quand une enquête est ouverte, l’autre quand un collectif s’exprime tout au long de l’année."
+    }
+  },
+  "enquete": {
+    "meta": {
+      "title": "Cohortes — logiciel d’analyse de témoignages pour enquêtes de harcèlement, diagnostics RPS et baromètres QVCT",
+      "description": "Le logiciel d’enquête de Cohortes : anonymisation cohérente, catégorisation sur référentiel, extraction des faits datés et chronologie par personne."
+    },
+    "hero": {
+      "kicker": "Le logiciel d’enquête",
+      "title": "Rendre les témoignages interopérables.",
+      "lede": "Vous menez l’enquête. Le logiciel prépare la matière : il anonymise, catégorise et extrait les faits avec leurs dates et leur source. La lecture et la conclusion restent les vôtres."
+    },
+    "missions": {
+      "title": "Trois missions, les mêmes problématiques d’outils",
+      "text": "Une enquête de harcèlement, un diagnostic RPS ou un baromètre QVCT ne se mènent pas de la même façon. Mais tous produisent la même chose : des dizaines ou des centaines de textes libres à lire, à recouper et à restituer."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "anonymisation": "<b>Anonymisation dès la première passe</b> : tout ce qui circule ensuite l’est sur du texte pseudonymisé.",
+      "retention": "<b>Rétention zéro</b> : les traitements tournent chez OVHcloud, sur des modèles open source. Les contenus envoyés ne sont ni conservés, ni utilisés pour entraîner des modèles — <a>l’engagement d’OVHcloud</a>."
+    },
+    "outro": {
+      "title": "Une enquête en cours ?",
+      "text": "Le plus simple est de voir l’outil tourner sur un cas qui ressemble au vôtre. Trente minutes suffisent.",
+      "cta": "Réserver une démo",
+      "or": "ou écrivez-nous :"
+    }
+  },
+  "plateforme": {
+    "meta": {
+      "title": "Cohortes — plateforme de témoignage libre pour les collectifs au travail",
+      "description": "La plateforme de témoignage libre de Cohortes : chacun dépose son témoignage quand il le veut, le collectif décide de ce qu’il suit, et voit ce qui revient au fil de l’année."
+    },
+    "hero": {
+      "kicker": "La plateforme de témoignage libre",
+      "title": "Rendre un collectif visible à lui-même.",
+      "lede": "Chacun dépose son témoignage quand il le veut. Le groupe se les réapproprie, pose ses propres questions, et voit ce qui revient au fil des semaines."
+    },
+    "principle": {
+      "title": "Le principe",
+      "text": "Dans une organisation, chacun connaît sa propre situation. Personne ne sait combien d’autres vivent la même. La plateforme rassemble les témoignages au fil de l’année et montre ce qui revient — <strong>c’est le collectif qui décide de ce qu’il veut suivre</strong>, pas une grille d’indicateurs choisie ailleurs."
+    },
+    "process": {
+      "title": "Comment ça se passe",
+      "s1": {
+        "title": "Faire collectif",
+        "text": "Les membres se regroupent en petits collectifs : par métier, par ancienneté, par genre ou par niveau hiérarchique. Ce sont ces groupes qui témoignent."
+      },
+      "s2": {
+        "title": "Témoigner",
+        "text": "Chacun dépose son témoignage quand il le souhaite, au moment où le vécu est encore présent. Anonymisés, les témoignages sont lus et discutés par les autres membres du groupe."
+      },
+      "s3": {
+        "title": "Questionner",
+        "text": "Le groupe pose ses propres questions — jusqu’à cinq, persistantes. Elles deviennent ses indicateurs : ce sur quoi il a décidé de garder un œil."
+      },
+      "s4": {
+        "title": "Comprendre",
+        "text": "Chaque semaine, les témoignages déposés sont résumés et confrontés aux questions du groupe. Les thèmes récurrents apparaissent, et leur évolution dans le temps avec eux."
+      },
+      "s5": {
+        "title": "Décider",
+        "text": "Outillé par ses propres témoignages et par ses propres questions, le collectif décide. Au fil des mois se constitue une mémoire de ce qui a été dit, vu et changé."
+      },
+      "m1": {
+        "crumb1": "Municipalité de …",
+        "crumb2": "Collectifs",
+        "title": "Collectifs",
+        "cta": "+ Nouveau collectif",
+        "a": {
+          "name": "L’équipe support",
+          "members": "12 membres"
+        },
+        "b": {
+          "name": "Encadrement de proximité",
+          "members": "7 membres"
+        },
+        "c": {
+          "name": "Équipes du soir",
+          "members": "9 membres"
+        },
+        "d": {
+          "name": "Nouveaux arrivants",
+          "members": "5 membres"
+        },
+        "note": "Chaque collectif a son espace : ses témoignages, ses questions, son fil."
+      },
+      "m2": {
+        "crumb1": "Municipalité de …",
+        "crumb2": "L’équipe support",
+        "crumb3": "Témoigner",
+        "title": "Partage ton témoignage",
+        "sub": "Choisissez comment vous souhaitez partager votre expérience",
+        "voice": "Voix",
+        "text": "Texte",
+        "hint": "Touchez le microphone pour commencer à enregistrer votre témoignage",
+        "foot": "Tous les témoignages sont confidentiels."
+      },
+      "m3": {
+        "crumb1": "Municipalité de …",
+        "crumb2": "L’équipe support",
+        "crumb3": "Questions du collectif",
+        "title": "Questions du collectif",
+        "cta": "+ Nouvelle question",
+        "note": "Les questions posées ici deviennent les indicateurs du groupe : ce sur quoi il a décidé de garder un œil.",
+        "a": {
+          "q": "Comment l’arrivée du nouveau logiciel change-t-elle notre autonomie ?",
+          "meta": "2 analyses"
+        },
+        "b": {
+          "q": "Quelles mesures d’accompagnement ont été mises en place ?",
+          "meta": "1 analyse"
+        },
+        "c": {
+          "q": "Qu’est-ce qui a vraiment aidé lors des dernières réorganisations ?",
+          "meta": "0 analyse"
+        }
+      },
+      "m4": {
+        "crumb1": "Municipalité de …",
+        "crumb2": "L’équipe support",
+        "crumb3": "Thèmes",
+        "count": "Thèmes (17)",
+        "t1": "Perte de maîtrise sur l’outil",
+        "t2": "Fragmentation de l’autonomie",
+        "t3": "Pression temporelle",
+        "t4": "Soulagement par délégation",
+        "t5": "Tensions intergénérationnelles",
+        "presence": "Présence du thème",
+        "weeks": "Présent 5 semaines sur 7",
+        "summary": "Les témoignages décrivent à la fois un soulagement — tâches routinières déléguées — et une perte de maîtrise sur les décisions."
+      },
+      "m5": {
+        "crumb1": "Municipalité de …",
+        "crumb2": "L’équipe support",
+        "crumb3": "Réponses de la semaine",
+        "week": "Semaine 45",
+        "count": "14 témoignages",
+        "a": {
+          "q": "Quelles mesures d’accompagnement ont été mises en place ?",
+          "a": "Trois témoignages citent la formation de septembre, deux la présence d’un référent. Personne ne mentionne les temps d’échange annoncés en juin.",
+          "trend": "Semaine précédente : 1 mention de plus"
+        },
+        "b": {
+          "q": "Comment l’arrivée du nouveau logiciel change-t-elle notre autonomie ?",
+          "a": "Le sujet revient pour la cinquième semaine consécutive, cette fois sous l’angle des délais imposés plutôt que de l’outil lui-même.",
+          "trend": "Semaine précédente : même volume"
+        }
+      }
+    },
+    "audience": {
+      "title": "Pour qui",
+      "work": {
+        "title": "Améliorer le travail",
+        "a": "Psychologues du travail",
+        "b": "CSE et élus du personnel",
+        "c": "Syndicats",
+        "d": "Managers et équipes"
+      },
+      "participation": {
+        "title": "Renforcer la participation",
+        "a": "Collectifs citoyens",
+        "b": "Acteurs de la démocratie locale",
+        "c": "Coopératives et associations"
+      }
+    },
+    "status": {
+      "title": "Où en est ce produit",
+      "text": "La plateforme existe mais <strong>n’est plus commercialisée en libre-service</strong>. Nous préférons avancer au cas par cas, et construire une plateforme adaptée aux besoins de chaque organisation qui veut s’en servir sérieusement.",
+      "more": "Pourquoi ce choix, et ce que nous avons appris en la vendant, c’est raconté sur la page <a>à propos</a>."
+    },
+    "outro": {
+      "title": "Un collectif à outiller ? Parlons-en.",
+      "text": "Dites-nous qui témoigne, à quel rythme, et ce que le collectif veut suivre. Nous verrons ensemble si la plateforme a du sens dans votre cas.",
+      "cta": "Nous écrire"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Cohortes — À propos"
+    },
+    "hero": {
+      "kicker": "À propos",
+      "title": "Nous travaillons sur une seule chose : rendre un collectif visible à lui-même."
+    },
+    "origin": {
+      "title": "D’où ça vient",
+      "a": "De la <strong>rétrospective</strong>. C’est un atelier emprunté aux méthodes agiles : toutes les deux semaines, les gens qui travaillent ensemble s’arrêtent une heure et disent ce qui a marché, ce qui a coincé, ce qu’il faudrait changer.",
+      "b": "Deux choses nous ont frustrés. La première : <strong>une fois l’atelier terminé, ce qui a été dit reste difficilement consultable</strong>. Le relire, le recouper ou le compter demande un travail qu’on ne prend pas toujours le temps de faire.",
+      "c": "La seconde : <strong>le suivi tient à peu de choses</strong>. Les actions décidées sont souvent notées, mais savoir si le problème soulevé en mars est toujours là en juin, ou combien de fois il est revenu depuis, tout ça repose en fait sur la mémoire de ceux qui étaient présents.",
+      "d": "Néanmoins, la rétrospective a un mérite : <strong>elle fabrique une équipe</strong>. À force de dire ensemble ce qui va et ce qui ne va pas, des gens qui travaillent côte à côte deviennent un collectif.",
+      "e": "D’où l’idée : une plateforme où chacun dépose son témoignage quand il le veut, et où le collectif décide lui-même de ce qu’il veut suivre. L’hypothèse de départ tenait en une question : <strong>si un groupe prend en main un outil de témoignage, est-ce que ça change l’organisation du travail ?</strong>"
+    },
+    "market": {
+      "title": "La réalité du marché",
+      "a": "Le premier obstacle a été <strong>la peur du texte libre</strong>. Une plateforme où tous les sujets peuvent être discutés, ça inquiète : on ne sait pas ce qui va s’y écrire, ni ce qu’on devra en faire.",
+      "b": "Le second est plus profond. <strong>La QVCT reste synonyme d’urgence, rarement de prévoyance</strong> : on appelle quand ça a déjà cassé, pas pour éviter que ça casse.",
+      "c": "Au bout d’un an et demi, le constat était simple : changer ou fermer. C’est <a>AD Conseil</a>, un cabinet de psychologie du travail, qui nous a ouvert l’autre porte, celle des <strong>enquêtes de harcèlement</strong>."
+    },
+    "team": {
+      "title": "L’équipe",
+      "roberto": "Fondateur",
+      "fadi": "Président d’AD Conseil, notre référent psychologue du travail",
+      "louise": "Fondatrice, ancienne CEO, nous soutient toujours :)"
+    },
+    "build": {
+      "title": "Ce que nous fabriquons",
+      "lede": "Deux logiciels, deux moments : l’un quand une enquête est ouverte, l’autre quand un collectif s’exprime tout au long de l’année.",
+      "enquete": {
+        "a": {
+          "title": "L’outil prépare, vous concluez",
+          "text": "Il anonymise, étiquette, date et source. L’interprétation, la restitution et la conclusion restent votre métier."
+        },
+        "b": {
+          "title": "Rien n’est affirmé sans sa source",
+          "text": "Chaque fait est daté et rattaché au témoignage dont il est tiré. C’est ce qui rend une restitution opposable."
+        },
+        "c": {
+          "title": "Le référentiel est le vôtre",
+          "text": "Livré avec l’outil, construit à partir des thèmes qui remontent des témoignages, ou créé à la main. Trois chemins, une seule grille : la vôtre."
+        },
+        "cta": "Découvrir le logiciel d’enquête"
+      },
+      "plateforme": {
+        "a": {
+          "title": "La parole doit remonter, pas descendre",
+          "text": "Les outils d’écoute en entreprise sont descendants : la direction pose les questions, les salariés remplissent des cases. Ici, c’est le terrain qui dit ce qui compte, avec ses mots."
+        },
+        "b": {
+          "title": "Le collectif avant l’individu",
+          "text": "Ce qui est intéressant n’est pas qui parle, mais comment un groupe se situe face à l’organisation du travail. Un témoignage isolé se lit comme un ressenti ; un ensemble raconte un système."
+        },
+        "c": {
+          "title": "Un questionnaire ne trouve que ce qu’il cherche",
+          "text": "Des questions fermées bornent les réponses. Le témoignage libre laisse remonter ce que personne n’avait pensé à demander."
+        },
+        "cta": "Découvrir la plateforme de témoignage libre"
+      }
+    }
   },
   "blog": {
     "title": "Blog",
@@ -136,25 +532,8 @@
         "excerpt": "La question peut paraître étrange, mais laissez-vous surprendre, un petit instant, par la fréquence d'une démarche qui est aujourd'hui entrée dans les mœurs."
       },
       "subordination-performance-outils-travail": {
-        "title": "Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance\u00A0?",
+        "title": "Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?",
         "excerpt": "L'entreprise se dote d'outils d'organisation pour mener à bien la performance. C'est l'un des discours utilisé pour justifier la présence des outils d'organisation du travail en entreprise. Sans eux, l'organisation serait chaotique,"
-      }
-    }
-  },
-  "about": {
-    "meta": {
-      "title": "Qui sommes-nous | Cohortes",
-      "description": "Rencontrez l'équipe fondatrice de Cohortes, Louise Naudin et Roberto Barros De Sousa"
-    },
-    "title": "Qui sommes-nous",
-    "subtitle": "L'équipe qui construit Cohortes pour renforcer l'intelligence collective",
-    "team": {
-      "title": "Notre équipe",
-      "louise": {
-        "role": "Fondatrice et CEO"
-      },
-      "roberto": {
-        "role": "Fondateur et CTO"
       }
     }
   }

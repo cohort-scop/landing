@@ -1,159 +1,63 @@
 import { MetadataRoute } from 'next'
 
+const baseUrl = 'https://www.cohortes.co'
+
+type Entry = {
+  path: string
+  changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']
+  priority: number
+  lastModified?: Date
+}
+
+/** Les URL françaises sont sans préfixe, les anglaises sous `/en`. */
+const pages: Entry[] = [
+  { path: '', changeFrequency: 'monthly', priority: 1 },
+  { path: '/enquete', changeFrequency: 'monthly', priority: 0.9 },
+  { path: '/plateforme', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/about', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/blog', changeFrequency: 'weekly', priority: 0.8 },
+  {
+    path: '/blog/methodologie-diagnostic-conditions-travail',
+    changeFrequency: 'yearly',
+    priority: 0.6,
+    lastModified: new Date('2025-12-24'),
+  },
+  {
+    path: '/blog/pourquoi-ne-pas-poser-de-questions',
+    changeFrequency: 'yearly',
+    priority: 0.6,
+    lastModified: new Date('2024-01-10'),
+  },
+  {
+    path: '/blog/subordination-performance-outils-travail',
+    changeFrequency: 'yearly',
+    priority: 0.6,
+    lastModified: new Date('2024-06-20'),
+  },
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.cohortes.co'
+  const now = new Date()
 
-  return [
-    // Pages principales
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
-      alternates: {
-        languages: {
-          fr: baseUrl,
-          en: `${baseUrl}/en`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/en`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-      alternates: {
-        languages: {
-          fr: baseUrl,
-          en: `${baseUrl}/en`,
-        },
-      },
-    },
+  return pages.flatMap(({ path, changeFrequency, priority, lastModified }) => {
+    const languages = { fr: `${baseUrl}${path}`, en: `${baseUrl}/en${path}` }
 
-    // Blog
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog`,
-          en: `${baseUrl}/en/blog`,
-        },
+    return [
+      {
+        url: languages.fr || baseUrl,
+        lastModified: lastModified ?? now,
+        changeFrequency,
+        priority,
+        alternates: { languages },
       },
-    },
-    {
-      url: `${baseUrl}/en/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog`,
-          en: `${baseUrl}/en/blog`,
-        },
+      {
+        url: languages.en,
+        lastModified: lastModified ?? now,
+        changeFrequency,
+        // La version anglaise est secondaire : un cran en dessous de la française.
+        priority: Math.round((priority - 0.1) * 10) / 10,
+        alternates: { languages },
       },
-    },
-
-    // About
-    {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/about`,
-          en: `${baseUrl}/en/about`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/en/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/about`,
-          en: `${baseUrl}/en/about`,
-        },
-      },
-    },
-
-    // Articles de blog
-    {
-      url: `${baseUrl}/blog/methodologie-diagnostic-conditions-travail`,
-      lastModified: new Date('2025-12-24'),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/methodologie-diagnostic-conditions-travail`,
-          en: `${baseUrl}/en/blog/methodologie-diagnostic-conditions-travail`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/en/blog/methodologie-diagnostic-conditions-travail`,
-      lastModified: new Date('2025-12-24'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/methodologie-diagnostic-conditions-travail`,
-          en: `${baseUrl}/en/blog/methodologie-diagnostic-conditions-travail`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
-      lastModified: new Date('2024-01-10'),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
-          en: `${baseUrl}/en/blog/pourquoi-ne-pas-poser-de-questions`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/en/blog/pourquoi-ne-pas-poser-de-questions`,
-      lastModified: new Date('2024-01-10'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/pourquoi-ne-pas-poser-de-questions`,
-          en: `${baseUrl}/en/blog/pourquoi-ne-pas-poser-de-questions`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/blog/subordination-performance-outils-travail`,
-      lastModified: new Date('2024-06-20'),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/subordination-performance-outils-travail`,
-          en: `${baseUrl}/en/blog/subordination-performance-outils-travail`,
-        },
-      },
-    },
-    {
-      url: `${baseUrl}/en/blog/subordination-performance-outils-travail`,
-      lastModified: new Date('2024-06-20'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-      alternates: {
-        languages: {
-          fr: `${baseUrl}/blog/subordination-performance-outils-travail`,
-          en: `${baseUrl}/en/blog/subordination-performance-outils-travail`,
-        },
-      },
-    },
-  ]
+    ]
+  })
 }

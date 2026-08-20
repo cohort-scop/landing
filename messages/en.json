@@ -1,120 +1,522 @@
 {
   "nav": {
+    "ariaLabel": "Main navigation",
     "home": "Home",
-    "features": "Home",
+    "products": "Products",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact"
+    "about": "About",
+    "demo": "Book a demo"
   },
-  "hero": {
-    "badge": "Collective intelligence and empowerment",
-    "title": {
-      "part1": "From collective experience to",
-      "part2": "decisions"
+  "products": {
+    "enquete": {
+      "name": "The investigation software",
+      "short": "Investigation",
+      "desc": "Analyse the testimonies gathered in an investigation"
     },
-    "description": "Cohortes is a space for testimony, questioning and collective analysis using AI to learn to decide together.",
-    "cta": "Book a demo",
-    "plus": "See more"
-  },
-  "problem": {
-    "title": "What if we opened organizations",
-    "subtitle": "to co-construction challenges?",
-    "painPoints": {
-      "first": "Ground expertise expressed and heard",
-      "second": "Tools adapted to strategic challenges",
-      "third": "A recognized right to decision"
+    "plateforme": {
+      "name": "The open testimony platform",
+      "short": "Open testimony platform",
+      "desc": "Gather what a group has to say, all year round"
     }
   },
-  "modules": {
-    "title": "A 5-step process",
-    "subtitle": "Transform collective listening into shared decisions",
-    "group": {
-      "title": "Build collectives",
-      "description": "Organization members gather in small groups defined by job type, seniority level, gender or hierarchical level. These spaces become places for shared reflection."
-    },
-    "witness": {
-      "title": "Witness",
-      "description": "Members share their testimonies within each group. Anonymized, these testimonies can then be read and discussed with other members. This creates a dynamic of collective expression that legitimizes the experiences of organization members and gives them back their power to act."
-    },
-    "question": {
-      "title": "Question",
-      "description": "Within each group, members can ask questions to interact with the content of testimonies. These questions constitute as many indicators (performance or social contribution, modeled on KPIs and KSIs) that highlight what matters for the organization. A way to decide what deserves attention."
-    },
-    "analyze": {
-      "title": "Understand",
-      "description": "Testimonies, analyzed with AI, provide answers to questions posed by members. AI reveals recurring themes and explains their evolution over time."
-    },
-    "memory": {
-      "title": "Decide",
-      "description": "Equipped with their testimonies, collectively defined questions and AI analysis, organization members can make informed decisions. Over time, a collective memory is built."
-    }
+  "footer": {
+    "tagline": "Collective intelligence and agency",
+    "follow": "Follow us",
+    "demo": "Book a demo",
+    "rights": "All rights reserved",
+    "legalAriaLabel": "Legal links",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie settings"
   },
-  "memory": {
-    "title": "A living organizational memory",
-    "description": "Cohortes accompanies the present experience of organization members. But it's also a valuable tool to build and maintain a collective memory. Gathering testimonies and questioning them together contributes to building shared social representations. Cohortes archives and gives new momentum to your organization's collective culture.",
-    "benefits": {
-      "evolution": "How the organization's vision (re)defines itself over time",
-      "feelings": "What questions and answers its members build",
-      "signals": "Through what transformations it restructures itself"
-    }
-  },
-  "useCases": {
-    "title": "Addressing two major challenges",
-    "subtitle": "What if we brought",
-    "qvct": "QWL",
-    "qvct_full": "(Quality of Work Life)",
-    "civic": "civic tech",
-    "and": "and",
-    "who": "For whom?",
-    "social": {
-      "title": "Improve work and support its transformations together",
-      "description": "For whom? Work psychologists, CSE, unions",
-      "actors": [
-        "Work psychologists",
-        "CSE",
-        "Unions",
-        "Managers"
-      ]
-    },
-    "association": {
-      "title": "Strengthen stakeholder participation and empowerment",
-      "description": "For whom? Civic tech actors (to be defined)",
-      "actors": [
-        "Citizen collectives",
-        "Democracy actors",
-        "Cooperation and participation actors"
-      ]
-    }
-  },
-  "social": {
-    "title": "They trust us",
-    "subtitle": "Organizations committed to collective listening"
-  },
-  "cta": {
-    "title": "Let's make our organizations more participatory for collective decision-making, based on listening and dialogue.",
-    "subtitle": "Let's discuss your needs",
-    "button": "Book a demo",
-    "contact": "or write to us: "
-  },
-  "methodology": {
-    "badge": "For professionals",
-    "title": "A proven methodological framework",
-    "subtitle": "Cohortes offers an approach that goes beyond the limitations of traditional questionnaires and individual interviews to create the conditions for living, structuring and collective testimony.",
-    "pillars": {
-      "async": {
-        "title": "Asynchronous testimony",
-        "description": "Everyone testifies when they want, when the experience is still fresh, without time constraints."
-      },
-      "collective": {
-        "title": "Collective intelligence",
-        "description": "Anonymized testimonies are shared to create recognition, mutual understanding and collective awareness."
-      },
-      "ai": {
-        "title": "AI-powered analysis",
-        "description": "AI identifies weak signals, groups similar situations and produces indicators without reducing the richness of testimonies."
+  "walkthrough": {
+    "title": "How an investigation unfolds",
+    "lede": "You have run a quantitative survey? Here is what happens, step by step.",
+    "lossLabel": "What you no longer do",
+    "step1": {
+      "num": "Step 1 — Import",
+      "title": "CSV, Google Forms, Typeform, Sphinx… you drop in the export",
+      "text": "Whatever tool did the collecting: they all export a table.",
+      "loss": "Copying responses one by one into a working document.",
+      "screen": {
+        "path": "investigations / town hall · workplace climate 2026 / import",
+        "file": "climat-social-2026.csv",
+        "count": "· 312 testimonies",
+        "column": "Column selected: “What would you like to say about your working conditions?”",
+        "cta": "Run the processing",
+        "ctaDone": "Processing started"
       }
     },
-    "cta": "Discover our methodology"
+    "step2": {
+      "num": "Step 2 — Processing",
+      "title": "Every testimony goes through the same grid",
+      "loss": "Rereading the testimonies over and over to work out which ones deserve your attention.",
+      "screen": {
+        "path": "processing · 312 testimonies",
+        "anonymisation": {
+          "label": "Anonymisation",
+          "sub": "consistent pseudonyms across the whole investigation"
+        },
+        "resume": {
+          "label": "Summary",
+          "sub": "the key points of each testimony"
+        },
+        "categorisation": {
+          "label": "Categorisation",
+          "sub": "harassment coding framework · 7 families, 44 categories"
+        },
+        "extraction": {
+          "label": "Fact extraction",
+          "sub": "what happened, when, and in which testimony"
+        },
+        "done": "312 testimonies processed · 148 dated facts extracted · ready to read."
+      }
+    },
+    "step3": {
+      "num": "Step 3 — Reading",
+      "title": "You move through the testimonies by theme, by person, by period, and so on.",
+      "text": "Every testimony carries its labels. You combine what you are looking for and land on the testimonies concerned.",
+      "loss": "Searching a spreadsheet to find out who said what.",
+      "screen": {
+        "path": "testimonies · 312 · filtered: 27",
+        "filterFamily": "Family: working conditions",
+        "filterPeriod": "Period: March — June",
+        "filterCategory": "Category",
+        "filterPerson": "Person",
+        "filterDated": "Dated facts only",
+        "a": {
+          "who": "Witness 07",
+          "ref": "Testimony 41",
+          "date": "14 March",
+          "text": "Monday meetings tense since a change of team; contradictory instructions.",
+          "tag1": "Work organisation",
+          "tag2": "Instructions",
+          "tag3": "Dated fact"
+        },
+        "b": {
+          "who": "Witness 12",
+          "ref": "Testimony 63",
+          "date": "21 March",
+          "text": "Workload redistributed without notice; two departures not replaced in the department.",
+          "tag1": "Workload",
+          "tag2": "Staffing"
+        },
+        "c": {
+          "who": "Witness 07",
+          "ref": "Testimony 118",
+          "date": "2 April",
+          "text": "Remark repeated in a meeting in front of the team; no reaction from management.",
+          "tag1": "Working relationships",
+          "tag2": "In public",
+          "tag3": "Dated fact"
+        }
+      }
+    },
+    "step4": {
+      "num": "Step 4 — Categorisation",
+      "title": "Building your own coding framework",
+      "inductive": "<b>Inductive categorisation</b>: themes surface from the testimonies, you set aside, you name, everything is recoded.",
+      "manual": "<b>By hand</b>: you create your families and your categories yourself.",
+      "preset": "<b>Ready-made grid</b>: the coding frameworks shipped with the software.",
+      "loss": "Categorising every testimony by hand.",
+      "screen": {
+        "path": "testimony 118 · categories",
+        "source": "Witness 07 · 2 April",
+        "tag1": "Working relationships",
+        "tag2": "In public",
+        "tag3": "Dated fact",
+        "add": "+ add a category",
+        "note": "Harassment coding framework · 7 families, 44 categories — editable.",
+        "inductiveTitle": "Inductive analysis · themes outside the framework",
+        "a": {
+          "label": "Reorganisations losing their meaning",
+          "n": "34"
+        },
+        "b": {
+          "label": "Instructions that change from one day to the next",
+          "n": "21"
+        },
+        "c": {
+          "label": "Isolation of the evening teams",
+          "n": "18"
+        }
+      }
+    },
+    "step5": {
+      "num": "Step 5 — Chronology",
+      "title": "Every dated fact, tied back to its testimony",
+      "text": "The facts are put back in order automatically, and each one keeps the verbatim it was drawn from. That is what makes the debrief defensible: nothing is asserted without a way back to the source.",
+      "loss": "Rebuilding the chronology by hand, piecing the dates together one at a time.",
+      "screen": {
+        "path": "people / person 03 · chronology",
+        "name": "Person 03",
+        "meta": "9 facts · cited in 6 testimonies · March — June",
+        "a": {
+          "date": "14 March",
+          "what": "Contradictory instructions given in a team meeting.",
+          "quote": "“… the Monday meetings are different now.”",
+          "src": "Testimony 41 · Witness 07"
+        },
+        "b": {
+          "date": "2 April",
+          "what": "Remark repeated in front of the team, with no reaction from management.",
+          "quote": "“… in front of everyone. Nobody reacted.”",
+          "src": "Testimony 118 · Witness 07"
+        },
+        "c": {
+          "date": "19 May",
+          "what": "A live case withdrawn, announced by group message.",
+          "quote": "“… I found out at the same time as everyone else.”",
+          "src": "Testimony 205 · Witness 12"
+        }
+      }
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Cohortes — testimony analysis software: workplace harassment investigations, psychosocial risk assessments, workplace wellbeing surveys",
+      "description": "Cohortes equips workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys: anonymisation of testimonies, categorisation against a coding framework, chronology of dated facts."
+    },
+    "hero": {
+      "kicker": "Cohortes · testimony in the service of work",
+      "statement": "Work tells its own story. You still have to be able to hear it.",
+      "h1": "Cohortes equips workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys.",
+      "lede": "We support occupational risk prevention specialists in their practice, and any organisation that wants to set up an open testimony platform.",
+      "cta": "See how an investigation unfolds"
+    },
+    "card": {
+      "crumb1": "Investigations",
+      "crumb2": "Town hall · workplace climate",
+      "crumb3": "People",
+      "name": "Michel B.",
+      "cluster": "Cluster",
+      "note": "This record brings together the alleged acts in which this person is named.",
+      "stat1": "<b>6</b> witnesses name them as the accused in <b>34</b> alleged acts.",
+      "stat2": "<b>7</b> witnesses describe them as the target in <b>18</b> alleged acts.",
+      "stat3": "<b>19</b> alleged acts name them without their role being established.",
+      "pills": {
+        "all": "All · 78",
+        "accused": "Accused · 34",
+        "target": "Target · 18",
+        "witness": "Witness present · 9",
+        "unclear": "Role not established · 19",
+        "observed": "Observed · 0",
+        "noVerbatim": "No verbatim · 2"
+      },
+      "sideKicker": "Against whom",
+      "sideTitle": "Targets of the alleged acts",
+      "targets": {
+        "a": {
+          "who": "Noé V.",
+          "n": "8 alleged acts"
+        },
+        "b": {
+          "who": "The evening team",
+          "n": "5 alleged acts"
+        },
+        "c": {
+          "who": "Inès C.",
+          "n": "4 alleged acts"
+        },
+        "d": {
+          "who": "Marc A.",
+          "n": "3 alleged acts"
+        },
+        "e": {
+          "who": "Sonia D.",
+          "n": "3 alleged acts"
+        },
+        "f": {
+          "who": "Yanis F.",
+          "n": "2 alleged acts"
+        },
+        "g": {
+          "who": "Hélène P.",
+          "n": "1 alleged act"
+        }
+      },
+      "count": "78 alleged acts, from the oldest to the most recent",
+      "badgeAccused": "Accused",
+      "badgeUnclear": "Role not established",
+      "item1": {
+        "head": "Michel B. raises their voice in the Monday team meetings.",
+        "text": "From March to June, six witnesses describe department meetings where the head of department goes over the week’s instructions in a curt tone, cuts people off and publicly criticises the work handed in. Two of them say they stopped speaking up there.",
+        "quote": "“The Monday meetings have been different since they arrived. We just wait for it to be over.”",
+        "src": "Testimony 41 · Witness 07 · 14 March"
+      },
+      "item2": {
+        "head": "Michel B. reprimands a colleague in front of the whole team.",
+        "text": "On 2 April, in a department meeting, an officer who was asking for extra time was told in front of everyone that their work was not up to the expected standard. Two witnesses report the scene in the same terms; none of the managers present intervened.",
+        "quote": "“They said it in front of everyone. Nobody reacted, and we moved on to the next item.”",
+        "src": "Testimony 118 · Witness 07 · 2 April"
+      }
+    },
+    "proof": {
+      "title": "The organisations that have trusted us"
+    },
+    "outro": {
+      "title": "The sorting is done. The investigation is yours to lead.",
+      "text": "The software prepares the ground: it masks, it files, it dates, it sources. Interpretation, the debrief and the conclusion are not its business.",
+      "cta": "Book a demo"
+    },
+    "ai": {
+      "title": "AI spots, dates and labels. It does not conclude for you.",
+      "lede": "Generating text on your behalf holds no interest for us, and letting an algorithm decide what your conclusions should be even less. Our tools exist to give you as much grip as possible on your testimonies: anonymising them, filing them, dating them, sourcing them. <strong>What to make of them remains your profession.</strong>",
+      "models": {
+        "title": "Open models, hosted at OVHcloud",
+        "text": "Processing runs at OVHcloud, a French provider, on open source models."
+      },
+      "retention": {
+        "title": "Zero retention",
+        "text": "OVHcloud does not look at the content sent to it, does not keep it and does not use it to train its models."
+      },
+      "anonymised": {
+        "title": "Anonymised from the first pass",
+        "text": "Anonymisation is the first processing step applied. Everything that circulates afterwards — summaries, categories and so on — is based on pseudonymised text."
+      }
+    },
+    "products": {
+      "title": "More about our products",
+      "lede": "Two pieces of software, two moments: one for when an investigation is open, the other for when a group speaks up throughout the year."
+    }
+  },
+  "enquete": {
+    "meta": {
+      "title": "Cohortes — testimony analysis software for harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
+      "description": "Cohortes’ investigation software: consistent anonymisation, categorisation against a coding framework, extraction of dated facts and a chronology for each person."
+    },
+    "hero": {
+      "kicker": "The investigation software",
+      "title": "Making testimonies interoperable.",
+      "lede": "You lead the investigation. The software prepares the material: it anonymises, categorises and extracts the facts with their dates and their source. The reading and the conclusion remain yours."
+    },
+    "missions": {
+      "title": "Three assignments, the same tooling problems",
+      "text": "A harassment investigation, a psychosocial risk assessment and a workplace wellbeing survey are not conducted in the same way. But they all produce the same thing: dozens or hundreds of open-ended responses to read, cross-check and report back on."
+    },
+    "privacy": {
+      "title": "Confidentiality",
+      "anonymisation": "<b>Anonymisation from the first pass</b>: everything that circulates afterwards is based on pseudonymised text.",
+      "retention": "<b>Zero retention</b>: processing runs at OVHcloud, on open source models. The content sent is neither kept nor used to train models — <a>OVHcloud’s commitment</a>."
+    },
+    "outro": {
+      "title": "An investigation under way?",
+      "text": "The simplest thing is to watch the tool run on a case that resembles yours. Thirty minutes is enough.",
+      "cta": "Book a demo",
+      "or": "or write to us:"
+    }
+  },
+  "plateforme": {
+    "meta": {
+      "title": "Cohortes — open testimony platform for groups at work",
+      "description": "Cohortes’ open testimony platform: everyone files their testimony whenever they want, the group decides what it follows, and sees what keeps coming back over the year."
+    },
+    "hero": {
+      "kicker": "The open testimony platform",
+      "title": "Making a group visible to itself.",
+      "lede": "Everyone files their testimony whenever they want. The group makes them its own, asks its own questions, and sees what keeps coming back week after week."
+    },
+    "principle": {
+      "title": "The principle",
+      "text": "In an organisation, everyone knows their own situation. Nobody knows how many others are living the same one. The platform gathers testimonies over the year and shows what keeps coming back — <strong>it is the group that decides what it wants to follow</strong>, not a set of indicators chosen elsewhere."
+    },
+    "process": {
+      "title": "How it works",
+      "s1": {
+        "title": "Forming a group",
+        "text": "Members come together in small groups: by occupation, by seniority, by gender or by level in the hierarchy. It is these groups that give testimony."
+      },
+      "s2": {
+        "title": "Giving testimony",
+        "text": "Everyone files their testimony whenever they want, while the experience is still fresh. Anonymised, the testimonies are read and discussed by the other members of the group."
+      },
+      "s3": {
+        "title": "Asking",
+        "text": "The group asks its own questions — up to five, persistent. They become its indicators: what it has decided to keep an eye on."
+      },
+      "s4": {
+        "title": "Understanding",
+        "text": "Each week, the testimonies filed are summarised and set against the group’s questions. Recurring themes appear, and how they shift over time with them."
+      },
+      "s5": {
+        "title": "Deciding",
+        "text": "Equipped with its own testimonies and its own questions, the group decides. Over the months, a memory builds up of what has been said, seen and changed."
+      },
+      "m1": {
+        "crumb1": "Municipality of …",
+        "crumb2": "Groups",
+        "title": "Groups",
+        "cta": "+ New group",
+        "a": {
+          "name": "The support team",
+          "members": "12 members"
+        },
+        "b": {
+          "name": "Frontline management",
+          "members": "7 members"
+        },
+        "c": {
+          "name": "Evening teams",
+          "members": "9 members"
+        },
+        "d": {
+          "name": "New joiners",
+          "members": "5 members"
+        },
+        "note": "Each group has its own space: its testimonies, its questions, its feed."
+      },
+      "m2": {
+        "crumb1": "Municipality of …",
+        "crumb2": "The support team",
+        "crumb3": "Give testimony",
+        "title": "Share your testimony",
+        "sub": "Choose how you would like to share your experience",
+        "voice": "Voice",
+        "text": "Text",
+        "hint": "Tap the microphone to start recording your testimony",
+        "foot": "All testimonies are confidential."
+      },
+      "m3": {
+        "crumb1": "Municipality of …",
+        "crumb2": "The support team",
+        "crumb3": "The group’s questions",
+        "title": "The group’s questions",
+        "cta": "+ New question",
+        "note": "The questions asked here become the group’s indicators: what it has decided to keep an eye on.",
+        "a": {
+          "q": "How is the arrival of the new software changing our autonomy?",
+          "meta": "2 analyses"
+        },
+        "b": {
+          "q": "What support measures have been put in place?",
+          "meta": "1 analysis"
+        },
+        "c": {
+          "q": "What actually helped during the last reorganisations?",
+          "meta": "0 analyses"
+        }
+      },
+      "m4": {
+        "crumb1": "Municipality of …",
+        "crumb2": "The support team",
+        "crumb3": "Themes",
+        "count": "Themes (17)",
+        "t1": "Losing control of the tool",
+        "t2": "Autonomy being fragmented",
+        "t3": "Time pressure",
+        "t4": "Relief through delegation",
+        "t5": "Intergenerational tensions",
+        "presence": "Theme present",
+        "weeks": "Present 5 weeks out of 7",
+        "summary": "The testimonies describe both a relief — routine tasks delegated — and a loss of control over decisions."
+      },
+      "m5": {
+        "crumb1": "Municipality of …",
+        "crumb2": "The support team",
+        "crumb3": "This week’s answers",
+        "week": "Week 45",
+        "count": "14 testimonies",
+        "a": {
+          "q": "What support measures have been put in place?",
+          "a": "Three testimonies mention the September training, two the presence of a designated contact. Nobody mentions the discussion sessions announced in June.",
+          "trend": "Previous week: one more mention"
+        },
+        "b": {
+          "q": "How is the arrival of the new software changing our autonomy?",
+          "a": "The subject comes back for the fifth week running, this time from the angle of imposed deadlines rather than the tool itself.",
+          "trend": "Previous week: same volume"
+        }
+      }
+    },
+    "audience": {
+      "title": "Who it is for",
+      "work": {
+        "title": "Improving work",
+        "a": "Occupational psychologists",
+        "b": "Works councils and staff representatives",
+        "c": "Trade unions",
+        "d": "Managers and teams"
+      },
+      "participation": {
+        "title": "Strengthening participation",
+        "a": "Citizen groups",
+        "b": "Local democracy practitioners",
+        "c": "Cooperatives and associations"
+      }
+    },
+    "status": {
+      "title": "Where this product stands",
+      "text": "The platform exists but <strong>is no longer sold self-service</strong>. We prefer to move forward case by case, and to build a platform suited to the needs of each organisation that wants to use it seriously.",
+      "more": "Why we made that choice, and what we learned from selling it, is told on the <a>about</a> page."
+    },
+    "outro": {
+      "title": "A group to equip? Let’s talk about it.",
+      "text": "Tell us who gives testimony, at what pace, and what the group wants to follow. We will work out together whether the platform makes sense in your case.",
+      "cta": "Write to us"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Cohortes — About"
+    },
+    "hero": {
+      "kicker": "About",
+      "title": "We work on one thing only: making a group visible to itself."
+    },
+    "origin": {
+      "title": "Where it comes from",
+      "a": "From the <strong>retrospective</strong>. It is a workshop borrowed from agile methods: every two weeks, the people who work together stop for an hour and say what worked, what got stuck, what ought to change.",
+      "b": "Two things frustrated us. The first: <strong>once the workshop is over, what was said is hard to consult again</strong>. Rereading it, cross-checking it or counting it takes work that we do not always make time for.",
+      "c": "The second: <strong>follow-up hangs by a thread</strong>. The actions decided are usually written down, but knowing whether the problem raised in March is still there in June, or how many times it has come back since, in fact rests on the memory of those who were in the room.",
+      "d": "That said, the retrospective has one merit: <strong>it builds a team</strong>. By saying together what is going well and what is not, people who work side by side become a group.",
+      "e": "Hence the idea: a platform where everyone files their testimony whenever they want, and where the group decides for itself what it wants to follow. The starting hypothesis came down to one question: <strong>if a group takes hold of a testimony tool, does that change the way work is organised?</strong>"
+    },
+    "market": {
+      "title": "The reality of the market",
+      "a": "The first obstacle was <strong>the fear of free text</strong>. A platform where any subject can be discussed is unsettling: you do not know what will be written there, nor what you will have to do about it.",
+      "b": "The second runs deeper. <strong>Quality of working life is still a byword for emergency, rarely for foresight</strong>: people call once something has already broken, not to stop it breaking.",
+      "c": "After a year and a half, the conclusion was simple: change or shut down. It was <a>AD Conseil</a>, an occupational psychology practice, that opened the other door for us, the one to <strong>workplace harassment investigations</strong>."
+    },
+    "team": {
+      "title": "The team",
+      "roberto": "Founder",
+      "fadi": "President of AD Conseil, our reference occupational psychologist",
+      "louise": "Founder, former CEO, still backing us :)"
+    },
+    "build": {
+      "title": "What we build",
+      "lede": "Two pieces of software, two moments: one for when an investigation is open, the other for when a group speaks up throughout the year.",
+      "enquete": {
+        "a": {
+          "title": "The tool prepares, you conclude",
+          "text": "It anonymises, labels, dates and sources. Interpretation, the debrief and the conclusion remain your profession."
+        },
+        "b": {
+          "title": "Nothing is asserted without its source",
+          "text": "Every fact is dated and tied back to the testimony it was drawn from. That is what makes a debrief defensible."
+        },
+        "c": {
+          "title": "The coding framework is yours",
+          "text": "Shipped with the software, built from the themes that surface from the testimonies, or created by hand. Three routes, a single grid: yours."
+        },
+        "cta": "Discover the investigation software"
+      },
+      "plateforme": {
+        "a": {
+          "title": "Speech should travel up, not down",
+          "text": "Workplace listening tools are top-down: management asks the questions, employees tick the boxes. Here, it is the ground that says what counts, in its own words."
+        },
+        "b": {
+          "title": "The group before the individual",
+          "text": "What is interesting is not who is speaking, but how a group stands in relation to the way work is organised. An isolated testimony reads as a feeling; a body of them tells the story of a system."
+        },
+        "c": {
+          "title": "A questionnaire only finds what it is looking for",
+          "text": "Closed questions put bounds on the answers. Open testimony lets through what nobody had thought to ask about."
+        },
+        "cta": "Discover the open testimony platform"
+      }
+    }
   },
   "blog": {
     "title": "Blog",
@@ -132,27 +534,6 @@
       "subordination-performance-outils-travail": {
         "title": "How work organization tools embed the subordination of working conditions to performance?",
         "excerpt": "Companies equip themselves with organizational tools to achieve performance. This is one of the discourses used to justify the presence of work organization tools in companies. Without them, the organization would be chaotic,"
-      }
-    }
-  },
-  "footer": {
-    "tagline": "Collective intelligence and empowerment",
-    "rights": "All rights reserved"
-  },
-  "about": {
-    "meta": {
-      "title": "About Us | Cohortes",
-      "description": "Meet the founding team of Cohortes, Louise Naudin and Roberto Barros De Sousa"
-    },
-    "title": "About Us",
-    "subtitle": "The team building Cohortes to strengthen collective intelligence",
-    "team": {
-      "title": "Our Team",
-      "louise": {
-        "role": "Founder and CEO"
-      },
-      "roberto": {
-        "role": "Founder and CTO"
       }
     }
   }

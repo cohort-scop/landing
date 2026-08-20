@@ -1,102 +1,163 @@
-import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
-import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
+import { AD_CONSEIL_URL, CONTACT_EMAIL, LINKEDIN } from '@/components/site/config';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'about' });
-
-  return {
-    title: t('meta.title'),
-    description: t('meta.description'),
-  };
+  const t = await getTranslations({ locale, namespace: 'about.meta' });
+  return { title: t('title') };
 }
+
+const TEAM = [
+  {
+    key: 'roberto',
+    name: 'Roberto Barros De Sousa',
+    image: '/images/about/roberto.png',
+    width: 389,
+    height: 389,
+    email: CONTACT_EMAIL,
+    linkedin: LINKEDIN.roberto,
+  },
+  {
+    key: 'fadi',
+    name: 'Fadi Joseph Lahiani',
+    image: '/images/about/fadi.webp',
+    width: 224,
+    height: 224,
+    email: null,
+    linkedin: LINKEDIN.fadi,
+  },
+  {
+    key: 'louise',
+    name: 'Louise Naudin',
+    image: '/images/about/louise.png',
+    width: 800,
+    height: 800,
+    email: null,
+    linkedin: LINKEDIN.louise,
+  },
+] as const;
 
 export default function AboutPage() {
   const t = useTranslations('about');
-
-  const team = [
-    {
-      name: 'Louise Naudin',
-      role: t('team.louise.role'),
-      email: 'louise@cohortes.co',
-      linkedin: 'https://www.linkedin.com/in/louisenaudin/',
-      image: '/images/about/louise.png',
-    },
-    {
-      name: 'Roberto Barros De Sousa',
-      role: t('team.roberto.role'),
-      email: 'roberto@cohortes.co',
-      linkedin: 'https://www.linkedin.com/in/roberto-barros-de-sousa-16635665/',
-      image: '/images/about/roberto.png',
-    },
-  ];
+  const p = useTranslations('products');
+  const strong = { strong: (chunks: React.ReactNode) => <strong>{chunks}</strong> };
 
   return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-cohortes-orange/10 to-white">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cohortes-dark mb-6">
-            {t('title')}
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-            {t('team.title')}
-          </p>
+    <div className="site-page">
+      <section className="hero">
+        <div className="wrap">
+          <p className="hero-kicker">{t('hero.kicker')}</p>
+          <h1 className="hero-title">{t('hero.title')}</h1>
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12">
-            {team.map((member) => (
-              <div
-                key={member.email}
-                className="flex flex-col items-center text-center p-8 rounded-2xl bg-gray-50 hover:shadow-xl transition-shadow"
-              >
-                {/* Photo */}
-                <div className="w-32 h-32 rounded-full overflow-hidden mb-6 relative">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+      <div className="wrap">
+        <section className="sec sec-first deco deco-intro reveal" id="origine">
+          <div className="sec-head">
+            <h2 className="sec-title">{t('origin.title')}</h2>
+          </div>
+          <div className="sec-prose">
+            {(['a', 'b', 'c', 'd', 'e'] as const).map((key) => (
+              <p key={key}>{t.rich(`origin.${key}`, strong)}</p>
+            ))}
+          </div>
+        </section>
 
-                <h3 className="text-2xl font-bold text-cohortes-dark mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-lg text-cohortes-orange font-semibold mb-4">
-                  {member.role}
-                </p>
+        <section className="sec deco deco-marche reveal" id="marche">
+          <div className="sec-head">
+            <h2 className="sec-title">{t('market.title')}</h2>
+          </div>
+          <div className="sec-prose">
+            <p>{t.rich('market.a', strong)}</p>
+            <p>{t.rich('market.b', strong)}</p>
+            <p>
+              {t.rich('market.c', {
+                ...strong,
+                a: (chunks) => (
+                  <a href={AD_CONSEIL_URL} target="_blank" rel="noopener noreferrer">
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
+          </div>
+        </section>
 
-                <div className="flex flex-col gap-3 mt-4">
-                  <a
-                    href={`mailto:${member.email}`}
-                    className="text-gray-600 hover:text-cohortes-orange transition-colors"
-                  >
-                    {member.email}
-                  </a>
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
-                  >
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                    </svg>
-                    LinkedIn
-                  </a>
+        <section className="sec reveal" id="equipe">
+          <div className="sec-head">
+            <h2 className="sec-title">{t('team.title')}</h2>
+          </div>
+          <div className="team-grid">
+            {TEAM.map((member) => (
+              <div className="person" key={member.key}>
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  width={member.width}
+                  height={member.height}
+                  sizes="84px"
+                />
+                <div>
+                  <p className="person-name">{member.name}</p>
+                  <p className="person-role">{t(`team.${member.key}`)}</p>
+                  <p className="person-links">
+                    {member.email && <a href={`mailto:${member.email}`}>{member.email}</a>}
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                      LinkedIn
+                    </a>
+                  </p>
                 </div>
               </div>
             ))}
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+
+        <section className="sec deco deco-produits reveal" id="produits">
+          <div className="sec-head">
+            <h2 className="sec-title">{t('build.title')}</h2>
+          </div>
+          <div className="sec-prose">
+            <p>{t('build.lede')}</p>
+          </div>
+
+          <h3 className="sub-title">{p('enquete.name')}</h3>
+          <div className="cards">
+            {(['a', 'b', 'c'] as const).map((key) => (
+              <div className="card" key={key}>
+                <h3>{t(`build.enquete.${key}.title`)}</h3>
+                <p>{t(`build.enquete.${key}.text`)}</p>
+              </div>
+            ))}
+          </div>
+          <p className="more">
+            <Link className="more-link" href="/enquete">
+              {t('build.enquete.cta')}
+            </Link>
+          </p>
+
+          <h3 className="sub-title">{p('plateforme.name')}</h3>
+          <div className="cards">
+            {(['a', 'b', 'c'] as const).map((key) => (
+              <div className="card" key={key}>
+                <h3>{t(`build.plateforme.${key}.title`)}</h3>
+                <p>{t(`build.plateforme.${key}.text`)}</p>
+              </div>
+            ))}
+          </div>
+          <p className="more">
+            <Link className="more-link" href="/plateforme">
+              {t('build.plateforme.cta')}
+            </Link>
+          </p>
+        </section>
+      </div>
+    </div>
   );
 }
