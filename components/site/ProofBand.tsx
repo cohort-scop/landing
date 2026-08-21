@@ -19,7 +19,7 @@ const LOGOS = [
     src: '/images/proof/anact.png',
     width: 507,
     height: 263,
-    alt: 'Anact — Agence nationale pour l’amélioration des conditions de travail',
+    alt: 'Anact, Agence nationale pour l’amélioration des conditions de travail',
   },
   { src: '/images/proof/paris.png', width: 220, height: 72, alt: 'Paris&Co' },
 ] as const;

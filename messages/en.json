@@ -34,7 +34,7 @@
     "lede": "You have run a quantitative survey? Here is what happens, step by step.",
     "lossLabel": "What you no longer do",
     "step1": {
-      "num": "Step 1 — Import",
+      "num": "Step 1: Import",
       "title": "CSV, Google Forms, Typeform, Sphinx… you drop in the export",
       "text": "Whatever tool did the collecting: they all export a table.",
       "loss": "Copying responses one by one into a working document.",
@@ -48,7 +48,7 @@
       }
     },
     "step2": {
-      "num": "Step 2 — Processing",
+      "num": "Step 2: Processing",
       "title": "Every testimony goes through the same grid",
       "loss": "Rereading the testimonies over and over to work out which ones deserve your attention.",
       "screen": {
@@ -73,7 +73,7 @@
       }
     },
     "step3": {
-      "num": "Step 3 — Reading",
+      "num": "Step 3: Reading",
       "title": "You move through the testimonies by theme, by person, by period, and so on.",
       "text": "Every testimony carries its labels. You combine what you are looking for and land on the testimonies concerned.",
       "loss": "Searching a spreadsheet to find out who said what.",
@@ -113,7 +113,7 @@
       }
     },
     "step4": {
-      "num": "Step 4 — Categorisation",
+      "num": "Step 4: Categorisation",
       "title": "Building your own coding framework",
       "inductive": "<b>Inductive categorisation</b>: themes surface from the testimonies, you set aside, you name, everything is recoded.",
       "manual": "<b>By hand</b>: you create your families and your categories yourself.",
@@ -126,7 +126,7 @@
         "tag2": "In public",
         "tag3": "Dated fact",
         "add": "+ add a category",
-        "note": "Harassment coding framework · 7 families, 44 categories — editable.",
+        "note": "Harassment coding framework · 7 families, 44 categories · editable.",
         "inductiveTitle": "Inductive analysis · themes outside the framework",
         "a": {
           "label": "Reorganisations losing their meaning",
@@ -143,7 +143,7 @@
       }
     },
     "step5": {
-      "num": "Step 5 — Chronology",
+      "num": "Step 5: Chronology",
       "title": "Every dated fact, tied back to its testimony",
       "text": "The facts are put back in order automatically, and each one keeps the verbatim it was drawn from. That is what makes the debrief defensible: nothing is asserted without a way back to the source.",
       "loss": "Rebuilding the chronology by hand, piecing the dates together one at a time.",
@@ -174,7 +174,7 @@
   },
   "home": {
     "meta": {
-      "title": "Cohortes — testimony analysis software: workplace harassment investigations, psychosocial risk assessments, workplace wellbeing surveys",
+      "title": "Cohortes: testimony analysis software for workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
       "description": "Cohortes equips workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys: anonymisation of testimonies, categorisation against a coding framework, chronology of dated facts."
     },
     "hero": {
@@ -263,16 +263,16 @@
       "title": "AI spots, dates and labels. It does not conclude for you.",
       "lede": "Generating text on your behalf holds no interest for us, and letting an algorithm decide what your conclusions should be even less. Our tools exist to give you as much grip as possible on your testimonies: anonymising them, filing them, dating them, sourcing them. <strong>What to make of them remains your profession.</strong>",
       "models": {
-        "title": "Open models, hosted at OVHcloud",
-        "text": "Processing runs at OVHcloud, a French provider, on open source models."
+        "title": "AI hosted in France",
+        "text": "Testimonies are analysed on servers located in France, at OVHcloud, a French provider. They never leave European territory and no foreign authority can demand access to them. The models used are open source: no dependency on an American vendor."
       },
       "retention": {
-        "title": "Zero retention",
-        "text": "OVHcloud does not look at the content sent to it, does not keep it and does not use it to train its models."
+        "title": "Nothing is kept",
+        "text": "Testimonies are analysed, then deleted. They are not read, not stored, and never used to train a model. This is a contractual commitment from OVHcloud."
       },
       "anonymised": {
         "title": "Anonymised from the first pass",
-        "text": "Anonymisation is the first processing step applied. Everything that circulates afterwards — summaries, categories and so on — is based on pseudonymised text."
+        "text": "Anonymisation is the first processing step applied. Everything that circulates afterwards (summaries, categories and so on) is based on pseudonymised text."
       }
     },
     "products": {
@@ -282,7 +282,7 @@
   },
   "enquete": {
     "meta": {
-      "title": "Cohortes — testimony analysis software for harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
+      "title": "Cohortes: testimony analysis software for harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
       "description": "Cohortes’ investigation software: consistent anonymisation, categorisation against a coding framework, extraction of dated facts and a chronology for each person."
     },
     "hero": {
@@ -297,7 +297,7 @@
     "privacy": {
       "title": "Confidentiality",
       "anonymisation": "<b>Anonymisation from the first pass</b>: everything that circulates afterwards is based on pseudonymised text.",
-      "retention": "<b>Zero retention</b>: processing runs at OVHcloud, on open source models. The content sent is neither kept nor used to train models — <a>OVHcloud’s commitment</a>."
+      "retention": "<b>Nothing is kept</b>: testimonies are analysed in France, at OVHcloud, on open source models, then deleted. They are not read, not stored, and never used to train a model. <a>OVHcloud’s commitment</a>."
     },
     "outro": {
       "title": "An investigation under way?",
@@ -308,7 +308,7 @@
   },
   "plateforme": {
     "meta": {
-      "title": "Cohortes — open testimony platform for groups at work",
+      "title": "Cohortes: open testimony platform for groups at work",
       "description": "Cohortes’ open testimony platform: everyone files their testimony whenever they want, the group decides what it follows, and sees what keeps coming back over the year."
     },
     "hero": {
@@ -318,7 +318,7 @@
     },
     "principle": {
       "title": "The principle",
-      "text": "In an organisation, everyone knows their own situation. Nobody knows how many others are living the same one. The platform gathers testimonies over the year and shows what keeps coming back — <strong>it is the group that decides what it wants to follow</strong>, not a set of indicators chosen elsewhere."
+      "text": "In an organisation, everyone knows their own situation. Nobody knows how many others are living the same one. The platform gathers testimonies over the year and shows what keeps coming back, <strong>it is the group that decides what it wants to follow</strong>, not a set of indicators chosen elsewhere."
     },
     "process": {
       "title": "How it works",
@@ -332,7 +332,7 @@
       },
       "s3": {
         "title": "Asking",
-        "text": "The group asks its own questions — up to five, persistent. They become its indicators: what it has decided to keep an eye on."
+        "text": "The group asks its own questions, up to five, persistent. They become its indicators: what it has decided to keep an eye on."
       },
       "s4": {
         "title": "Understanding",
@@ -408,7 +408,7 @@
         "t5": "Intergenerational tensions",
         "presence": "Theme present",
         "weeks": "Present 5 weeks out of 7",
-        "summary": "The testimonies describe both a relief — routine tasks delegated — and a loss of control over decisions."
+        "summary": "The testimonies describe both a relief, routine tasks delegated, and a loss of control over decisions."
       },
       "m5": {
         "crumb1": "Municipality of …",
@@ -457,7 +457,7 @@
   },
   "about": {
     "meta": {
-      "title": "Cohortes — About"
+      "title": "Cohortes: About"
     },
     "hero": {
       "kicker": "About",

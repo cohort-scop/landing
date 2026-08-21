@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title:
-    "Cohortes — logiciel d’analyse de témoignages : enquêtes harcèlement au travail, diagnostics RPS, baromètres QVCT",
+    "Cohortes : logiciel d’analyse de témoignages pour enquêtes harcèlement au travail, diagnostics RPS et baromètres QVCT",
   description:
     "Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT : anonymisation des témoignages, catégorisation sur référentiel, chronologie des faits datés.",
 };

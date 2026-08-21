@@ -34,7 +34,7 @@
     "lede": "Vous avez fait une enquête quantitative ? Voilà ce qui se passe étape par étape.",
     "lossLabel": "Ce que vous ne faites plus",
     "step1": {
-      "num": "Étape 1 — L’import",
+      "num": "Étape 1 : L’import",
       "title": "CSV, Google Forms, Typeform, Sphinx… vous déposez l’export",
       "text": "Peu importe l’outil qui a servi à collecter : ils exportent tous un tableau.",
       "loss": "Recopier les réponses une à une dans un document de travail.",
@@ -48,7 +48,7 @@
       }
     },
     "step2": {
-      "num": "Étape 2 — Le traitement",
+      "num": "Étape 2 : Le traitement",
       "title": "Chaque témoignage passe par la même grille",
       "loss": "Relire sans cesse les témoignages pour savoir lesquels méritent votre attention.",
       "screen": {
@@ -73,7 +73,7 @@
       }
     },
     "step3": {
-      "num": "Étape 3 — La lecture",
+      "num": "Étape 3 : La lecture",
       "title": "Vous naviguez dans les témoignages par thème, par personne, par période, etc.",
       "text": "Chaque témoignage porte ses étiquettes. Vous croisez ce que vous cherchez et vous tombez sur les témoignages concernés.",
       "loss": "Chercher dans un tableur pour retrouver qui a parlé de quoi.",
@@ -113,7 +113,7 @@
       }
     },
     "step4": {
-      "num": "Étape 4 — La catégorisation",
+      "num": "Étape 4 : La catégorisation",
       "title": "Construire votre référentiel de catégorisation",
       "inductive": "<b>Catégorisation inductive</b> : les thèmes remontent des témoignages, vous écartez, vous nommez, tout est recodé.",
       "manual": "<b>À la main</b> : vous créez vos familles et vos catégories vous-même.",
@@ -126,7 +126,7 @@
         "tag2": "Public",
         "tag3": "Fait daté",
         "add": "+ ajouter une catégorie",
-        "note": "Référentiel harcèlement · 7 familles, 44 catégories — modifiable.",
+        "note": "Référentiel harcèlement · 7 familles, 44 catégories · modifiable.",
         "inductiveTitle": "Analyse inductive · thèmes hors référentiel",
         "a": {
           "label": "Perte de sens des réorganisations",
@@ -143,7 +143,7 @@
       }
     },
     "step5": {
-      "num": "Étape 5 — La chronologie",
+      "num": "Étape 5 : La chronologie",
       "title": "Chaque fait daté, rattaché à son témoignage",
       "text": "Les faits sont remis en ordre de manière automatique, et chacun garde le verbatim dont il est tiré. C’est ce qui rend la restitution opposable : rien n’est affirmé sans qu’on puisse remonter à la source.",
       "loss": "Reconstituer la chronologie à la main, en recollant les dates une par une.",
@@ -174,7 +174,7 @@
   },
   "home": {
     "meta": {
-      "title": "Cohortes — logiciel d’analyse de témoignages : enquêtes harcèlement au travail, diagnostics RPS, baromètres QVCT",
+      "title": "Cohortes : logiciel d’analyse de témoignages pour enquêtes harcèlement au travail, diagnostics RPS et baromètres QVCT",
       "description": "Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT : anonymisation des témoignages, catégorisation sur référentiel, chronologie des faits datés."
     },
     "hero": {
@@ -263,12 +263,12 @@
       "title": "L’IA repère, date et étiquette. Elle ne conclut pas à votre place.",
       "lede": "Générer du texte à votre place ne nous intéresse pas, et laisser un algorithme décider de la nature de vos conclusions encore moins. Nos outils servent à vous donner le maximum de prise sur vos témoignages : les anonymiser, les ranger, les dater, les sourcer. <strong>Ce qu’il faut en comprendre reste votre métier.</strong>",
       "models": {
-        "title": "Des modèles ouverts, chez OVHcloud",
-        "text": "Les traitements tournent chez OVHcloud, fournisseur français, sur des modèles open source."
+        "title": "Une IA hébergée en France",
+        "text": "Les témoignages sont analysés sur des serveurs situés en France, chez OVHcloud, un fournisseur français. Ils ne quittent jamais le territoire européen et aucune autorité étrangère ne peut les réclamer. Les modèles utilisés sont open source : aucune dépendance à un éditeur américain."
       },
       "retention": {
-        "title": "Rétention zéro",
-        "text": "OVHcloud ne regarde pas les contenus qui lui sont envoyés, ne les conserve pas et ne s’en sert pas pour entraîner ses modèles."
+        "title": "Rien n’est conservé",
+        "text": "Les témoignages sont analysés puis effacés. Ils ne sont ni relus, ni stockés, ni utilisés pour entraîner un modèle. C’est un engagement contractuel d’OVHcloud."
       },
       "anonymised": {
         "title": "Anonymisé dès la première passe",
@@ -282,7 +282,7 @@
   },
   "enquete": {
     "meta": {
-      "title": "Cohortes — logiciel d’analyse de témoignages pour enquêtes de harcèlement, diagnostics RPS et baromètres QVCT",
+      "title": "Cohortes : logiciel d’analyse de témoignages pour enquêtes de harcèlement, diagnostics RPS et baromètres QVCT",
       "description": "Le logiciel d’enquête de Cohortes : anonymisation cohérente, catégorisation sur référentiel, extraction des faits datés et chronologie par personne."
     },
     "hero": {
@@ -297,7 +297,7 @@
     "privacy": {
       "title": "Confidentialité",
       "anonymisation": "<b>Anonymisation dès la première passe</b> : tout ce qui circule ensuite l’est sur du texte pseudonymisé.",
-      "retention": "<b>Rétention zéro</b> : les traitements tournent chez OVHcloud, sur des modèles open source. Les contenus envoyés ne sont ni conservés, ni utilisés pour entraîner des modèles — <a>l’engagement d’OVHcloud</a>."
+      "retention": "<b>Rien n’est conservé</b> : les témoignages sont analysés en France, chez OVHcloud, sur des modèles open source, puis effacés. Ils ne sont ni relus, ni stockés, ni utilisés pour entraîner un modèle. <a>L’engagement d’OVHcloud</a>."
     },
     "outro": {
       "title": "Une enquête en cours ?",
@@ -308,7 +308,7 @@
   },
   "plateforme": {
     "meta": {
-      "title": "Cohortes — plateforme de témoignage libre pour les collectifs au travail",
+      "title": "Cohortes : plateforme de témoignage libre pour les collectifs au travail",
       "description": "La plateforme de témoignage libre de Cohortes : chacun dépose son témoignage quand il le veut, le collectif décide de ce qu’il suit, et voit ce qui revient au fil de l’année."
     },
     "hero": {
@@ -318,7 +318,7 @@
     },
     "principle": {
       "title": "Le principe",
-      "text": "Dans une organisation, chacun connaît sa propre situation. Personne ne sait combien d’autres vivent la même. La plateforme rassemble les témoignages au fil de l’année et montre ce qui revient — <strong>c’est le collectif qui décide de ce qu’il veut suivre</strong>, pas une grille d’indicateurs choisie ailleurs."
+      "text": "Dans une organisation, chacun connaît sa propre situation. Personne ne sait combien d’autres vivent la même. La plateforme rassemble les témoignages au fil de l’année et montre ce qui revient, <strong>c’est le collectif qui décide de ce qu’il veut suivre</strong>, pas une grille d’indicateurs choisie ailleurs."
     },
     "process": {
       "title": "Comment ça se passe",
@@ -332,7 +332,7 @@
       },
       "s3": {
         "title": "Questionner",
-        "text": "Le groupe pose ses propres questions — jusqu’à cinq, persistantes. Elles deviennent ses indicateurs : ce sur quoi il a décidé de garder un œil."
+        "text": "Le groupe pose ses propres questions, jusqu’à cinq, persistantes. Elles deviennent ses indicateurs : ce sur quoi il a décidé de garder un œil."
       },
       "s4": {
         "title": "Comprendre",
@@ -408,7 +408,7 @@
         "t5": "Tensions intergénérationnelles",
         "presence": "Présence du thème",
         "weeks": "Présent 5 semaines sur 7",
-        "summary": "Les témoignages décrivent à la fois un soulagement — tâches routinières déléguées — et une perte de maîtrise sur les décisions."
+        "summary": "Les témoignages décrivent à la fois un soulagement, tâches routinières déléguées, et une perte de maîtrise sur les décisions."
       },
       "m5": {
         "crumb1": "Municipalité de …",
@@ -457,7 +457,7 @@
   },
   "about": {
     "meta": {
-      "title": "Cohortes — À propos"
+      "title": "Cohortes : À propos"
     },
     "hero": {
       "kicker": "À propos",

@@ -58,7 +58,7 @@ export default function BlogPost() {
             <h2>2. Les faiblesses des démarches de diagnostic classiques</h2>
 
             <p>
-              Dans de nombreuses démarches de diagnostic, le témoignage est remplacé – ou fortement contraint – par des <strong>dispositifs quantitatifs</strong> qui conduisent à appauvrir la collecte et restreindre le potentiel offert par la parole des collaborateur·ices. En témoignent l'envoi massif de questionnaires et la standardisation des possibilités de réponse.
+              Dans de nombreuses démarches de diagnostic, le témoignage est remplacé, ou fortement contraint, par des <strong>dispositifs quantitatifs</strong> qui conduisent à appauvrir la collecte et restreindre le potentiel offert par la parole des collaborateur·ices. En témoignent l'envoi massif de questionnaires et la standardisation des possibilités de réponse.
             </p>
 
             <p>
@@ -70,7 +70,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              S'ils ont une ambition importante – écouter les salarié·es, les aider à formuler des retours constructifs –, ces dispositifs posent ainsi plusieurs problèmes structurels.
+              S'ils ont une ambition importante, écouter les salarié·es, les aider à formuler des retours constructifs, ces dispositifs posent ainsi plusieurs problèmes structurels.
             </p>
 
             <h3>2.1 Des questions descendantes qui peuvent manquer l'essentiel</h3>

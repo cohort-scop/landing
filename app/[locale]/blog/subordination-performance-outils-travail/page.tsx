@@ -50,7 +50,7 @@ export default function BlogPost() {
             className="prose prose-xl max-w-none [&_a]:text-blue-600 [&_a]:underline [&>p]:mb-8 [&_p]:text-lg [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:mt-12 [&_h2]:mb-6 [&_h3]:text-2xl [&_h3]:font-semibold [&_h3]:mt-8 [&_h3]:mb-4"
           >
             <p>
-              <a href="https://adconseil.org/le-blog-qvt-comment-les-outils-dorganisation-du-travail-inscrivent-la-subordination-des-conditions-de-travail-a-la-performance/">[ARTICLE – Semaine QVCT 2024]</a>  "L’entreprise se dote d’outils d’organisation pour mener à bien la performance". C’est l’un des discours utilisé pour justifier la présence des outils d’organisation du travail en entreprise. Sans eux, l’organisation serait chaotique, la gestion impossible et la performance impactée. L’absence d’outil symboliserait l’absence d’organisation.
+              <a href="https://adconseil.org/le-blog-qvt-comment-les-outils-dorganisation-du-travail-inscrivent-la-subordination-des-conditions-de-travail-a-la-performance/">[ARTICLE: Semaine QVCT 2024]</a>  "L’entreprise se dote d’outils d’organisation pour mener à bien la performance". C’est l’un des discours utilisé pour justifier la présence des outils d’organisation du travail en entreprise. Sans eux, l’organisation serait chaotique, la gestion impossible et la performance impactée. L’absence d’outil symboliserait l’absence d’organisation.
             </p>
 
             <p>
