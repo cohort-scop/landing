@@ -29,6 +29,43 @@
     "privacy": "Politique de confidentialité",
     "cookies": "Gestion des cookies"
   },
+  "confidentialite": {
+    "meta": {
+      "title": "Confidentialité & cookies · Cohortes",
+      "description": "Le site Cohortes n’utilise aucun cookie de mesure d’audience ni de tracking. Seule votre préférence de langue est enregistrée, dans un cookie strictement nécessaire."
+    },
+    "hero": {
+      "kicker": "Confidentialité",
+      "title": "Confidentialité & cookies"
+    },
+    "cookies": {
+      "title": "Notre politique de cookies",
+      "lede": "Ce site dépose un seul cookie, strictement nécessaire à son fonctionnement.",
+      "a": "Aucune mesure d’audience, aucun tracking, aucune publicité : ce site ne dépose <strong>aucun cookie de suivi</strong>.",
+      "b": "Un seul cookie est enregistré : <strong>NEXT_LOCALE</strong>, qui mémorise votre préférence de langue (français ou anglais) pendant un an.",
+      "c": "Ce cookie est nécessaire au fonctionnement du site et est donc <strong>exempté de consentement</strong> au sens de la recommandation de la CNIL « cookies et traceurs »."
+    },
+    "data": {
+      "title": "Aucune donnée personnelle collectée",
+      "a": "La consultation de ce site ne collecte aucune donnée personnelle : pas de formulaire, pas de compte, pas d’identification à partir de votre adresse IP.",
+      "b": "Le site est hébergé par Vercel, Inc., qui traite les requêtes techniques nécessaires à la fourniture du site."
+    },
+    "rights": {
+      "title": "Vos droits",
+      "lede": "Conformément au RGPD, vous disposez de droits sur vos données :",
+      "items": {
+        "a": "Droit d’accès aux données vous concernant",
+        "b": "Droit de rectification",
+        "c": "Droit à l’effacement",
+        "d": "Droit de vous opposer au traitement"
+      },
+      "a": "Pour toute question relative à la confidentialité ou pour exercer ces droits, écrivez-nous à"
+    },
+    "contact": {
+      "title": "Contact",
+      "a": "Une question sur cette politique ? Écrivez-nous à"
+    }
+  },
   "walkthrough": {
     "title": "Le déroulé d’une enquête",
     "lede": "Vous avez fait une enquête quantitative ? Voilà ce qui se passe étape par étape.",
@@ -174,7 +211,7 @@
   },
   "home": {
     "meta": {
-      "title": "Cohortes : logiciel d’analyse de témoignages pour enquêtes harcèlement au travail, diagnostics RPS et baromètres QVCT",
+      "title": "Logiciel d'enquêtes harcèlement au travail, RPS et QVCT — Cohortes",
       "description": "Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT : anonymisation des témoignages, catégorisation sur référentiel, chronologie des faits datés."
     },
     "hero": {
@@ -282,7 +319,7 @@
   },
   "enquete": {
     "meta": {
-      "title": "Cohortes : logiciel d’analyse de témoignages pour enquêtes de harcèlement, diagnostics RPS et baromètres QVCT",
+      "title": "Logiciel d'analyse de témoignages pour enquêtes de harcèlement — Cohortes",
       "description": "Le logiciel d’enquête de Cohortes : anonymisation cohérente, catégorisation sur référentiel, extraction des faits datés et chronologie par personne."
     },
     "hero": {
@@ -457,7 +494,8 @@
   },
   "about": {
     "meta": {
-      "title": "Cohortes : À propos"
+      "title": "Cohortes : À propos",
+      "description": "L’équipe derrière Cohortes : le logiciel d’analyse de témoignages pour enquêtes de harcèlement, diagnostics RPS et baromètres QVCT, né d’une pratique de la rétrospective."
     },
     "hero": {
       "kicker": "À propos",
@@ -522,6 +560,8 @@
     "title": "Blog",
     "subtitle": "Réflexions sur l'intelligence collective, le dialogue social et la participation citoyenne",
     "readMore": "Lire la suite",
+    "readNext": "À lire aussi",
+    "ctaEnquete": "Découvrir le logiciel d'enquête",
     "posts": {
       "methodologie-diagnostic-conditions-travail": {
         "title": "Un cadre méthodologique pour un meilleur diagnostic des conditions de travail",

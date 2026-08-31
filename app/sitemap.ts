@@ -1,6 +1,5 @@
-import { MetadataRoute } from 'next'
-
-const baseUrl = 'https://www.cohortes.co'
+import type { MetadataRoute } from 'next'
+import { BASE } from '@/lib/seo'
 
 type Entry = {
   path: string
@@ -15,6 +14,7 @@ const pages: Entry[] = [
   { path: '/enquete', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/plateforme', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/about', changeFrequency: 'monthly', priority: 0.7 },
+  { path: '/confidentialite', changeFrequency: 'yearly', priority: 0.3 },
   { path: '/blog', changeFrequency: 'weekly', priority: 0.8 },
   {
     path: '/blog/methodologie-diagnostic-conditions-travail',
@@ -39,12 +39,12 @@ const pages: Entry[] = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
 
-  return pages.flatMap(({ path, changeFrequency, priority, lastModified }) => {
-    const languages = { fr: `${baseUrl}${path}`, en: `${baseUrl}/en${path}` }
+  const pagesWithAlternates = pages.flatMap(({ path, changeFrequency, priority, lastModified }) => {
+    const languages = { fr: `${BASE}${path}`, en: `${BASE}/en${path}` }
 
     return [
       {
-        url: languages.fr || baseUrl,
+        url: languages.fr || BASE,
         lastModified: lastModified ?? now,
         changeFrequency,
         priority,
@@ -60,4 +60,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     ]
   })
+
+  return [
+    ...pagesWithAlternates,
+    {
+      url: `${BASE}/rss.xml`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.3,
+    },
+  ]
 }

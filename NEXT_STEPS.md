@@ -33,7 +33,7 @@
 - [ ] Ajouter un **formulaire de contact** (avec service comme FormSpree ou SendGrid)
 - [ ] Implémenter un **système de newsletter** (Mailchimp, ConvertKit)
 - [ ] Ajouter des **boutons de partage social**
-- [ ] Créer un **cookie consent banner** (RGPD)
+- [x] Page confidentialité & cookies (RGPD) — site sans tracker, cookie NEXT_LOCALE seul, pas de bandeau nécessaire
 - [ ] Implémenter **Google reCAPTCHA** sur les formulaires
 
 ## 🔍 SEO & Performance

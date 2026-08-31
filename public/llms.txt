@@ -1,0 +1,31 @@
+# Cohortes
+
+Cohortes est un logiciel français qui outille les enquêtes de harcèlement au travail, les diagnostics de risques psychosociaux (RPS) et les baromètres de qualité de vie et conditions de travail (QVCT). Il anonymise les témoignages libres, les catégorise sur un référentiel, extrait les faits datés et reconstitue des chronologies par personne. Les témoignages sont analysés en France (OVHcloud) sur des modèles open source, puis effacés — rien n'est conservé, rien ne sert à entraîner un modèle.
+
+Cohortes est aussi une plateforme de témoignage libre : un collectif dépose sa parole quand il le veut, pose ses propres questions, et voit ce qui revient au fil de l'année.
+
+L'approche : le quantitatif et le qualitatif se complètent ; l'IA repère, date et étiquette, elle ne conclut pas à la place de l'humain. Toute restitution reste opposable car chaque fait est daté et rattaché au témoignage dont il est tiré.
+
+Site : https://www.cohortes.co — contact : roberto@cohortes.co
+
+## Pages principales
+
+- [Accueil](https://www.cohortes.co) : présentation de Cohortes, déroulé d'une enquête en 5 étapes (import, traitement, lecture, catégorisation, chronologie), IA hébergée en France, deux produits.
+- [Le logiciel d'enquête](https://www.cohortes.co/enquete) : anonymisation cohérente, catégorisation sur référentiel (7 familles, 44 catégories), extraction des faits datés, chronologie par personne.
+- [La plateforme de témoignage libre](https://www.cohortes.co/plateforme) : témoignage libre en continu, questions persistantes du collectif, thèmes récurrents semaine après semaine.
+- [À propos](https://www.cohortes.co/about) : l'origine du projet (la rétrospective agile), la réalité du marché, l'équipe (Roberto Barros De Sousa, Fadi Joseph Lahiani, Louise Naudin).
+- [Blog](https://www.cohortes.co/blog) : réflexions sur l'intelligence collective, le dialogue social et la participation.
+
+## Articles de blog
+
+- [Un cadre méthodologique pour un meilleur diagnostic des conditions de travail](https://www.cohortes.co/blog/methodologie-diagnostic-conditions-travail) — 24 déc. 2025. Méthodologie. Le cadre opérationnel de Cohortes pour des diagnostics de qualité à partir de témoignages libres : faiblesses des approches classiques (questionnaires descendants, quantitatif formaté, qualitatif trop tardif), place du témoignage vivant, outils (témoignage individuel + atelier collectif, ex. Speed Boat).
+- [Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses](https://www.cohortes.co/blog/pourquoi-ne-pas-poser-de-questions) — 10 janv. 2024. Méthodologie. Pourquoi le questionnaire n'est ni objectif ni impersonnel : catégories imposées, hiérarchie, biais de confirmation, mimétisme, freins à l'engagement. Autrice : Nais Bonnamy Jeanroy.
+- [Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?](https://www.cohortes.co/blog/subordination-performance-outils-travail) — 20 juin 2024. QVCT. Rôles et reporting dans les outils de gestion, transformation du travail en cases, risques psychosociaux, alternatives (autogestion, holacratie). Auteur : Roberto Barros De Sousa.
+
+Le texte intégral des articles (en français) est disponible dans llms-full.txt.
+
+## Note de langue
+
+- Français : sans préfixe (https://www.cohortes.co/...)
+- English : sous /en (https://www.cohortes.co/en/...)
+- Le contenu des articles de blog est disponible en français ; les pages produit sont traduites en anglais.

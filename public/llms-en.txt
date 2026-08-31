@@ -1,0 +1,29 @@
+# Cohortes
+
+Cohortes is French software that supports workplace harassment investigations, psychosocial risk assessments (RPS) and quality-of-work-life surveys (QVCT). It anonymises free-form testimonies, categorises them against a coding framework, extracts dated facts and rebuilds per-person chronologies. Testimonies are analysed in France (OVHcloud) on open source models, then deleted — nothing is kept, nothing is used to train a model.
+
+Cohortes is also an open testimony platform: a group shares its word whenever it wants, asks its own questions, and sees what keeps coming back over the year.
+
+The approach: quantitative and qualitative methods complement each other; AI spots, dates and labels, it does not conclude on behalf of the human. Every debrief stays defensible because each fact is dated and tied back to the testimony it was drawn from.
+
+Site: https://www.cohortes.co — contact: roberto@cohortes.co
+
+## Main pages
+
+- [Home](https://www.cohortes.co/en) : presentation of Cohortes, how an investigation unfolds in 5 steps (import, processing, reading, categorisation, chronology), AI hosted in France, two products.
+- [The investigation software](https://www.cohortes.co/en/enquete) : consistent anonymisation, categorisation against a coding framework (7 families, 44 categories), extraction of dated facts, per-person chronology.
+- [The open testimony platform](https://www.cohortes.co/en/plateforme) : free-flowing testimony all year round, persistent group questions, recurring themes week after week.
+- [About](https://www.cohortes.co/en/about) : the origin of the project (the agile retrospective), the reality of the market, the team (Roberto Barros De Sousa, Fadi Joseph Lahiani, Louise Naudin).
+- [Blog](https://www.cohortes.co/en/blog) : reflections on collective intelligence, social dialogue and citizen participation.
+
+## Blog articles
+
+- [A methodological framework for better working conditions diagnosis](https://www.cohortes.co/en/blog/methodologie-diagnostic-conditions-travail) — 24 Dec 2025. Methodology. Cohortes' operational framework for quality diagnoses based on free testimonies: weaknesses of classic approaches (top-down questionnaires, formatted quantitative data, qualitative steps that come too late), the place of living testimony, tools (individual testimony + collective workshops, e.g. Speed Boat).
+- [Good reasons not to ask questions when you want to get real answers](https://www.cohortes.co/en/blog/pourquoi-ne-pas-poser-de-questions) — 10 Jan 2024. Methodology. Why the questionnaire is neither objective nor impersonal: imposed categories, hierarchy, confirmation bias, mimicry, barriers to engagement. Author: Nais Bonnamy Jeanroy.
+- [How work organization tools embed the subordination of working conditions to performance?](https://www.cohortes.co/en/blog/subordination-performance-outils-travail) — 20 Jun 2024. QVCT. Roles and reporting in management tools, turning work into boxes, psychosocial risks, alternatives (self-management, holacracy). Author: Roberto Barros De Sousa.
+
+## Language note
+
+- English: under /en (https://www.cohortes.co/en/...)
+- French: without a prefix (https://www.cohortes.co/...)
+- The blog articles are available in English; the product pages are translated into both languages.

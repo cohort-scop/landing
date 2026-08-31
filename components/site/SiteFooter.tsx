@@ -59,8 +59,8 @@ export default function SiteFooter() {
         </span>
         <nav className="footer-legal" aria-label={t('legalAriaLabel')}>
           <a href="#">{t('legal')}</a>
-          <a href="#">{t('privacy')}</a>
-          <a href="#">{t('cookies')}</a>
+          <Link href="/confidentialite">{t('privacy')}</Link>
+          <Link href="/confidentialite#cookies">{t('cookies')}</Link>
         </nav>
       </div>
     </footer>

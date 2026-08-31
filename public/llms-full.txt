@@ -1,0 +1,1115 @@
+# Cohortes — texte intégral (pages en français)
+
+Extraction du rendu public de https://www.cohortes.co — généré le 2026-08-31.
+
+
+
+======================================================================
+## Accueil — https://www.cohortes.co
+======================================================================
+
+Cohortes · le témoignage au service du travail
+
+Le travail se raconte. Encore faut-il pouvoir l’entendre.
+
+Cohortes outille les enquêtes de harcèlement au travail, les diagnostics RPS et les baromètres QVCT.
+
+Nous accompagnons les intervenants en prévention des risques professionnels dans leurs pratiques, mais aussi toute organisation qui souhaite installer une plateforme de témoignage libre.
+
+Voir le déroulé d’une enquête
+
+Enquêtes › Mairie · climat social › Personnes › Michel B.
+
+Michel B.Cluster
+
+Cette fiche réunit les agissements où cette personne est citée.
+
+6 témoins la mettent en cause dans 34 agissements.
+
+7 témoins la décrivent comme cible dans 18 agissements.
+
+19 agissements la citent sans que son rôle soit établi.
+
+Tous · 78Mise en cause · 34Cible · 18Témoin présent · 9Rôle non établi · 19Observé · 0Sans verbatim · 2
+
+Contre qui
+
+Cibles des faits reprochés
+
+Noé V.8 agissements
+
+L’équipe du soir5 agissements
+
+Inès C.4 agissements
+
+Marc A.3 agissements
+
+Sonia D.3 agissements
+
+Yanis F.2 agissements
+
+Hélène P.1 agissement
+
+78 agissements, du plus ancien au plus récent
+
+2024
+
+Mise en cause Michel B. hausse le ton lors des réunions d’équipe du lundi.
+
+De mars à juin, six témoins décrivent des réunions de service où le chef de service reprend les consignes de la semaine sur un ton sec, coupe la parole et met en cause publiquement le travail rendu. Deux d’entre eux disent avoir cessé d’y intervenir.
+
+« Les réunions du lundi se passent autrement depuis son arrivée. On attend juste que ça se termine. »
+
+Témoignage 41 · Témoin 07 · 14 mars
+
+2024
+
+Mise en cause Rôle non établi Michel B. reprend un collègue devant l’équipe entière.
+
+Le 2 avril, en réunion de service, un agent qui demandait un délai supplémentaire s’est vu répondre devant tous que son travail n’était pas au niveau attendu. Deux témoins rapportent la scène de la même façon ; aucun membre de la hiérarchie présente n’est intervenu.
+
+« Il l’a dit devant tout le monde. Personne n’a réagi, et on est passés au point suivant. »
+
+Témoignage 118 · Témoin 07 · 2 avril
+
+Les organisations qui nous ont fait confiance
+
+Le déroulé d’une enquête
+
+Vous avez fait une enquête quantitative ? Voilà ce qui se passe étape par étape.
+
+Étape 1 : L’import
+
+CSV, Google Forms, Typeform, Sphinx… vous déposez l’export
+
+Peu importe l’outil qui a servi à collecter : ils exportent tous un tableau.
+
+Ce que vous ne faites plus
+
+Recopier les réponses une à une dans un document de travail.
+
+enquêtes / mairie · climat social 2026 / import
+
+↑
+
+climat-social-2026.csv · 312 témoignages
+
+Colonne retenue : « Qu’avez-vous à dire sur vos conditions de travail ? »
+
+Étape 2 : Le traitement
+
+Chaque témoignage passe par la même grille
+
+Ce que vous ne faites plus
+
+Relire sans cesse les témoignages pour savoir lesquels méritent votre attention.
+
+traitement · 312 témoignages
+
+✓Anonymisationpseudonymes cohérents sur toute l’enquête
+
+✓Résuméles points clés de chaque témoignage
+
+✓Catégorisationréférentiel harcèlement · 7 familles, 44 catégories
+
+✓Extraction des faitsce qui s’est passé, quand, et dans quel témoignage
+
+312 témoignages traités · 148 faits datés extraits · prêt à lire.
+
+Étape 3 : La lecture
+
+Vous naviguez dans les témoignages par thème, par personne, par période, etc.
+
+Chaque témoignage porte ses étiquettes. Vous croisez ce que vous cherchez et vous tombez sur les témoignages concernés.
+
+Ce que vous ne faites plus
+
+Chercher dans un tableur pour retrouver qui a parlé de quoi.
+
+témoignages · 312 · filtrés : 27
+
+Famille : conditions de travailPériode : mars — juinCatégoriePersonneFaits datés uniquement
+
+Témoin 07Témoignage 4114 mars
+
+Réunions du lundi tendues depuis un changement d’équipe ; consignes contradictoires.
+
+Organisation du travailConsignesFait daté
+
+Témoin 12Témoignage 6321 mars
+
+Charge redistribuée sans annonce ; deux départs non remplacés dans le service.
+
+Charge de travailEffectifs
+
+Témoin 07Témoignage 1182 avril
+
+Remarque répétée en réunion devant l’équipe ; aucune réaction de la hiérarchie.
+
+Relations de travailPublicFait daté
+
+Étape 4 : La catégorisation
+
+Construire votre référentiel de catégorisation
+
+Catégorisation inductive : les thèmes remontent des témoignages, vous écartez, vous nommez, tout est recodé.
+
+À la main : vous créez vos familles et vos catégories vous-même.
+
+Grille préétablie : les référentiels livrés avec l’outil.
+
+Ce que vous ne faites plus
+
+Catégoriser chaque témoignage à la main.
+
+témoignage 118 · catégories
+
+Témoin 07 · 2 avril
+
+Relations de travailPublic ×Fait daté+ ajouter une catégorie
+
+Référentiel harcèlement · 7 familles, 44 catégories · modifiable.
+
+Analyse inductive · thèmes hors référentiel
+
+Perte de sens des réorganisations34
+
+Consignes qui changent d’un jour à l’autre21
+
+Isolement des équipes du soir18
+
+Étape 5 : La chronologie
+
+Chaque fait daté, rattaché à son témoignage
+
+Les faits sont remis en ordre de manière automatique, et chacun garde le verbatim dont il est tiré. C’est ce qui rend la restitution opposable : rien n’est affirmé sans qu’on puisse remonter à la source.
+
+Ce que vous ne faites plus
+
+Reconstituer la chronologie à la main, en recollant les dates une par une.
+
+personnes / personne 03 · chronologie
+
+Personne 039 faits · cités dans 6 témoignages · mars — juin
+
+14 mars
+
+Consignes contradictoires données en réunion d’équipe.
+
+« … les réunions du lundi se passent autrement. »
+
+Témoignage 41 · Témoin 07
+
+2 avril
+
+Remarque répétée devant l’équipe, sans réaction de la hiérarchie.
+
+« … devant tout le monde. Personne n’a réagi. »
+
+Témoignage 118 · Témoin 07
+
+19 mai
+
+Retrait d’un dossier en cours, annoncé par message collectif.
+
+« … je l’ai appris en même temps que les autres. »
+
+Témoignage 205 · Témoin 12
+
+Le tri est fait. L’enquête, c’est vous qui la menez.
+
+Le logiciel prépare le terrain : il masque, il range, il date, il source. L’interprétation, la restitution et la conclusion ne lui appartiennent pas.
+
+Réserver une démo
+
+L’IA repère, date et étiquette. Elle ne conclut pas à votre place.
+
+Générer du texte à votre place ne nous intéresse pas, et laisser un algorithme décider de la nature de vos conclusions encore moins. Nos outils servent à vous donner le maximum de prise sur vos témoignages : les anonymiser, les ranger, les dater, les sourcer. Ce qu’il faut en comprendre reste votre métier.
+
+Une IA hébergée en France
+
+Les témoignages sont analysés sur des serveurs situés en France, chez OVHcloud, un fournisseur français. Ils ne quittent jamais le territoire européen et aucune autorité étrangère ne peut les réclamer. Les modèles utilisés sont open source : aucune dépendance à un éditeur américain.
+
+Rien n’est conservé
+
+Les témoignages sont analysés puis effacés. Ils ne sont ni relus, ni stockés, ni utilisés pour entraîner un modèle. C’est un engagement contractuel d’OVHcloud.
+
+Anonymisé dès la première passe
+
+L’anonymisation est le premier traitement appliqué. Tout ce qui circule ensuite : résumés, catégories, etc. l’est sur du texte pseudonymisé.
+
+En savoir plus sur nos produits
+
+Deux logiciels, deux moments : l’un quand une enquête est ouverte, l’autre quand un collectif s’exprime tout au long de l’année.
+
+EnquêteAnalyser les témoignages d’une enquêtePlateforme de témoignage libreRecueillir la parole d’un collectif en continu
+
+
+
+
+======================================================================
+## Le logiciel d'enquête — https://www.cohortes.co/enquete
+======================================================================
+
+Le logiciel d’enquête
+
+Rendre les témoignages interopérables.
+
+Vous menez l’enquête. Le logiciel prépare la matière : il anonymise, catégorise et extrait les faits avec leurs dates et leur source. La lecture et la conclusion restent les vôtres.
+
+Trois missions, les mêmes problématiques d’outils
+
+Une enquête de harcèlement, un diagnostic RPS ou un baromètre QVCT ne se mènent pas de la même façon. Mais tous produisent la même chose : des dizaines ou des centaines de textes libres à lire, à recouper et à restituer.
+
+Le déroulé d’une enquête
+
+Vous avez fait une enquête quantitative ? Voilà ce qui se passe étape par étape.
+
+Étape 1 : L’import
+
+CSV, Google Forms, Typeform, Sphinx… vous déposez l’export
+
+Peu importe l’outil qui a servi à collecter : ils exportent tous un tableau.
+
+Ce que vous ne faites plus
+
+Recopier les réponses une à une dans un document de travail.
+
+enquêtes / mairie · climat social 2026 / import
+
+↑
+
+climat-social-2026.csv · 312 témoignages
+
+Colonne retenue : « Qu’avez-vous à dire sur vos conditions de travail ? »
+
+Étape 2 : Le traitement
+
+Chaque témoignage passe par la même grille
+
+Ce que vous ne faites plus
+
+Relire sans cesse les témoignages pour savoir lesquels méritent votre attention.
+
+traitement · 312 témoignages
+
+✓Anonymisationpseudonymes cohérents sur toute l’enquête
+
+✓Résuméles points clés de chaque témoignage
+
+✓Catégorisationréférentiel harcèlement · 7 familles, 44 catégories
+
+✓Extraction des faitsce qui s’est passé, quand, et dans quel témoignage
+
+312 témoignages traités · 148 faits datés extraits · prêt à lire.
+
+Étape 3 : La lecture
+
+Vous naviguez dans les témoignages par thème, par personne, par période, etc.
+
+Chaque témoignage porte ses étiquettes. Vous croisez ce que vous cherchez et vous tombez sur les témoignages concernés.
+
+Ce que vous ne faites plus
+
+Chercher dans un tableur pour retrouver qui a parlé de quoi.
+
+témoignages · 312 · filtrés : 27
+
+Famille : conditions de travailPériode : mars — juinCatégoriePersonneFaits datés uniquement
+
+Témoin 07Témoignage 4114 mars
+
+Réunions du lundi tendues depuis un changement d’équipe ; consignes contradictoires.
+
+Organisation du travailConsignesFait daté
+
+Témoin 12Témoignage 6321 mars
+
+Charge redistribuée sans annonce ; deux départs non remplacés dans le service.
+
+Charge de travailEffectifs
+
+Témoin 07Témoignage 1182 avril
+
+Remarque répétée en réunion devant l’équipe ; aucune réaction de la hiérarchie.
+
+Relations de travailPublicFait daté
+
+Étape 4 : La catégorisation
+
+Construire votre référentiel de catégorisation
+
+Catégorisation inductive : les thèmes remontent des témoignages, vous écartez, vous nommez, tout est recodé.
+
+À la main : vous créez vos familles et vos catégories vous-même.
+
+Grille préétablie : les référentiels livrés avec l’outil.
+
+Ce que vous ne faites plus
+
+Catégoriser chaque témoignage à la main.
+
+témoignage 118 · catégories
+
+Témoin 07 · 2 avril
+
+Relations de travailPublic ×Fait daté+ ajouter une catégorie
+
+Référentiel harcèlement · 7 familles, 44 catégories · modifiable.
+
+Analyse inductive · thèmes hors référentiel
+
+Perte de sens des réorganisations34
+
+Consignes qui changent d’un jour à l’autre21
+
+Isolement des équipes du soir18
+
+Étape 5 : La chronologie
+
+Chaque fait daté, rattaché à son témoignage
+
+Les faits sont remis en ordre de manière automatique, et chacun garde le verbatim dont il est tiré. C’est ce qui rend la restitution opposable : rien n’est affirmé sans qu’on puisse remonter à la source.
+
+Ce que vous ne faites plus
+
+Reconstituer la chronologie à la main, en recollant les dates une par une.
+
+personnes / personne 03 · chronologie
+
+Personne 039 faits · cités dans 6 témoignages · mars — juin
+
+14 mars
+
+Consignes contradictoires données en réunion d’équipe.
+
+« … les réunions du lundi se passent autrement. »
+
+Témoignage 41 · Témoin 07
+
+2 avril
+
+Remarque répétée devant l’équipe, sans réaction de la hiérarchie.
+
+« … devant tout le monde. Personne n’a réagi. »
+
+Témoignage 118 · Témoin 07
+
+19 mai
+
+Retrait d’un dossier en cours, annoncé par message collectif.
+
+« … je l’ai appris en même temps que les autres. »
+
+Témoignage 205 · Témoin 12
+
+Confidentialité
+
+Anonymisation dès la première passe : tout ce qui circule ensuite l’est sur du texte pseudonymisé.
+
+Rien n’est conservé : les témoignages sont analysés en France, chez OVHcloud, sur des modèles open source, puis effacés. Ils ne sont ni relus, ni stockés, ni utilisés pour entraîner un modèle. L’engagement d’OVHcloud.
+
+Une enquête en cours ?
+
+Le plus simple est de voir l’outil tourner sur un cas qui ressemble au vôtre. Trente minutes suffisent.
+
+Réserver une démoou écrivez-nous : roberto@cohortes.co
+
+
+
+
+======================================================================
+## La plateforme de témoignage libre — https://www.cohortes.co/plateforme
+======================================================================
+
+La plateforme de témoignage libre
+
+Rendre un collectif visible à lui-même.
+
+Chacun dépose son témoignage quand il le veut. Le groupe se les réapproprie, pose ses propres questions, et voit ce qui revient au fil des semaines.
+
+Le principe
+
+Dans une organisation, chacun connaît sa propre situation. Personne ne sait combien d’autres vivent la même. La plateforme rassemble les témoignages au fil de l’année et montre ce qui revient, c’est le collectif qui décide de ce qu’il veut suivre, pas une grille d’indicateurs choisie ailleurs.
+
+Comment ça se passe
+
+Municipalité de … › Collectifs
+
+Collectifs+ Nouveau collectif
+
+L’équipe support12 membres
+
+Encadrement de proximité7 membres
+
+Équipes du soir9 membres
+
+Nouveaux arrivants5 membres
+
+Chaque collectif a son espace : ses témoignages, ses questions, son fil.
+
+Municipalité de … › L’équipe support › Témoigner
+
+Partage ton témoignage
+
+Choisissez comment vous souhaitez partager votre expérience
+
+VoixTexte
+
+●
+
+Touchez le microphone pour commencer à enregistrer votre témoignage
+
+Tous les témoignages sont confidentiels.
+
+Municipalité de … › L’équipe support › Questions du collectif
+
+Questions du collectif+ Nouvelle question
+
+Les questions posées ici deviennent les indicateurs du groupe : ce sur quoi il a décidé de garder un œil.
+
+Comment l’arrivée du nouveau logiciel change-t-elle notre autonomie ?
+
+2 analyses
+
+Quelles mesures d’accompagnement ont été mises en place ?
+
+1 analyse
+
+Qu’est-ce qui a vraiment aidé lors des dernières réorganisations ?
+
+0 analyse
+
+Municipalité de … › L’équipe support › Thèmes
+
+Thèmes (17)
+
+Perte de maîtrise sur l’outil
+
+Fragmentation de l’autonomie
+
+Pression temporelle
+
+Soulagement par délégation
+
+Tensions intergénérationnelles
+
+Présence du thème
+
+S39S40S41S42S43S44S45
+
+Présent 5 semaines sur 7
+
+Fragmentation de l’autonomie
+
+Les témoignages décrivent à la fois un soulagement, tâches routinières déléguées, et une perte de maîtrise sur les décisions.
+
+Municipalité de … › L’équipe support › Réponses de la semaine
+
+Semaine 4514 témoignages
+
+Quelles mesures d’accompagnement ont été mises en place ?
+
+Trois témoignages citent la formation de septembre, deux la présence d’un référent. Personne ne mentionne les temps d’échange annoncés en juin.
+
+Semaine précédente : 1 mention de plus
+
+Comment l’arrivée du nouveau logiciel change-t-elle notre autonomie ?
+
+Le sujet revient pour la cinquième semaine consécutive, cette fois sous l’angle des délais imposés plutôt que de l’outil lui-même.
+
+Semaine précédente : même volume
+
+1
+
+Faire collectif
+
+Les membres se regroupent en petits collectifs : par métier, par ancienneté, par genre ou par niveau hiérarchique. Ce sont ces groupes qui témoignent.
+
+2
+
+Témoigner
+
+Chacun dépose son témoignage quand il le souhaite, au moment où le vécu est encore présent. Anonymisés, les témoignages sont lus et discutés par les autres membres du groupe.
+
+3
+
+Questionner
+
+Le groupe pose ses propres questions, jusqu’à cinq, persistantes. Elles deviennent ses indicateurs : ce sur quoi il a décidé de garder un œil.
+
+4
+
+Comprendre
+
+Chaque semaine, les témoignages déposés sont résumés et confrontés aux questions du groupe. Les thèmes récurrents apparaissent, et leur évolution dans le temps avec eux.
+
+5
+
+Décider
+
+Outillé par ses propres témoignages et par ses propres questions, le collectif décide. Au fil des mois se constitue une mémoire de ce qui a été dit, vu et changé.
+
+Pour qui
+
+Améliorer le travail
+
+Psychologues du travail
+
+CSE et élus du personnel
+
+Syndicats
+
+Managers et équipes
+
+Renforcer la participation
+
+Collectifs citoyens
+
+Acteurs de la démocratie locale
+
+Coopératives et associations
+
+Où en est ce produit
+
+La plateforme existe mais n’est plus commercialisée en libre-service. Nous préférons avancer au cas par cas, et construire une plateforme adaptée aux besoins de chaque organisation qui veut s’en servir sérieusement.
+
+Pourquoi ce choix, et ce que nous avons appris en la vendant, c’est raconté sur la page à propos.
+
+Un collectif à outiller ? Parlons-en.
+
+Dites-nous qui témoigne, à quel rythme, et ce que le collectif veut suivre. Nous verrons ensemble si la plateforme a du sens dans votre cas.
+
+Nous écrireroberto@cohortes.co
+
+
+
+
+======================================================================
+## À propos — https://www.cohortes.co/about
+======================================================================
+
+À propos
+
+Nous travaillons sur une seule chose : rendre un collectif visible à lui-même.
+
+D’où ça vient
+
+De la rétrospective. C’est un atelier emprunté aux méthodes agiles : toutes les deux semaines, les gens qui travaillent ensemble s’arrêtent une heure et disent ce qui a marché, ce qui a coincé, ce qu’il faudrait changer.
+
+Deux choses nous ont frustrés. La première : une fois l’atelier terminé, ce qui a été dit reste difficilement consultable. Le relire, le recouper ou le compter demande un travail qu’on ne prend pas toujours le temps de faire.
+
+La seconde : le suivi tient à peu de choses. Les actions décidées sont souvent notées, mais savoir si le problème soulevé en mars est toujours là en juin, ou combien de fois il est revenu depuis, tout ça repose en fait sur la mémoire de ceux qui étaient présents.
+
+Néanmoins, la rétrospective a un mérite : elle fabrique une équipe. À force de dire ensemble ce qui va et ce qui ne va pas, des gens qui travaillent côte à côte deviennent un collectif.
+
+D’où l’idée : une plateforme où chacun dépose son témoignage quand il le veut, et où le collectif décide lui-même de ce qu’il veut suivre. L’hypothèse de départ tenait en une question : si un groupe prend en main un outil de témoignage, est-ce que ça change l’organisation du travail ?
+
+La réalité du marché
+
+Le premier obstacle a été la peur du texte libre. Une plateforme où tous les sujets peuvent être discutés, ça inquiète : on ne sait pas ce qui va s’y écrire, ni ce qu’on devra en faire.
+
+Le second est plus profond. La QVCT reste synonyme d’urgence, rarement de prévoyance : on appelle quand ça a déjà cassé, pas pour éviter que ça casse.
+
+Au bout d’un an et demi, le constat était simple : changer ou fermer. C’est AD Conseil, un cabinet de psychologie du travail, qui nous a ouvert l’autre porte, celle des enquêtes de harcèlement.
+
+L’équipe
+
+Roberto Barros De Sousa
+
+Fondateur
+
+roberto@cohortes.coLinkedIn
+
+Fadi Joseph Lahiani
+
+Président d’AD Conseil, notre référent psychologue du travail
+
+LinkedIn
+
+Louise Naudin
+
+Fondatrice, ancienne CEO, nous soutient toujours :)
+
+LinkedIn
+
+Ce que nous fabriquons
+
+Deux logiciels, deux moments : l’un quand une enquête est ouverte, l’autre quand un collectif s’exprime tout au long de l’année.
+
+Le logiciel d’enquête
+
+L’outil prépare, vous concluez
+
+Il anonymise, étiquette, date et source. L’interprétation, la restitution et la conclusion restent votre métier.
+
+Rien n’est affirmé sans sa source
+
+Chaque fait est daté et rattaché au témoignage dont il est tiré. C’est ce qui rend une restitution opposable.
+
+Le référentiel est le vôtre
+
+Livré avec l’outil, construit à partir des thèmes qui remontent des témoignages, ou créé à la main. Trois chemins, une seule grille : la vôtre.
+
+Découvrir le logiciel d’enquête
+
+La plateforme de témoignage libre
+
+La parole doit remonter, pas descendre
+
+Les outils d’écoute en entreprise sont descendants : la direction pose les questions, les salariés remplissent des cases. Ici, c’est le terrain qui dit ce qui compte, avec ses mots.
+
+Le collectif avant l’individu
+
+Ce qui est intéressant n’est pas qui parle, mais comment un groupe se situe face à l’organisation du travail. Un témoignage isolé se lit comme un ressenti ; un ensemble raconte un système.
+
+Un questionnaire ne trouve que ce qu’il cherche
+
+Des questions fermées bornent les réponses. Le témoignage libre laisse remonter ce que personne n’avait pensé à demander.
+
+Découvrir la plateforme de témoignage libre
+
+
+
+
+======================================================================
+## Blog — https://www.cohortes.co/blog
+======================================================================
+
+Blog
+
+Réflexions sur l'intelligence collective, le dialogue social et la participation citoyenne
+
+Méthodologie24 décembre 2025·10 min
+
+Un cadre méthodologique pour un meilleur diagnostic des conditions de travail
+
+Ce document expose le cadre méthodologique simple et opérationnel développé par Cohortes et visant à améliorer la qualité des diagnostics des conditions de travail à partir de témoignages libres écrits et oraux.
+
+Lire la suite
+
+QVCT20 juin 2024·8 min
+
+Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?
+
+L'entreprise se dote d'outils d'organisation pour mener à bien la performance. C'est l'un des discours utilisé pour justifier la présence des outils d'organisation du travail en entreprise. Sans eux, l'organisation serait chaotique.
+
+Lire la suite
+
+Méthodologie10 janvier 2024·5 min
+
+Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses
+
+La question peut paraître étrange, mais laissez-vous surprendre, un petit instant, par la fréquence d'une démarche qui est aujourd'hui entrée dans les mœurs.
+
+Lire la suite
+
+
+
+
+======================================================================
+## Article : cadre méthodologique — https://www.cohortes.co/blog/methodologie-diagnostic-conditions-travail
+======================================================================
+
+Retour au blog
+
+Méthodologie24 décembre 2025·10 min de lecture
+
+Un cadre méthodologique pour un meilleur diagnostic des conditions de travail
+
+1. Intention
+
+Ce document expose le cadre méthodologique simple et opérationnel développé par Cohortes et visant à améliorer la qualité des diagnostics des conditions de travail à partir de témoignages libres écrits et oraux.
+
+Il s'adresse à des consultant·es, intervenant·es et cabinets de conseil qui utilisent ou souhaitent utiliser le témoignage comme matière première d'analyse et d'émergence de solutions.
+
+2. Les faiblesses des démarches de diagnostic classiques
+
+Dans de nombreuses démarches de diagnostic, le témoignage est remplacé, ou fortement contraint, par des dispositifs quantitatifs qui conduisent à appauvrir la collecte et restreindre le potentiel offert par la parole des collaborateur·ices. En témoignent l'envoi massif de questionnaires et la standardisation des possibilités de réponse.
+
+Sans remettre en cause la pertinence de la masse de données ainsi générées, il apparaît nécessaire d'adopter une approche qualitative dans le processus de récolte. Et de fait, le qualitatif est souvent perçu comme une alternative plus féconde, d'où l'importance accordée aux entretiens individuels, processus de collecte qualitative le plus souvent privilégié.
+
+Pourtant, l'entretien individuel est susceptible de générer de la tension : pour la personne interrogée, il s'agit de retraverser et de formuler une expérience parfois sensible, de savoir comment sélectionner les informations pertinentes, de chercher à comprendre ce qui est attendu de lui ou d'elle. Faute d'un cadre suffisamment clair et de pratique, faute d'impression d'être véritablement pris·e en compte dans le processus de collecte, le/la salarié·e peut avoir l'impression de ne pas être assez pris en compte ou éprouver du stress, ce qui conduit à des réponses peu représentatives de son parcours.
+
+S'ils ont une ambition importante, écouter les salarié·es, les aider à formuler des retours constructifs, ces dispositifs posent ainsi plusieurs problèmes structurels.
+
+2.1 Des questions descendantes qui peuvent manquer l'essentiel
+
+Les questionnaires reposent sur des énoncés construits en amont par les coordinateurs·ices de la démarche.
+
+Cela a deux conséquences majeures :
+
+les axes d'analyse sont définis avant d'avoir été mis à l'épreuve du terrain
+
+les sujets réels pour les personnes concernées peuvent ne jamais émerger
+
+On mesure bien ce que l'on a pensé à demander, pas forcément ce qui compte réellement.
+
+2.2 Des réponses formatées dans le quantitatif
+
+Les échelles de valeur dans les questionnaires (par exemple de 0 à 4, ou de « pas du tout d'accord » à « tout à fait d'accord ») permettent un traitement statistique rapide, mais elles posent une question centrale :
+
+Deux notes « 1 » racontent-elles pour autant le même ressenti, la même analyse, les mêmes leviers identifiés ?
+
+Le chiffre masque la diversité de la réalité et la comparaison donne une illusion d'objectivité.
+
+2.3 Un qualitatif proposé souvent trop tard
+
+Les démarches qualitatives, via des entretiens individuels, sont reconnues pour leur richesse, mais elles rencontrent elles aussi des limites :
+
+elles sont longues et coûteuses
+
+le plus souvent, elles arrivent tard dans la mission
+
+elles sont menées avec peu de préparation faute de temps
+
+elles sont parfois déconnectées du quantitatif, ce qui rend difficile le croisement des données
+
+3. La proposition de valeur de Cohortes : créer les conditions d'un témoignage vivant, structurant et collectif
+
+Pour que la récolte de témoignages produise un diagnostic pertinent, et facteur d'encapacitation des salarié·es d'une organisation, il est nécessaire de donner une place centrale aux personnes qui témoignent. C'est l'objectif que poursuit Cohortes.
+
+Lorsque les personnes interrogées sont pleinement intégrées à la construction de la récolte, le quantitatif et le qualitatif deviennent complémentaires, l'un venant appuyer et éclairer l'autre.
+
+La méthodologie que se donne Cohortes repose ainsi sur la conviction que le témoignage a une importance majeure dans le bien-être des salarié·es et leur capacité à faire commun au sein de l'organisation.
+
+3.1 Un outil asynchrone
+
+L'outil Cohortes est une plateforme permettant de témoigner :
+
+quand la personne le souhaite
+
+au moment où le vécu est encore présent
+
+sans contrainte de durée ou de nombre de caractères
+
+Il s'agit ainsi de faire de la personne la dépositaire de son propre vécu.
+
+3.2 Un enjeu de transparence et de communicabilité
+
+Une fois collectés, les témoignages sont anonymisés et mis en commun sur la plateforme. L'accès aux témoignages de l'ensemble du groupe a plusieurs effets positifs :
+
+un sentiment de reconnaissance et de légitimité (« je ne suis pas seul·e à éprouver tel sentiment »)
+
+une compréhension des trajectoires d'autres personnes du groupe (« je comprends comment telle situation conduit à tel sentiment »)
+
+une conscience collective de ce qui structure l'organisation et en fait la culture
+
+L'intelligence collective est ainsi mise à contribution pour que le groupe se sente plus solide et plus solidaire et puisse identifier des solutions ensemble.
+
+3.3 L'importance du temps long
+
+La collecte n'est pas qu'un acte ponctuel : elle peut devenir une pratique itérative favorisant l'essaimage des bonnes pratiques au sein de la structure. Utilisé sur le temps long, Cohortes vise à :
+
+améliorer la parole et le témoignage des salarié·es : se sentir outillé·e par la pratique à identifier des obstacles ou des difficultés dans son parcours
+
+enrichir ou préciser son récit, en gardant une archive de son propre parcours et en devenant en mesure de comprendre ses évolutions
+
+réagir implicitement ou explicitement à d'autres témoignages, en construisant des réseaux de sens dans les analyses
+
+Le temps long favorise ainsi la compréhension de l'évolution des situations et l'augmentation de l'engagement sur les sujets des conditions de travail et d'organisation.
+
+3.4 Analytique et compréhension partagée
+
+L'intelligence artificielle constitue un nouveau levier pour concilier et articuler approches quantitatives et qualitatives, sans les opposer. Cohortes l'utilise de manière à rendre possible le traitement de volumes importants de témoignages écrits / oraux libres à tout moment tout en préservant leur richesse, en offrant des clefs de compréhension accessibles.
+
+L'analyse assistée par l'IA offre un double bénéfice :
+
+Pour les coordinateur·ices de la démarche, elle permet :
+
+d'identifier des signaux faibles
+
+de regrouper des idées ou des situations similaires, de comprendre ce qui polarise ou fait consensus
+
+de produire des indicateurs à partir de données non structurées, sans les réduire à des scores arbitraires
+
+Pour les personnes qui témoignent ou assistent le témoignage, elle permet :
+
+de mieux comprendre les points de vue des autres parties prenantes
+
+de saisir le sens global de la démarche de témoignage
+
+de devenir alliées de la pratique
+
+4. Les outils proposés
+
+4.1 L'ambition de la boîte à outils
+
+Cohortes repose sur deux piliers : les témoignages individuels et les ateliers collectifs. Les deux sont vus comme entretenant un lien de complémentarité que l'itération, c'est-à-dire le fait de les répéter dans le temps, permet de renforcer.
+
+Cohortes est ainsi à comprendre et utiliser comme une boîte à outils permettant de rendre l'analyse des conditions de travail co-construite de façon dynamique.
+
+Quand la phase de témoignage individuel intervient en premier, en amont d'un atelier collectif, les participant·es peuvent arriver avec une matière déjà formulée, ce qui permet aussi aux facilitateur·ices d'identifier des thèmes émergents.
+
+Quand l'atelier collectif précède les entretiens individuels, il peut permettre d'approfondir les sujets ayant déjà émergé. Le groupe fait alors émerger des sujets qui méritent d'être approfondis, ce qui permet :
+
+d'aller dans la précision sur les points soulevés
+
+de faire de la place aux sujets qui n'ont pas émergé en groupe (certaines personnes ne s'expriment pas en collectif)
+
+de compléter ou nuancer ce qui a été dit
+
+Une bonne pratique : enregistrer les entretiens individuels et les retranscrire grâce à l'IA.
+
+4.2 Le témoignage individuel : comment faire émerger la parole
+
+Le témoignage individuel permet de comprendre précisément un parcours et des ressentis. Mais les conditions de travail ne sont jamais purement individuelles : elles sont le produit de procédés organisationnels, d'interactions entre personnes, de dynamiques collectives.
+
+4.3 L'atelier collectif pour développer le pouvoir d'agir
+
+Pour comprendre la racine des difficultés, il faut mettre en perspective les ressentis individuels avec la parole collective : sur quoi s'entend-on ? Qu'est-ce qui fonctionne et qu'est-ce qui dysfonctionne ?
+
+L'atelier collectif vise ainsi à :
+
+nommer ensemble ce qui fait obstacle ou ce qui porte
+
+révéler les convergences (« on vit la même chose ») et les divergences (« je ne savais pas que tu le voyais comme ça »)
+
+légitimer la parole : ce qui est dit en groupe prend une portée différente
+
+Le groupe gagne en puissance et en conscience en inscrivant le partage de retour d'expérience comme méthode encapacitante.
+
+4.4 Exemple d'atelier collectif : le Speed Boat, un rituel simple et éprouvé
+
+Le Speed Boat est une méthode issue du monde Agile, habituellement utilisée pour les rétrospectives d'équipe. Appliquée au diagnostic des conditions de travail, elle offre un cadre intéressant pour l'exercice.
+
+Le principe :
+
+On représente une période vécue par une équipe comme un voyage sur un bateau vers une destination souhaitée.
+
+Chaque participant·e est invité·e à identifier :
+
+les forces / le vent : qu'est-ce qui nous fait avancer ?
+
+les freins / l'ancre : qu'est-ce qui nous retient ?
+
+les victoires / les trésors : qu'avons-nous déjà accompli ?
+
+les menaces / les récifs : quels dangers voyons-nous venir ?
+
+les objectifs / l'île : quels sont les objectifs à atteindre ?
+
+Le déroulement :
+
+Donner 10 à 15 minutes pour que chacun·e écrive individuellement sur des post-it des témoignages autour des 5 axes.
+
+Ensuite, chacun·e à son tour vient au tableau présenter ses post-it à tout le monde.
+
+Le rôle du/de la coordinateur·ice ou du facilitateur·ice est de prendre des notes, pas de participer.
+
+Discuter collectivement de ce qui émerge, construire une représentation partagée de l'organisation.
+
+Conditions de réussite :
+
+Des groupes de personnes qui travaillent ensemble, constitués de moins de 10 personnes et n'étant composés que de personnes internes à l'organisation. Un cadre clair : on parle du collectif, pas des personnes.
+
+Une trace écrite accessible à tous·tes après l'atelier.
+
+À lire aussi
+
+Méthodologie
+
+Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses
+
+QVCT
+
+Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?
+
+Découvrir le logiciel d'enquête
+
+
+
+
+======================================================================
+## Article : pourquoi ne pas poser de questions — https://www.cohortes.co/blog/pourquoi-ne-pas-poser-de-questions
+======================================================================
+
+Retour au blog
+
+Méthodologie10 janvier 2024·5 min de lecture
+
+Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses
+
+Commençons par un petit quiz. Trouvez le point commun entre ces choses fort différentes :
+
+Remplir un formulaire de la CAF ou des impôts
+
+Répondre à enquête de satisfaction reçue après l'achat d'un produit ou d'un service
+
+Passer un test des 16 personnalités (mais si vous connaissez, les ENFP/ JT tout ça tout ça)
+
+Répondre à un sondage
+
+Réponse : toutes ces démarches impliquent de répondre à un questionnaire.
+
+Un questionnaire, au fond, qu’est-ce que c’est ?
+
+La question peut paraître étrange, mais laissez-vous surprendre, un petit instant, par la fréquence d'une démarche qui est aujourd'hui entrée dans les mœurs. La réception d'une énième enquête de satisfaction dans nos boîtes mail agace un peu, mais nous ne nous en étonnons plus et nous y répondons souvent, parfois sans même y penser.
+
+Apparu au début du 20e siècle en tant qu'outil de recherche développé par et pour les sciences sociales, la pratique universitaire du questionnaire fait pourtant toujours l'objet de nombreux débats et fiches pratiques, des cours entiers à la fac peuvent y être consacrés et les méthodes employées pour obtenir des réponses les plus fiables et utiles possibles sont toujours affinées.
+
+Des questions, à sa création, il en soulève au moins autant qu’il en pose : à quoi sert-il, au fond ? Quel discours l’habille ? Pourquoi un questionnaire ? Est-il anonyme ? Les questions sont-elles les mêmes pour tout le monde ? Sont-elles orientées ? Est-il possible qu’elles ne le soient pas ? Comment ceux à qui il est destiné sont-ils incités à y répondre ? Ont-ils la possibilité de ne pas y répondre ? Les résultats en sont-ils publiés ? Etc…
+
+Comment trouver une grille de lecture de l'objet « questionnaire » ? Non pas une sorte de « guideline » de ce qui serait le « bon » « questionnaire d'entreprise », il s'en trouve de toutes sortes, mais plutôt des pistes pour construire un outil de réflexion sur le dispositif lui-même.
+
+J'ai écouté, par hasard, du moins en ne pensant pas du tout à ces questions-là, une série de cours d'anthropologie autour du thème « Solidarité et violence » dispensés en 2016 à la Sorbonne par Alexandre Duclos, enseignant-chercheur, dont la captation est disponible sur YouTube. Si ce n'est pas notre sujet, une parenthèse qu'il fait durant l'un de ses cours nous ouvre des portes pour penser l'objet questionnaire.
+
+Un questionnaire n’est pas une pratique objective
+
+Dans le sixième cours, portant sur la mafia, il est fait référence à un article paru en 2001 dans le 31e volume de la revue d'Ethnologie française (p.61 à 67) intitulé La mafia d'un village sicilien. Il y est question des difficultés rencontrées par Anton Block, anthropologue, pour questionner des gens dans un tel contexte :
+
+« En posant des questions, vous pouvez, très facilement et sans le vouloir, introduire et imposer vos propres catégories sur les individus dont vous voulez précisément cerner les catégories propres. Ceci irait au-delà de la raison de votre présence : comprendre ces personnes dans leurs propres termes, découvrir leur vision du monde. »
+
+Anton Block cherche entre autres choses à savoir comment est perçue la mafia par ses membres, s'ils en parlent librement ou non, à qui, comment, en utilisant quels termes. Chose impossible s'il arrive avec une série de questions pré-définie.
+
+L'idée est la suivante : en posant une question à quelqu'un, vous orientez la façon dont la personne va vous répondre. En langage corporate on appellerait cela un biais.
+
+Si la question se pose pour un anthropologue, il semble alors logique d’étendre le questionnement à tous les champs utilisant un objet pouvant s’apparenter au questionnaire, donc aussi aux formulaires rédigés par les départements de ressources humaines sur la qualité de vie au travail par exemple. Ou à un professionnel de santé lorsqu’il délivre ou certifie un formulaire visant à évaluer les risques psychosociaux (dans le jargon, RPS) en entreprise. Celui qui rédige le questionnaire fait partie de l’entreprise, ou il fait partie d’un cabinet de conseil, donc d’une autre entreprise qui a elle-même ses pratiques, ses valeurs, ses codes, il a déjà une pratique du métier, de ce qu’il attend du questionnaire, du phénomène qu’il souhaite observer, comme le mal-être au travail. Il doit pourtant tenter de se départir de ses préjugés et poser des questions les plus neutres possibles, ce afin d’obtenir des réponses qui reflètent véritablement ce que pense et ressent la personne dans ses propres termes, selon ses propres catégories.
+
+Un questionnaire n'est pas une démarche impersonnelle
+
+« En posant des questions, vous courez le risque d'instaurer une hiérarchie, c'est-à-dire de vous mettre dans une position supérieure. »
+
+C'est un problème récurrent du chercheur, mais aussi du policier, du juge, de l'instructeur et même du manager ou du responsable ressources humaines. Comment obtenir des réponses sincères si la personne en face vous voit comme une figure d'autorité, à laquelle elle peut avoir envie de plaire ou de se confronter ? Si vous avez déjà eu une position hiérarchique vis-à-vis de quelqu'un vous le savez, ça modifie votre comportement, en tout cas il n'est pas facile que ça ne le modifie pas. C'est un vrai sujet lors de la diffusion d'un questionnaire : quel rapport la personne qui le reçoit a avec la personne, ou l'entité, qui l'a envoyé ? Même si le lien est diffus, que c'est la fonction RH de la boîte, la question demeure pertinente, parce que si ce lien influe sur autant d'aspects de notre vie, il serait illusoire de croire qu'il n'influe pas sur nos réponses à des questionnaires diffusés par des entreprises, fussent-ils anonymes et digitalisés. Même si l'on sait que nos réponses ne remonteront pas jusqu'à nous, il demeure vrai que nous avons, ou non, et à différents degrés, envie de leur faire plaisir. C'est humain.
+
+Freins à l'engagement
+
+Ou des bonnes raisons de ne pas répondre lorsqu'on vous pose une question
+
+Réunissant ce qui suit dans l'article mentionné précédemment, il est possible de délivrer ce que l'on pourrait appeler en entreprise les freins à l'engagement, c'est-à-dire ce qui peut pousser les gens à ne pas répondre, ou à ne pas répondre comme on le souhaiterait. Reprenons un constat fait par beaucoup de chercheurs en science sociale : hormis les grands bavards qui, comme moi, adorent raconter leur vie, en général, les gens apprécient assez peu qu'on leur pose toute une série de questions. On ne parle pas des potes à qui vous adorez vous confier en petit comité ou des clients avec lesquels il y a un vrai feeling qui vous fait prolonger le déjeuner en apéro. Non, de questions qui viennent de gens que vous ne connaissez pas plus que ça, sur des sujets qui peuvent relever de ce que vous considérez personnel, voire intime, pour un résultat dont vous ne voyez pas nécessairement l'intérêt pratique.
+
+L'absence de réponse : taux de participation
+
+Les gens peuvent tout simplement ne pas vous répondre, et c'est ce qu'on mesure par les taux de participation aux études pluri-annuelles diffusées par les départements des ressources humaines de la plupart des moyennes et grandes entreprises. Peut-être, et c'est une question que je laisse pour une prochaine fois, qu'il serait plus intéressant de se demander pourquoi quelqu'un n'a pas envie de répondre que de chercher à augmenter les taux de participation.
+
+Les réponses orientées : biais de confirmation ou mimétisme ?
+
+Ils peuvent aussi vous dire, même sans s'en rendre compte, ce que vous voulez entendre. C'est ce qu'on appelle maintenant le biais de confirmation. Vous lirez ce que vous vous attendiez à lire, et on vous aura donné ce qu'on pense que vous vouliez lire. Ne rigolez pas, ce n'est pas une façon de parler mais un fait social avéré. On ne parle ni de manipulation consciente ni même de biais cognitifs, qui nous pousseraient à faire une chose plutôt qu'une autre, jugée plus rationnelle, mais d'une réaction humaine et naturelle, le mimétisme. Aller dans le sens de, adopter le même cadre de référence que la personne ou que le discours que l'on a en face de soi. Et ça, le problème, c'est qu'on ne sait pas le mesurer, surtout étant donné la quantité de questionnaires diffusés, ce dans des contextes très différents, sans toujours avoir le temps de se poser la question.
+
+Les réponses fausses ou approximatives : ce qu'on ne sait pas mesurer
+
+La dernière option, c'est que les répondants mentent. Les anthropologues ont remarqué que chez certaines catégories socio-professionnelles, dans certaines cultures, à certaines époques, il est tout simplement mal vu de livrer une information sur soi-même, un réflexe de protection en quelque sorte. Y serions-nous tout à fait étranger ? Ça ne vous a jamais dérangé de déclarer quatre fois dans l'année que vous étiez ou non en couple, et ce pour la CAF, les impôts, les dossiers d'arrivée dans une entreprise etc… Vous vous sentez moins énervés, voire pas du tout, si vous en comprenez la raison. Mais tout de même on reconnaît chez soi cette aversion à livrer ce qu'on vit comme intime à une entité abstraite. Si ce n'est pas votre cas tant mieux pour vous, c'est que vous le vivez beaucoup mieux, apprenez-moi. Mais je fais le pari que ça vous est déjà arrivé, de mentir sur un questionnaire, bien qu'il soit anonyme. Pas par malhonnêteté, parfois même simplement par flemme d'expliquer, ça va plus vite de dire oui. Ou vous avez déjà exagéré quelque chose dans le but que ce soit enfin pris en compte. Et bien ça non plus, on ne sait pas le mesurer. Il est possible de le voir lors d'un entretien, si on est entraîné. Mais on ne peut certainement pas le savoir au travers de la médiation de réponses anonymisées sur une plateforme digitale. D'où la frénésie de la « prise en main facile », et ça se comprend. On essaye de désactiver le plus possible ce qui pourrait pousser une personne à ne pas répondre, ou à répondre autre chose que ce qu'elle pense.
+
+Conclusion
+
+Pour terminer cette analyse des raisons pour lesquelles il vaut mieux ne pas poser de questions si l'on veut obtenir des réponses : il n'est pas anodin de demander à des millions de personnes, plusieurs fois par an, s'ils sont contents de leurs managers, ce qu'ils recherchent chez un employeur, s'ils voient leur travail comme un vecteur d'épanouissement personnel. Laissons-nous de nouveau surprendre par la fréquence. Il s'agit de questions personnelles, qui ont trait à la conception que l'on se fait du monde, de sa vie, de ses espoirs, de ses relations aux autres. Peut-être peut-on admettre qu'il soit naturel qu'il y ait quelques réticences.
+
+Si l'on veut se poser la question de ce qu'est un bon questionnaire d'entreprise, un qui vous dira pour de vrai comment vont les gens par exemple, s'ils sont contents de leur travail, s'ils ont envie d'engager des actions plus écologiques, et lesquelles, comme c'est souvent leur objet, on voit qu'on a du fil à retordre et qu'il ne suffit pas de rendre des questions inclusives pour obtenir des réponses pertinentes.
+
+On pourrait conclure en revenant à la toute première raison donnée par Anton Blok : se débarrasser de ses propres catégories lorsque l'on veut que les gens s'expriment dans leurs propres termes. C'est la seule façon de pouvoir faire dire quelque chose aux réponses obtenues.
+
+Obtenir des réponses sincères, c'est susciter des témoignages qui soient dits comme ils le sont, comme ils l'auraient été sans notre intervention et pas autrement. Le travail de questionnement ne vient qu'après : que va-t-on pouvoir faire dire aux résultats obtenus par sa seule présence sur le terrain ? En essayant d'influer le moins possible sur ce qui est en cours et que l'on souhaite voir émerger pour ensuite pouvoir questionner.
+
+Raconte-moi d'abord, je te questionnerai ensuite.
+
+Autrice : Nais Bonnamy Jeanroy
+
+À lire aussi
+
+Méthodologie
+
+Un cadre méthodologique pour un meilleur diagnostic des conditions de travail
+
+QVCT
+
+Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?
+
+Découvrir le logiciel d'enquête
+
+
+
+
+======================================================================
+## Article : outils d'organisation et performance — https://www.cohortes.co/blog/subordination-performance-outils-travail
+======================================================================
+
+Retour au blog
+
+QVCT20 juin 2024·8 min de lecture
+
+Comment les outils d'organisation du travail inscrivent la subordination des conditions de travail à la performance ?
+
+[ARTICLE: Semaine QVCT 2024] "L’entreprise se dote d’outils d’organisation pour mener à bien la performance". C’est l’un des discours utilisé pour justifier la présence des outils d’organisation du travail en entreprise. Sans eux, l’organisation serait chaotique, la gestion impossible et la performance impactée. L’absence d’outil symboliserait l’absence d’organisation.
+
+L’adoption des outils d’organisation (outils de gestion, communication en entreprise) continue de croître. La pandémie de COVID-19 et le télétravail ont marqué un tournant majeur dans le développement de la transformation numérique des entreprises, entraînant une augmentation significative de l’utilisation des outils.
+
+Toutefois, la manière dont un outil est conçu influence la façon dont il est utilisé, et par conséquent, la manière dont l’organisation se structure.
+
+Comme ils sont conçus pour l’entreprise, les outils doivent répondre à ses attentes et exigences. Plus précisément, derrière l’entreprise, ils s’adressent au top-management. Ce qui est attendu d’un outil de gestion de projet, c’est d’avoir une vue synthétique et globale de la performance de l’activité.
+
+Les outils d’organisation promettent à l’entreprise de "maintenir les objectifs clairs", "planifier et diviser le travail pour mieux le gérer", "suivre les KPIs liés à la performance" et "accélérer le travail" (1). La finalité est claire, il faut produire !
+
+Phrase d’accroche d’un outil de gestion de projet : Maintenez une vue claire des objectifs et maximisez l’impact de votre travail à grande échelle en reliant vos tâches et les processus aux objectifs de l’entreprise.
+
+I. La gestion des rôles comme reflet de la subordination
+
+Tous les utilisateurs des outils d’organisation, principalement de gestion, ne sont pas logés à la même enseigne. Chaque utilisateur se voit attribuer un ou plusieurs rôles (2), et chaque rôle détermine ce qu’il est autorisé à voir et à faire sur la plateforme. Ces rôles peuvent être classés en deux catégories : ceux dédiés au reporting et ceux spécialisés dans l’analyse des données collectées. Très souvent, les rôles reflètent l’organigramme de l’entreprise, et donc la subordination
+
+Dans une hiérarchie, les rôles situés au sommet de la pyramide ont accès à des fonctionnalités stratégiques, leur permettant une compréhension globale et une vue synthétique des données, qui sont agrégées et analysées. En revanche, à la base de la pyramide, ceux qui réalisent le travail ont accès par leur rôle à des fonctionnalités surtout de reporting : consigner l’avancée des tâches de manière nominative et encadrée. Les fonctionnalités stratégiques y sont bien moins fréquentes (3). La mesure de la performance est faite avec les données issues du reporting.
+
+Toutes les fonctionnalités de reporting sont individualisées. Il est possible de connaître pour chaque utilisateur les tâches qui lui ont été attribuées, celles qui sont terminées, et le rythme auquel elles ont été réalisées. Les données permettent de construire des matrices de compétence, indiquant quelles compétences sont maîtrisées par chacun. En conclusion, on sait qui "performe" et sur quel aspect.
+
+Pour suivre « objectivement » la performance, il faut obtenir des métriques quantifiables, qui permettent ensuite de la mesurer et la comparer. Pour les obtenir, les données sont analysées et converties en graphiques, camemberts, voire parfois en notes individuelles. Par la suite, on a une vision par projet et équipe, principalement pour évaluer la performance collective. La mise en commun des données des multiples outils permet une connaissance dite approfondie, où l’on obtient une donnée toujours plus complète sur le travail reporté.
+
+Le travail est alors transformé, sa valeur semble moins dans son exécution que dans son reporting. On mesure le travail à la quantité d’informations saisies. Ceux qui reportent leur travail, alimentent la plateforme pour répondre aux utilisateurs stratégiques : ce sont bien eux qui tirent de la valeur de ces logiciels.
+
+Cette transformation impacte la qualité du travail : puisque la mesure de la performance est indexée sur la quantité de tâches réalisées, elle peut être détournée et maximisée. Dans le pire cas, s’organiser revient gérer des tâches et les placer dans les bonnes cases. Les conditions des logiciels débordent sur celles des utilisateurs. Cette dérive est préoccupante, car ceux qui rapportent leur travail peuvent devenir de simples exécutants. Or dans la réalité, le travail prescrit et reporté n’est qu’une partie du travail réel, nécessaire pour la bonne réalisation du travail.
+
+S’agit-il vraiment d’outils de gestion ou d’outils de suivi de performance ? Certains rappellent plutôt des pointeuses modernes. Comment ces outils impactent-ils les relations humaines, et donc les conditions de travail collectives ?
+
+II. L’impact des outils d’organisation sur les utilisateurs et leurs conditions
+
+La mesure de la performance, à travers les outils de gestion, permettrait au top management d’avoir une météo de l’organisation, de mieux comprendre les réalités du terrain et, grâce à l’ensemble de ces informations, d’assurer un meilleur pilotage.
+
+Le nerf de l’organisation, c’est l’information. Mais une information structurée, imposée, qui a uniquement de la valeur pour les utilisateurs stratégiques.
+
+Depuis la pandémie de COVID-19 et l’augmentation du télétravail, la multiplication des outils de gestion et de communication a radicalement changé les interactions entre collègues. Consigner les tâches dans un logiciel et assurer leur transparence est désormais considéré comme essentiel pour l’organisation, mais cette exigence s’applique principalement aux opérationnels, en bas de la pyramide des rôles, dont l’accès aux fonctionnalités est limité.
+
+Les objectifs, entretiens, formations, représentations et évaluations, accentués par l’usage de ces outils, deviennent de plus en plus individualisés. La surveillance entre pairs, la désolidarisation (4) et les silos ne peuvent qu’augmenter. La représentation collective des conditions de travail n’émerge pas, laissant place à une focalisation exclusive sur la performance individuelle. La définition de cette performance échappe à ceux qui sont mesurés, étant dictée par les logiques stratégiques et encadrée par les outils en place.
+
+Bien que le travail existe en dehors de ces outils, il n’est pas mesuré et, par conséquent, rarement reconnu. Une grande partie du travail et de ses conditions restent invisibles, non pris en compte dans les rapports, l’absence de reconnaissance et de considération peut entraîner une augmentation des risques psychosociaux. Un travail n’est reconnu comme réalisé que lorsqu’il existe sur les plateformes, pour le bien de la mesure de la performance.
+
+Les ressources et soutiens sont perçus comme insuffisants par rapport aux exigences imposées (5). Il n’existe par exemple aucune mention ou fonctionnalité autour des conditions du travail. Il faut alors un autre logiciel, encore un, encore du reporting, en dehors des logiques organisationnelles. Le manque de communs renforce encore plus la solitude face au logiciel. La pyramide des rôles désensibilise la compréhension des besoins et contraintes inter-personnes et inter-équipes.
+
+Les conditions de travail et d’organisation affectent à la fois la performance de l’entreprise et les relations entre les employés. L’écart de vision entre les équipes stratégiques et opérationnelles ne fait que se creuser, tandis que la définition de la performance, imposée et peu discutée, reste figée. Le statu quo est maintenu par l’usage des outils, qui augmentent la compétition interne. La représentation de la division du travail dans les outils de gestion conduit à une déshumanisation des échanges dans les équipes.
+
+Conclusion
+
+Peu de secteurs d’activité ont des moments collectifs dédiés à la discussion de l’organisation et des conditions de travail. Si la pratique détermine l’usage, de nombreux outils d’organisation sont conçus pour répondre aux besoins du top management. Les autres utilisateurs, qui voient leur travail transformé pour correspondre à des cases préétablies, y trouvent peu de valeur. La division au sein de l’entreprise permet de mieux gouverner, mais elle se fait au détriment des conditions de travail.
+
+Les outils d’organisation ont probablement contribué à rendre les entreprises d’aujourd’hui plus individualisées qu’elles ne l’ont jamais été et à accentuer l’absence de prise en compte des conditions de travail, au nom de la performance.
+
+Mais les solutions sont déjà là. L’étude “Qualité de Vie et Conditions de Travail” (6) montre que les entreprises qui engagent des politiques de QVCT ont un impact positif sur la performance et le dialogue social.
+
+Et si la pratique détermine l’usage, il faut avoir des outils alternatifs qui prennent en considération une autre définition de la performance et qui donnent une place aux conditions de travail. Auto-gestion, organisation libertaire, holacratie, il existe des tonnes d’alternatives pour ouvrir l'imaginaire (7) organisationnel. Afin de répondre aux défis d’aujourd’hui et de demain, il va falloir changer d’outil et de mesure.
+
+Auteur : Roberto Barros De Sousa
+
+Références:
+
+Extraits tirés de plusieurs outils d’organisation, trello, asana, confluence
+
+Rôle: mécanisme de contrôle d’accès qui définit les autorisations de chaque utilisateur dans un logiciel.
+
+51% salariés français déclarent toujours ou souvent être consultés et 52% qui peuvent influencer les décisions importantes pour leur travail, https://www.alternatives-economiques.fr/dix-graphiques-comprendre-lampleur-de-crise-travail-france/00106665
+
+Seuls 36% de salariés français considèrent que leurs collègues les aident et les soutiennent toujours (46% dans l’europe des 27) https://www.alternatives-economiques.fr/dix-graphiques-comprendre-lampleur-de-crise-travail-france/00106665
+
+39% de salariés français se déclarant en situation d’emploi “tendu”, https://www.alternatives-economiques.fr/dix-graphiques-comprendre-lampleur-de-crise-travail-france/00106665
+
+“Qualité de Vie et Conditions de Travail” réalisé par Qualisocial en partenariat avec Ipsos. https://www.qualisocial.com/barometre-qvct-qualisocial-ipsos-2024/
+
+Xerfi Canal: Repenser le management : Science-fiction, féminisme et anarchisme [Léa Dorion], https://www.youtube.com/watch?v=UvCWOMUA19g&ab_channel=XerfiCana
+
+À lire aussi
+
+Méthodologie
+
+Un cadre méthodologique pour un meilleur diagnostic des conditions de travail
+
+Méthodologie
+
+Des bonnes raisons de ne pas poser de questions lorsque l'on souhaite obtenir de vraies réponses
+
+Découvrir le logiciel d'enquête
+

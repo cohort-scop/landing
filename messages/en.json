@@ -29,6 +29,43 @@
     "privacy": "Privacy policy",
     "cookies": "Cookie settings"
   },
+  "confidentialite": {
+    "meta": {
+      "title": "Privacy & cookies · Cohortes",
+      "description": "The Cohortes website uses no audience measurement or tracking cookies. Only your language preference is stored, in a strictly necessary cookie."
+    },
+    "hero": {
+      "kicker": "Privacy",
+      "title": "Privacy & cookies"
+    },
+    "cookies": {
+      "title": "Our cookie policy",
+      "lede": "This website sets a single cookie, strictly necessary for it to work.",
+      "a": "No audience measurement, no tracking, no advertising: this website sets <strong>no tracking cookies</strong>.",
+      "b": "A single cookie is stored: <strong>NEXT_LOCALE</strong>, which remembers your language preference (French or English) for one year.",
+      "c": "This cookie is necessary for the website to work and is therefore <strong>exempt from consent</strong> under the CNIL “cookies and trackers” recommendation."
+    },
+    "data": {
+      "title": "No personal data collected",
+      "a": "Browsing this website collects no personal data: no forms, no accounts, no identification from your IP address.",
+      "b": "The website is hosted by Vercel, Inc., which processes the technical requests required to serve the site."
+    },
+    "rights": {
+      "title": "Your rights",
+      "lede": "Under the GDPR, you have rights over your data:",
+      "items": {
+        "a": "Right of access to your data",
+        "b": "Right to rectification",
+        "c": "Right to erasure",
+        "d": "Right to object to processing"
+      },
+      "a": "For any privacy question or to exercise these rights, write to us at"
+    },
+    "contact": {
+      "title": "Contact",
+      "a": "A question about this policy? Write to us at"
+    }
+  },
   "walkthrough": {
     "title": "How an investigation unfolds",
     "lede": "You have run a quantitative survey? Here is what happens, step by step.",
@@ -174,7 +211,7 @@
   },
   "home": {
     "meta": {
-      "title": "Cohortes: testimony analysis software for workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
+      "title": "Harassment investigation & psychosocial risk software — Cohortes",
       "description": "Cohortes equips workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys: anonymisation of testimonies, categorisation against a coding framework, chronology of dated facts."
     },
     "hero": {
@@ -282,7 +319,7 @@
   },
   "enquete": {
     "meta": {
-      "title": "Cohortes: testimony analysis software for harassment investigations, psychosocial risk assessments and workplace wellbeing surveys",
+      "title": "Testimony analysis software for harassment investigations — Cohortes",
       "description": "Cohortes’ investigation software: consistent anonymisation, categorisation against a coding framework, extraction of dated facts and a chronology for each person."
     },
     "hero": {
@@ -457,7 +494,8 @@
   },
   "about": {
     "meta": {
-      "title": "Cohortes: About"
+      "title": "Cohortes: About",
+      "description": "The team behind Cohortes: testimony analysis software for workplace harassment investigations, psychosocial risk assessments and workplace wellbeing surveys, born from the practice of retrospectives."
     },
     "hero": {
       "kicker": "About",
@@ -522,6 +560,8 @@
     "title": "Blog",
     "subtitle": "Reflections on collective intelligence, social dialogue and citizen participation",
     "readMore": "Read more",
+    "readNext": "Read next",
+    "ctaEnquete": "Discover the investigation software",
     "posts": {
       "methodologie-diagnostic-conditions-travail": {
         "title": "A methodological framework for better working conditions diagnosis",

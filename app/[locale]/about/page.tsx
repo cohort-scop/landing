@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { AD_CONSEIL_URL, CONTACT_EMAIL, LINKEDIN } from '@/components/site/config';
+import { alternatesFor, openGraphFor } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,14 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about.meta' });
-  return { title: t('title') };
+  const title = t('title');
+  const description = t('description');
+  return {
+    title: { absolute: title },
+    description,
+    alternates: alternatesFor(locale, '/about'),
+    openGraph: openGraphFor(locale, title, description),
+  };
 }
 
 const TEAM = [

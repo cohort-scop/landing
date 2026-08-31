@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import PlatformProcess from '@/components/site/PlatformProcess';
 import { CONTACT_EMAIL } from '@/components/site/config';
+import { alternatesFor, openGraphFor } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,14 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'plateforme.meta' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  return {
+    title: { absolute: title },
+    description,
+    alternates: alternatesFor(locale, '/plateforme'),
+    openGraph: openGraphFor(locale, title, description),
+  };
 }
 
 export default function PlateformePage() {

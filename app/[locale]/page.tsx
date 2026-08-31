@@ -5,6 +5,7 @@ import HeroPersonCard from '@/components/site/HeroPersonCard';
 import ProofBand from '@/components/site/ProofBand';
 import InvestigationWalkthrough from '@/components/site/InvestigationWalkthrough';
 import { DEMO_URL } from '@/components/site/config';
+import { alternatesFor, openGraphFor } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -13,7 +14,14 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'home.meta' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  return {
+    title: { absolute: title },
+    description,
+    alternates: alternatesFor(locale, ''),
+    openGraph: openGraphFor(locale, title, description),
+  };
 }
 
 export default function HomePage() {

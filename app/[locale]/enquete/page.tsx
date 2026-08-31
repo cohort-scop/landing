@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import InvestigationWalkthrough from '@/components/site/InvestigationWalkthrough';
 import { CONTACT_EMAIL, DEMO_URL, OVH_AI_ENDPOINTS_URL } from '@/components/site/config';
+import { alternatesFor, openGraphFor } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -10,7 +11,14 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'enquete.meta' });
-  return { title: t('title'), description: t('description') };
+  const title = t('title');
+  const description = t('description');
+  return {
+    title: { absolute: title },
+    description,
+    alternates: alternatesFor(locale, '/enquete'),
+    openGraph: openGraphFor(locale, title, description),
+  };
 }
 
 export default function EnquetePage() {
