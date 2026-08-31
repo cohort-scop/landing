@@ -26,6 +26,7 @@
     "rights": "Tous droits réservés",
     "legalAriaLabel": "Liens légaux",
     "legal": "Mentions légales",
+    "cgu": "CGV / CGU",
     "privacy": "Politique de confidentialité",
     "cookies": "Gestion des cookies"
   },
@@ -64,6 +65,115 @@
     "contact": {
       "title": "Contact",
       "a": "Une question sur cette politique ? Écrivez-nous à"
+    }
+  },
+  "mentionsLegales": {
+    "meta": {
+      "title": "Mentions légales · Cohortes",
+      "description": "Mentions légales du site Cohortes : éditeur, identité de l’entreprise, hébergement et contact."
+    },
+    "hero": {
+      "kicker": "Mentions légales",
+      "title": "Mentions légales"
+    },
+    "editeur": {
+      "title": "Éditeur du site",
+      "a": "Le site <strong>cohortes.co</strong> est édité par <strong>Robert de Sousa Barros</strong>, entrepreneur individuel (auto-entreprise).",
+      "b": "SIREN : <strong>911 489 037</strong> · SIRET : <strong>911 489 037 00018</strong> · N° de TVA intracommunautaire : <strong>FR69911489037</strong> · Code NAF / APE : <strong>6201Z</strong> (Programmation informatique)."
+    },
+    "contact": {
+      "title": "Contact",
+      "a": "Pour toute question, vous pouvez nous écrire à"
+    },
+    "hebergement": {
+      "title": "Hébergement",
+      "vitrine": "Le site vitrine <strong>cohortes.co</strong> est hébergé par <strong>Vercel, Inc.</strong>, San Francisco, Californie, États-Unis.",
+      "app": "La plateforme <strong>app.cohortes.co</strong> est hébergée par <strong>OVHcloud</strong> (OVH SAS, Roubaix, France). Les données sont traitées en France et ne quittent pas le territoire européen."
+    },
+    "dpo": {
+      "title": "Contact données personnelles",
+      "a": "Toute question relative à vos données personnelles peut être adressée à <strong>Robert de Sousa Barros</strong> à l’adresse",
+      "b": "Vous pouvez également saisir la CNIL (cnil.fr) si vous estimez que vos droits ne sont pas respectés."
+    },
+    "propriete": {
+      "title": "Propriété intellectuelle",
+      "a": "L’ensemble des éléments du site (textes, logo, visuels, logiciels) est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation ou exploitation sans autorisation préalable est interdite."
+    }
+  },
+  "cgvCgu": {
+    "meta": {
+      "title": "Conditions Générales d’Utilisation · Cohortes",
+      "description": "Conditions générales d’utilisation de la plateforme Cohortes : accès, obligations des utilisateurs, responsabilités et propriété intellectuelle."
+    },
+    "hero": {
+      "kicker": "CGV / CGU",
+      "title": "Conditions Générales d’Utilisation"
+    },
+    "preamble": {
+      "title": "Préambule",
+      "a": "Les présentes conditions générales d’utilisation (ci-après « CGU ») s’appliquent à l’ensemble des services fournis par <strong>Cohortes</strong>, entreprise individuelle de Robert de Sousa Barros (SIREN 911 489 037), via la plateforme accessible à l’adresse <strong>cohortes.co</strong>.",
+      "b": "Cohortes propose une plateforme de collecte et d’analyse des expressions libres des membres d’une organisation sur les sujets liés au travail. L’accès et l’utilisation de la plateforme sont régis par les présentes CGU."
+    },
+    "objet": {
+      "title": "Objet",
+      "a": "Les présentes CGU ont pour objet de définir les modalités et conditions d’utilisation des services proposés sur le site, ainsi que les droits et obligations des parties dans ce cadre."
+    },
+    "exploitant": {
+      "title": "Exploitant des services",
+      "a": "Les services sont exploités par <strong>Robert de Sousa Barros</strong>, entrepreneur individuel, dont l’adresse déclarée est 13 rue Voltaire, 75011 Paris.",
+      "b": "Contact :"
+    },
+    "acces": {
+      "title": "Accès au site et aux services",
+      "a": "L’accès à la plateforme est réservé aux organisations ayant souscrit au service, selon des modalités définies <strong>au cas par cas</strong> avec l’équipe Cohortes.",
+      "b": "Le client est responsable de la gestion des comptes utilisateurs de son organisation et de la distribution des accès, via les adresses e-mail professionnelles fournies."
+    },
+    "compte": {
+      "title": "Compte utilisateur",
+      "a": "L’ajout d’une adresse e-mail professionnelle à l’espace de l’organisation entraîne l’ouverture d’un compte au nom de l’utilisateur, lui donnant accès à un espace personnel.",
+      "b": "L’utilisateur s’engage à utiliser personnellement les services, à ne pas permettre à un tiers de les utiliser à sa place, et à maintenir la confidentialité de ses identifiants. Il doit immédiatement prévenir Cohortes en cas d’utilisation non autorisée de son compte."
+    },
+    "obligations": {
+      "title": "Obligations de l’utilisateur",
+      "a": "L’utilisateur s’engage à respecter les lois et règlements en vigueur et à ne pas porter atteinte aux droits de tiers.",
+      "b": "L’utilisateur est seul responsable des contenus (verbatims, témoignages) qu’il diffuse dans le cadre des services, et garantit qu’ils sont licites et ne portent pas atteinte à l’ordre public ou aux droits de tiers.",
+      "c": "L’utilisateur s’interdit notamment de diffuser des contenus illicites, diffamatoires, racistes, violents, contrefaisants ou nuisibles aux systèmes informatiques de tiers."
+    },
+    "interdits": {
+      "title": "Comportements prohibés",
+      "a": "Il est strictement interdit d’utiliser les services à des fins illégales ou frauduleuses, d’intrusion dans les systèmes de tiers, d’envoi de messages non sollicités, ou de détournement des services à des fins autres que celles pour lesquelles ils ont été conçus.",
+      "b": "Il est interdit de copier ou de détourner le concept, les technologies ou tout élément du site de Cohortes, ainsi que de monnayer ou revendre tout ou partie de l’accès aux services."
+    },
+    "sanctions": {
+      "title": "Sanctions des manquements",
+      "a": "En cas de manquement aux présentes CGU, Cohortes se réserve le droit de suspendre ou résilier l’accès aux services, de supprimer tout contenu concerné, d’avertir les autorités compétentes et d’engager toute action judiciaire."
+    },
+    "responsabilite": {
+      "title": "Responsabilité",
+      "a": "Cohortes s’engage à fournir les services avec diligence, dans le cadre d’une obligation de moyens, à l’exclusion de toute obligation de résultat.",
+      "b": "Cohortes intervient en qualité d’hébergeur des contenus partagés par les utilisateurs et n’exerce aucun rôle de modération. La responsabilité des contenus incombe à leurs auteurs.",
+      "c": "La responsabilité de Cohortes est limitée aux seuls dommages directs avérés subis par l’utilisateur."
+    },
+    "propriete": {
+      "title": "Propriété intellectuelle",
+      "a": "Les systèmes, logiciels, structures, bases de données et contenus exploités par Cohortes sont protégés par le droit de la propriété intellectuelle. Toute reproduction, extraction ou réutilisation sans autorisation est strictement interdite."
+    },
+    "donnees": {
+      "title": "Données à caractère personnel",
+      "a": "Les données collectées et traitées dans le cadre des services sont décrites dans la politique de confidentialité. Les verbatims sont collectés de manière anonyme, mais certains contenus peuvent révéler l’identité d’un utilisateur de manière indirecte.",
+      "b": "Les données sont hébergées en Europe, conformément au Règlement Général sur la Protection des Données (RGPD)."
+    },
+    "duree": {
+      "title": "Durée et résiliation",
+      "a": "Le service est fourni selon les modalités convenues avec le client, au cas par cas. Chaque partie peut mettre fin au service dans les conditions définies contractuellement."
+    },
+    "modifications": {
+      "title": "Modification des CGU",
+      "a": "Cohortes se réserve la faculté de modifier à tout moment les présentes CGU. L’utilisateur qui continue d’utiliser les services après l’entrée en vigueur des modifications est réputé les avoir acceptées."
+    },
+    "loi": {
+      "title": "Loi applicable et juridiction",
+      "a": "Les présentes CGU sont régies par la loi française. En cas de contestation, les tribunaux de Paris seront exclusivement compétents, sauf règles de procédure impératives contraires."
     }
   },
   "walkthrough": {

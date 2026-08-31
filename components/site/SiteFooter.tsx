@@ -58,7 +58,8 @@ export default function SiteFooter() {
           © {new Date().getFullYear()} Cohortes. {t('rights')}
         </span>
         <nav className="footer-legal" aria-label={t('legalAriaLabel')}>
-          <a href="#">{t('legal')}</a>
+          <Link href="/mentions-legales">{t('legal')}</Link>
+          <Link href="/cgv-cgu">{t('cgu')}</Link>
           <Link href="/confidentialite">{t('privacy')}</Link>
           <Link href="/confidentialite#cookies">{t('cookies')}</Link>
         </nav>

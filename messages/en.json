@@ -26,6 +26,7 @@
     "rights": "All rights reserved",
     "legalAriaLabel": "Legal links",
     "legal": "Legal notice",
+    "cgu": "Terms of Use",
     "privacy": "Privacy policy",
     "cookies": "Cookie settings"
   },
@@ -64,6 +65,115 @@
     "contact": {
       "title": "Contact",
       "a": "A question about this policy? Write to us at"
+    }
+  },
+  "mentionsLegales": {
+    "meta": {
+      "title": "Legal notice · Cohortes",
+      "description": "Legal notice for the Cohortes website: publisher, company details, hosting and contact."
+    },
+    "hero": {
+      "kicker": "Legal notice",
+      "title": "Legal notice"
+    },
+    "editeur": {
+      "title": "Website publisher",
+      "a": "The <strong>cohortes.co</strong> website is published by <strong>Robert de Sousa Barros</strong>, sole trader (self-employed).",
+      "b": "SIREN: <strong>911 489 037</strong> · SIRET: <strong>911 489 037 00018</strong> · VAT number: <strong>FR69911489037</strong> · NAF / APE code: <strong>6201Z</strong> (Computer programming)."
+    },
+    "contact": {
+      "title": "Contact",
+      "a": "For any question, you can write to us at"
+    },
+    "hebergement": {
+      "title": "Hosting",
+      "vitrine": "The <strong>cohortes.co</strong> website is hosted by <strong>Vercel, Inc.</strong>, San Francisco, California, United States.",
+      "app": "The <strong>app.cohortes.co</strong> platform is hosted by <strong>OVHcloud</strong> (OVH SAS, Roubaix, France). Data is processed in France and never leaves the European territory."
+    },
+    "dpo": {
+      "title": "Personal data contact",
+      "a": "Any question about your personal data can be sent to <strong>Robert de Sousa Barros</strong> at",
+      "b": "You can also contact the CNIL (cnil.fr) if you believe your rights are not respected."
+    },
+    "propriete": {
+      "title": "Intellectual property",
+      "a": "All elements of the website (texts, logo, visuals, software) are protected by intellectual property law. Any reproduction, display or exploitation without prior authorisation is prohibited."
+    }
+  },
+  "cgvCgu": {
+    "meta": {
+      "title": "Terms of Use · Cohortes",
+      "description": "Terms of use of the Cohortes platform: access, user obligations, liability and intellectual property."
+    },
+    "hero": {
+      "kicker": "Terms of Use",
+      "title": "Terms of Use"
+    },
+    "preamble": {
+      "title": "Preamble",
+      "a": "These terms of use (hereafter the “Terms”) apply to all services provided by <strong>Cohortes</strong>, the sole proprietorship of Robert de Sousa Barros (SIREN 911 489 037), through the platform available at <strong>cohortes.co</strong>.",
+      "b": "Cohortes provides a platform for collecting and analysing the free expression of the members of an organisation on work-related topics. Access to and use of the platform are governed by these Terms."
+    },
+    "objet": {
+      "title": "Purpose",
+      "a": "These Terms define how the services offered on the website may be used, as well as the rights and obligations of the parties in that context."
+    },
+    "exploitant": {
+      "title": "Service operator",
+      "a": "The services are operated by <strong>Robert de Sousa Barros</strong>, sole trader, whose registered address is 13 rue Voltaire, 75011 Paris, France.",
+      "b": "Contact:"
+    },
+    "acces": {
+      "title": "Access to the website and services",
+      "a": "Access to the platform is reserved for organisations that have subscribed to the service, under terms agreed <strong>on a case-by-case basis</strong> with the Cohortes team.",
+      "b": "The client is responsible for managing the user accounts of its organisation and for distributing access, through the professional e-mail addresses provided."
+    },
+    "compte": {
+      "title": "User account",
+      "a": "Adding a professional e-mail address to the organisation's space opens an account in the user's name, giving access to a personal area.",
+      "b": "The user undertakes to use the services personally, not to allow a third party to use them on their behalf, and to keep their credentials confidential. They must immediately notify Cohortes of any unauthorised use of their account."
+    },
+    "obligations": {
+      "title": "User obligations",
+      "a": "The user undertakes to comply with applicable laws and regulations and not to infringe the rights of third parties.",
+      "b": "The user is solely responsible for the content (testimonies, verbatims) they share through the services, and warrants that it is lawful and does not infringe public order or the rights of third parties.",
+      "c": "The user must not share unlawful, defamatory, racist, violent or infringing content, or content harmful to third-party computer systems."
+    },
+    "interdits": {
+      "title": "Prohibited conduct",
+      "a": "It is strictly forbidden to use the services for illegal or fraudulent purposes, to intrude into third-party systems, to send unsolicited messages, or to divert the services from the purpose for which they were designed.",
+      "b": "It is forbidden to copy or appropriate the concept, technologies or any element of the Cohortes website, or to sell or resell all or part of the access to the services."
+    },
+    "sanctions": {
+      "title": "Penalties for breaches",
+      "a": "In the event of a breach of these Terms, Cohortes reserves the right to suspend or terminate access to the services, to delete any offending content, to notify the relevant authorities and to take legal action."
+    },
+    "responsabilite": {
+      "title": "Liability",
+      "a": "Cohortes undertakes to provide the services diligently, under an obligation of means, to the exclusion of any obligation of result.",
+      "b": "Cohortes acts as host of the content shared by users and does not moderate it. Users are responsible for their own content.",
+      "c": "Cohortes' liability is limited to proven direct damages suffered by the user."
+    },
+    "propriete": {
+      "title": "Intellectual property",
+      "a": "The systems, software, structures, databases and content operated by Cohortes are protected by intellectual property law. Any reproduction, extraction or reuse without authorisation is strictly prohibited."
+    },
+    "donnees": {
+      "title": "Personal data",
+      "a": "The data collected and processed as part of the services is described in the privacy policy. Testimonies are collected anonymously, but some content may indirectly reveal a user's identity.",
+      "b": "Data is hosted in Europe, in accordance with the General Data Protection Regulation (GDPR)."
+    },
+    "duree": {
+      "title": "Duration and termination",
+      "a": "The service is provided under the terms agreed with the client, on a case-by-case basis. Either party may terminate the service under the conditions defined in the contract."
+    },
+    "modifications": {
+      "title": "Changes to the Terms",
+      "a": "Cohortes reserves the right to amend these Terms at any time. A user who continues to use the services after the changes come into force is deemed to have accepted them."
+    },
+    "loi": {
+      "title": "Applicable law and jurisdiction",
+      "a": "These Terms are governed by French law. In the event of a dispute, the courts of Paris shall have exclusive jurisdiction, subject to mandatory procedural rules."
     }
   },
   "walkthrough": {

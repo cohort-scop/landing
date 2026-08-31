@@ -15,6 +15,8 @@ const pages: Entry[] = [
   { path: '/plateforme', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/about', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/confidentialite', changeFrequency: 'yearly', priority: 0.3 },
+  { path: '/mentions-legales', changeFrequency: 'yearly', priority: 0.3 },
+  { path: '/cgv-cgu', changeFrequency: 'yearly', priority: 0.3 },
   { path: '/blog', changeFrequency: 'weekly', priority: 0.8 },
   {
     path: '/blog/methodologie-diagnostic-conditions-travail',
